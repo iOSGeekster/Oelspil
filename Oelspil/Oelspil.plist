@@ -1,0 +1,1435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Oelspil</key>
+	<dict>
+		<key>Kort</key>
+		<dict>
+			<key>Pyramide></key>
+			<array>
+				<string>Pyramide</string>
+				<integer>4</integer>
+				<string>Ca. 10 minutter eller indtil alle kort er vendt</string>
+				<string>1 spil kort uden jokere</string>
+				<string>Kortene blandes og der lægges en pyramide på følgende måde:
+5 kort i nederste række, 4 i den næste osv, indtil der er et kort i toppen.
+Hver deltager får fire kort, som de kun må se én gang. Når kortene er set, lægges de ned på bordet foran deltageren med bagsiden opad.
+
+Pyramiden skal ses som fem enkeltstående rækker. Den nederste række er række et. Det øverste kort er række fem.
+
+Række et tæller hvert kort én slurk
+Række to tæller hvert kort to slurk
+Række tre tæller hvert kort tre slurk
+Række fire tæller hvert kort fire slurk
+Række fem tæller hvert kort fem slurk
+
+Kortene vendes ét ad gangen. Først alle kortene i nederste række, derefter i anden række osv.
+Ved hvert vendt kort har alle deltagerne mulighed for at dele slurke ud. Enten fordi man har et kort med samme værdi som det vendte kort, eller fordi man bluffer.
+
+Bliver der fx er vendt en 3’er, må alle deltagere sige: ”Den har jeg”, og vælge en deltager der skal drikke.
+
+Fordi deltagernes kort ligger med billedsiden nedad, kan man ikke se om det er rigtigt eller bluf.
+
+Det giver følgende muligheder, når en deltager giver slurke væk:
+
+Man kan vælge at tro på det og drikke slurkene.
+Man kan sige, at man ikke tror på det. Så skal deltageren vise, at han har kortet:
+
+Viser det sig, at han har kortet, skal man selv drikke dobbelt.
+
+Viser det sig, at han IKKE har kortet, skal han drikke dobbelt.
+
+
+Da man henne i spillet sagtens kan have glemt, hvilke kort man selv har, kan man komme til at vise et forkert kort.
+Er det tilfældet, må man drikke, som om man ikke havde kortet.
+Hvis man har vist et kort, trækker man et nyt fra bunken.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+
+			<key>Møwl</key>
+			<array>
+				<string>Møwl</string>
+				<integer>4</integer>
+				<string>Ca. 30 minutter</string>
+				<string>1 spil kort uden jokere</string>
+				<string>Kortene lægges i en bunke midt på bordet med bagsiden opad.
+Deltagerne skiftes til at trække ét kort ad gangen. Den deltager der trækker et kort, skal udføre den handling, der svarer til kortets værdi. Det er ligegyldigt, hvilken kulør kortet har.
+Der gælder følgende regler:
+
+På en 2’er må man give to slurke væk til en valgfri modstander.
+
+På en 3’er må man give tre slurke væk til en valgfri modstander.
+
+På en 4’er må man give fire slurke væk til en valgfri modstander.
+
+På en 5’er må man lave en regel, der gælder resten af spillet.
+Et eksempel på en regel kan være, at man hver gang man drikker, skal drikke med høje hånd.
+Hvis reglen brydes, skal den deltager der bryder drikke en slurk.
+
+En regel skal være ens for alle. Det vil sige, at det ikke er tilladt at lave en regel, der siger ”Alle drenge skal drikke dobbelt så meget som pigerne”.Eller ”Hver gang der bliver trukket en hjerter skal franskmanden drikke”.
+
+På en 6’er tager man kortet over til sig selv. Kortet kan bruges når som helst i spillet.
+Når deltageren der trak 6’eren gerne vil bruge kortet, sætter han sin tommelfinger på bordet.  De andre deltagere skal nu hurtigst muligt også sætte deres tommelfinger på bordet. Den deltager der sidst sætter en tommelfinger på bordet, skal drikke en slurk.
+Kortet kan kun bruges én gang og skal lægges ned i bunken med brugt kort.
+
+På en 7’er gælder det om at kunne syvtabellen.
+Den deltager som trækker 7’eren starter med at sige ”1”.
+Turen fortsætter uret rundt med 2, 3, 4 osv.
+Når man når til et tal, som syv enten går op i eller er med i, skal man i stedet for at sige tallet klappe én gang i hænderne. Det resulterer i, at turen vender sådan, at tallene nu bliver sagt modsat af urets retning.
+Der fortsættes, indtil der er en der dummer sig ved at sige noget forkert. Taberen drikker en slurk.
+
+Hvis man trækker en 8’er, skal man tage den over til sig selv. Kortet kan bruges når som helst i spillet.
+Kortet betyder, at man på et vilkårligt tidspunkt i spillet må spille kortet og derved få lov til enten at gå på toilettet eller ryge en cigaret. (Dette er ellers ikke tilladt).
+
+Hvis man trækker en 9’er skal man også tage kortet over til sig selv. Kortet kan bruges når som helst i spillet.
+På et vilkårligt tidspunkt tager den deltager, der trak kortet, en finger, og placerer den diskret på kortet, hvorefter han stiller et tilfældigt spørgsmål. Det er et krav, at han rører ved kortet, mens han stille spørgsmålet, for at de andre deltagere skal kunne skelne det fra et hvilket som helst andet spørgsmål i spillet.
+Hvis en af modstanderne svarer på spørgsmålet, har han tabt og skal derfor drikke en slurk.
+Er der derimod ikke nogen, der svarer på spørgsmålet, skal den, der stillede spørgsmålet, selv drikke en slurk.
+
+På en 10’er er der fællesskål.
+
+På en knægt skal man gøre det samme som på en 6’er.
+Men i stedet for at sætte tommelfingeren på bordet, skal man sætte den i panden.
+
+På en dame skal den deltager der trak kortet lave en kategori.
+Dvs. nævne en ting fx ølmærker, cigaretmærker, sexstillinger etc.
+Når deltageren, der trak kortet, har lavet en kategori, skal han selv sige den første ting. Derefter går det på tur til næste deltager. Spillet fortsætter, indtil der er en, der ikke kan finde på noget. Han skal så drikke en slurk.
+
+Kongen er lidt anderledes, da det kun er den sidste konge, der drikkes på. De første tre konger lægges bare til side.
+Den deltager, der trækker den fjerde konge skal bunde sin øl. Det gælder uanset, om der kun er en lille bundslat, eller om det er en hel ny øl.
+
+På esset kan man komme til at drikke temmelig meget.
+Den deltager, der trækker esset, udnævnes til lokomotiv, og skal starte futtoget. 
+Dvs. at når lokomotivet begynder at drikke, så skal alle vognene også drikke med.
+Drikkeriet fortsætter indtil lokomotivet ikke kan / vil drikke mere, så sætter han sin øl.
+Det er nu op til den forreste vogn (den næste deltager i urets retning), om han vil drikke videre, eller om han også stopper her.
+Hvis den forreste vogn vælger at fortsætte, bliver han nu til lokomotiv. Hvis ikke, går turen videre, til der ikke er flere vogne tilbage.
+Overvejelserne om man vil fortsætte, er ikke noget der må tage tid. Det skal foregå imens man drikker.
+
+Ud over kortreglerne er der også en regel, der gælder for hele spillet.
+	
+Som nævnt under 8’eren, er det hverken tilladt at ryge eller gå på toilettet. Dette er kun tilladt hvis man trækker et toilet-/rygekort.
+
+Det er dog tilladt for to deltagere at handle om sådan et kort. Fx ”Hvis jeg får dit kort så giver jeg to store fadøl i byen”. Så længe de to deltagere kan blive enige om en pris, kan de andre deltagere ikke blande sig i handlen. Det er dog tilladt for en tredje deltager at gå ind i handlen og underbyde. Fx ”Jeg vil godt sælge mit kort for én stor fadøl” eller ”Jeg vil godt give tre store fadøl”.
+
+Hvis en deltager bryder denne regel ved enten at gå på toilet eller ryge en cigaret uden at have et toilet-/rygekort, skal denne deltager drikke to hele øl hurtigt som straf.
+
+Grunden til denne måske lidt høje straf er, at det er en regel, der ikke må brydes, for så forsvinder hele idéen med at handle.</string>
+				<integer>999</integer>
+				<integer>3</integer>
+			</array>
+
+			<key>Golf</key>
+			<array>
+				<string>Golf</string>
+				<integer>2</integer>
+				<string>Spillet varer ca. 5 minutter</string>
+				<string>1 spil kort</string>
+				<string>Hver deltager får fire kort, som ikke må ses.
+
+Kortene skal lægges op i en firkant (2x2).
+
+Resten af kortene lægges i en bunke, og det øverste kort vendes og lægges ved siden af.
+
+Inden spillet starter, skal kortgiveren bestemme, hvilke kort der må ses og hvilke kort, der skal forblive skjult.
+
+Fx	Man må se øverste højre kort og 
+	nederste venstre kort.
+
+	Eller man må se alle kort.
+
+	Eller man må ingen kort se.
+
+Spillet går ud på, at have så lave kort som muligt. Kortene har normal værdi. 
+Dvs: Es = 1 og Dame = 12, men Kongen gælder for 0.
+Har man to ens udligner de hinanden. Fx.: to Damer er = 0.
+Har man derimod tre ens, er det stadig kun de to kort der udligner hinanden.
+
+Fx. giver tre 8'ere værdien 8. (Fordi de to af kortene udligner
+hinanden).
+
+Når det bliver ens tur, trækker man enten et kort fra bunken eller et fra bunken med de vendte kort. 
+
+Der er nu følgende to muligheder:
+
+1. Man tager det trukne kort og lægger det med billedsiden opad i stedet for en af de ikke vendte kort, og det erstattede kort lægges ud i bunken med vendte kort.
+Når et kort er vendt med billedsiden opad kan det ikke skiftes ud. 
+
+2. Man lægger kortet direkte ud i bunken med de vendte kort, og vender derefter et af sine fire kort der ligger med bagsiden opad.
+
+Derefter går turen videre til næste deltager.
+
+Spillet fortsætter fire omgange indtil alle deltagere har vendt sine fire kort med billedsiden opad.
+
+Den deltager der har færrest sammenlagte point vinder spillet, og skal derfor ikke drikke. De andre deltagere skal drikke differencen fra deres egen score og ned til vinderen.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+
+			<key>Broen</key>
+			<array>
+				<string>Broen</string>
+				<integer>3</integer>
+				<string>Spillet kan vare fra 2 til 15 minutter</string>
+				<string>1 spil kort
+1 kapsel</string>
+				<string>Kapslen lægges på bordet med 3 kort på hver side.
+Spillet går ud på at komme så hurtig som muligt igennem alle seks kort. Men følgende kort bremser din vej:
+
+En knægt giver ét ekstra kort og en slurk.
+En dame giver to ekstra kort og to slurke.
+En konge giver tre ekstra kort og tre slurke.
+Et es giver fire ekstra kort og fire slurke.
+
+Alle andre kort er frikort.
+Desuden skal man drikke to slurke, hver gang man passerer broen. Uanset om det er forlæns eller baglæns.
+
+Spillet går ud på at vende kortene et ad gangen, indtil man er kommet hele vejen over. Lander man fx. på en konge på kort nummer 2, skal der drikkes 3 slurke og de 2 vendte kort udskiftes med 3 nye kort, så der nu er 4 kort på venstre side af broen.
+
+Spillet er først slut, når alle kort er vendt, og ingen af dem er billedkort eller esser.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+
+			<key>Syveren</key>
+			<array>
+				<string>Syveren</string>
+				<integer>4</integer>
+				<string>Spillet varer ca. 30 minutter</string>
+				<string>1 spil kort</string>
+				<string>De fire 7'ere lægges på en række ved siden af hinanden. Der er nu 4 rækker, en for hver kulør.
+Hver deltager får 4 kort, som skal holdes skjult for de andre.
+
+Efter tur skiftes deltagerne til at smide et kort. Dette kan have følgende to udfald:
+
+1. Hvis kortet passer ind i en rækkefølge, må man give lige så mange slurke væk, som der er kort i rækkefølge. (Man skal altid lægge sit kort i den rigtig række. Hvis man smider en hjerter, skal den smides i rækken med hjertere).
+
+2. Hvis kortet ikke passer ind i nogen rækkefølge, skal man selv drikke det antal slurke, der svarer til afstanden til nærmeste kort.
+
+Når man har smidt sit kort, tager man et nyt fra bunken, så man altid har fire kort på hånden.
+
+Sådan fortsætter spillet, indtil hele kortbunken er brugt. Når dette punkt nås, fortsætter man med skiftevis at smide de sidste kort man har på hånden.
+
+Det er en fordel at være den der smider det sidste kort. Han kan give tretten slurke væk, uden at være bange for at nogen giver ham noget igen. Derfor kan man med fordel trække lod om, hvem der starter.</string>
+				<integer>999</integer>
+				<integer>3</integer>
+			</array>
+
+			<key>Hestesko</key>
+			<array>
+				<string>Hestesko</string>
+				<integer>3</integer>
+				<string>Spillet varer ca. 10-15 minutter</string>
+				<string>1 spil kort</string>
+				<string>Vælg en kulør, fx hjerter, og læg kortene op på følgende måde: Der lægges to rækker overfor hinanden.
+Den første række har kortene Es til 6 i den kulør der er valgt, og den anden række har kortene Konge til 8. For enden af de to rækker (ud for 8'eren og 6'eren) lægges 7'eren.
+
+Der udvælges en deltager, som starter med at være kortgiver. Den deltager, der sidder først efter kortgiveren, starter spillet.
+Spillet går ud på, at man på højest to forsøg skal gætte værdien af det øverste kort i kortgiverens bunke.
+
+Hvis der gættes rigtigt i 1. forsøg skal kortgiveren drikke 5 slurke. Hvis der gættes rigtigt i 2. forsøg skal kortgiveren drikke 3 slurke. Hvis der gættes forkert i begge forsøg skal deltageren skal drikke differencen på sit sidste gæt og kortgiverens kort.
+
+I starten er der lige stor chance for alle kort. Det vil derfor være en god idé at gætte på en syver, da det er den midterste værdi.
+Kortgiveren kigger på det øverste kort uden at vise det til andre. Han siger, så om kortet er over eller under den gættede værdi, eller om der er gættet rigtigt.
+
+Deltageren gætter fx på syv. Kortgiverne ser, at det øverste kort er en 4’er, så han siger under.
+
+Deltageren får nu sit andet og sidste gæt. Han ved nu at kortet er under syv, så han gætter fx på tre, da denne værdi ligger nogenlunde i mellem es og seks.
+
+Kortgiveren viser nu kortet, og deltageren skal drikke en slurk, da han gættede på tre og kortet var en 4’er. (Differencen på fire og tre er en).
+Derefter går turen videre til næste deltager i rækken.
+
+Kortgiveren må først give kortbunken videre til den næste deltager, når tre deltagere i træk har gættet forkert.
+
+Jo længere man kommer hen i spillet, jo svære bliver det at være kortgiver, da det vil være lettere for deltagerne at gætte rigtigt.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+
+			<key>Guitar</key>
+			<array>
+				<string>Guitar</string>
+				<integer>5</integer>
+				<string>Spillet varer ca. 15 minutter</string>
+				<string>1 spil kort</string>
+				<string>Hver deltager får fire kort, som skal ligge med billedsiden opad. Midt på bordet skal der gøres plads til fire bunker.
+En ”gi-bunke”, en ”tar-bunke”, en ”gi-bunke” og en ”tar-bunke”.
+Der vendes skiftevis et kort på gi-bunken, tar-bunken, gi-bunken og tar-bunken.  
+
+Hver gang, der bliver vendt et kort, kigger man, om nogen af deltagerne har et kort med samme værdi. Hvis det er tilfældet, afhænger udfaldet af, om kortet blev vendt på en gi-bunke eller en tar-bunke.
+
+Hvis det vendte kort fx er en knægt, og det bliver vendt på en gi-bunke, må deltageren med en knægt give elleve slurke væk. Bliver den derimod vendt på en tar-bunke, skal deltageren selv tage de elleve slurke.
+
+Sådan fortsætter spillet, indtil alle kort er fordelt på de fire bunker.
+
+Es er fjorten slurke, ikke én slurk.</string>
+				<integer>4</integer>
+				<integer>2</integer>
+			</array>
+
+			<key>Kort I Panden</key>
+			<array>
+				<string>Kort I Panden</string>
+				<integer>2</integer>
+				<string>Spillet varer ca. 20 minutter</string>
+				<string>1 spil kort</string>
+				<string>Hver deltager får ét kort, som de skal sætte op i panden uden selv at se det. Alle andre deltagere skal kunne se kortets billedside.
+I korte træk gælder det om at have så højt et kort som muligt. (Es er højest og to er lavest).
+
+Problemet er, at man kan se alle de andres kort men ikke sit eget, så man ved ikke selv, om man har et højt eller lavt kort.
+
+Deltageren efter kortgiveren starter med at sige ”1”. Den næste deltager skal nu bestemme om han tør fortsætte. Hvis han gør, siger han ”2”, og turen fortsætter. Sådan fortsætter deltagerne med skiftevis at sige ét tal højere.
+
+Dette bliver ved, indtil der er en deltager, der ikke tør blive ved længere, og derfor siger ”stop”.
+
+Når der bliver sagt ”stop”, skal alle tage deres kort ned. Det er nu det laveste kort, der skal drikke det antal slurke, der svarer til det tal man nåede til under optællingen.
+
+Er der to deltagere, der har laveste kort, skal de begge drikke. 
+
+De brugte kort lægges i en anden bunke med bagsiden opad, og alle deltagere tager et nyt kort. Det er nu taberen der får lov til at starte.
+Sådan fortsætter spillet, indtil alle kort er brugt.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+
+			<key>Over/Under</key>
+			<array>
+				<string>Over/Under</string>
+				<integer>2</integer>
+				<string>Spillet varer ca. 10 minutter</string>
+				<string>1 spil kort</string>
+				<string>Kortene blandes og lægges i en bunke med bagsiden opad. Det øverste kort vendes og lægges ved siden af bunken.
+Der udvælges en deltager, som skal være kortgiver.
+
+Den første deltager efter kortgiveren skal starte. Han kigger på det vendte kort fx en 4’er. Han skal bestemme, om han tror det næste kort er over eller under. Sandsynligvis gætter han på, at det næste kort er over.
+
+Kortgiveren vender det næste kort for at se, om deltageren har ret. Fx vendes der en 9’er. Nu skal deltageren gætte, om det næste kort er over eller under 9’eren.
+For at kortgiveren må sende turen videre til næste deltager, skal de andre deltagere gætte rigtigt mindst tre gange i træk.
+
+Hvis der i forløbet gættes forkert, tælles antallet af vendte kort, og deltageren skal drikke en slurk for hvert kort.
+
+Alle de vendte kort på nær det øverste lægges til side. Dette bruges som første kort i næste omgang.
+
+Es tæller både som højeste og laveste kort, så det virker derfor som et ”gratis” kort.
+
+Hvis man vender det samme kort to gange i træk, tæller det ikke med som et gæt, og der fortsættes, som om intet var sket. Der betyder bare et ekstra kort i bunken til den, der kommer til at drikke.
+
+Når turen når til kortgiveren, giver han kortbunken videre til en tilfældig anden. Det har derfor ikke rigtig nogen betydning hvem der er kortgiver.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+
+			<key>Hej Knægt</key>
+			<array>
+				<string>Hej Knægt</string>
+				<integer>4</integer>
+				<string>30 - 60 minutter</string>
+				<string>1 spil kort</string>
+				<string>En deltager udvælges til kortgiver. Han skal vende kortene ét efter ét. Det er vigtigt at kortgiveren vender væk fra sig selv, så de andre ser kortet først.
+I starten er der følgende fire regler:
+
+På esset skal den sidste deltager, der slår på bordet drikke en slurk.
+				
+På kongen skal den sidste deltager, der kigger op i loftet drikke en slurk.
+
+På damen skal den sidste deltager, der siger ”Whiiiw” drikke en slurk.
+
+På knægten skal den sidste deltager, der siger ”Hej knægt” drikke en slurk.
+
+Når bunken er kørt færdig, skal den næste deltager i rækken være kortgiver. Han bestemmer hvad reglen på 10’eren skal være. Valget er frit, så længe det er en regel, hvor det gælder om at komme først.
+
+Spillet fortsætter indtil der er lavet regler for alle kort. På dette tidspunkt er der tretten forskellige regler, så man skal være mere en sædvanlig skarp for ikke at komme til at drikke en del.
+
+Kortgiveren er med i spillet på lige fod med de andre.</string>
+				<integer>999</integer>
+				<integer>3</integer>
+			</array>
+
+			<key>Fjols</key>
+			<array>
+				<string>Fjols</string>
+				<integer>3</integer>
+				<string>10-15 minutter</string>
+				<string>1 spil kort
+Kapsler/tændstikker eller andet</string>
+				<string>For hver deltager findes fire kort med samme værdi.
+
+Hvis der fx er tre deltagere, findes fire esser, fire konger og fire damer.	
+Alle de andre kort lægges til side, da de ikke skal bruges.
+
+Ud over disse kort findes der et antal kapsler/tændstikker eller andet, som svarer til antallet af deltagere minus én.
+Dvs. at ved tre deltagere skal man bruge to kapsler.
+
+Kapslerne lægges ud midt på bordet, så alle deltagerne har lige let ved at nå dem.
+Kortene blandes og deles ud, så hver deltager får fire kort.
+
+Spillet går ud på at få fire ens.
+
+På samme tid vælger hver deltager det kort, de helst vil af med, og sender det med bagsiden opad videre til næste deltager. Man sender i urets retning.
+
+Hvis en deltager fx sidder med følgende hånd: Q-Q-J-A vil det være en fordel at sende enten knægten eller esset videre.
+Når det på et tidspunkt lykkes en deltager at få fire ens, fx fire damer, skal han skynde sig at tage en kapsel.
+Så snart de andre deltagere ser dette, skal de også skynde sig at tage en kapsel.
+
+Den deltager, der ikke når at tage en kapsel, har tabt en runde.
+
+	1. tabte runde giver et ”F”.
+	2. tabte runde giver et ”J”.
+	3. tabte runde giver et ”O”.
+	4. tabte runde giver et ”L”.
+	5. tabte runde giver et ”S”.
+
+Hver gang man taber en runde, skal man drikke en halv øl.
+Den første deltager, der taber fem runder, er spillets fjols, og skal derfor drikke en hel øl.
+Den deltager, der tager den første kapsel, skal have fire ens. Hvis det ikke er tilfældet, tæller det som en tabt omgang, og han får bogstav og skal drikke en halv øl.
+
+Det er tilladt at lave en fælde, for at få en af de andre deltagere til at tage den første kapsel uden at have fire ens.
+
+Fælden går ud på, at man lader som om man tager en kapsel. I ren iver for ikke at komme sidst, kan det sagtens være, at en af de andre deltagere kommer til at tage den første kapsel uden at have fire ens.</string>
+				<integer>999</integer>
+				<integer>3</integer>
+			</array>
+
+			<key>Fisk</key>
+			<array>
+				<string>Fisk</string>
+				<integer>3</integer>
+				<string>10 - 15 minutter</string>
+				<string>1 spil kort</string>
+				<string>Alle kortene bredes ud midt på bordet, så deltagerne selv kan vælge hvilke kort de vil trække.
+Hver deltager trækker syv kort.
+
+Spillet går ud på at få så mange stik som muligt. Man får stik ved at samle fire ens fx fire konger.
+Man samler kort ved at bede de andre deltager om deres kort. Samler man fx på 5’ere, vælger man en deltager, og spørger ham:
+
+”Må jeg få alle dine 5’ere?”
+
+Hvis den spurgte deltager har én eller flere 5’ere, skal disse afleveres. For hvert kort der afleveres, skal den spurgte drikke en slurk.
+
+Hvis den spurgte deltager derimod ikke har nogle 5’ere, siger han ”Fisk”. Det betyder, at den spørgende deltager skal trække et kort ude fra bordet, og drikke én slurk.
+Turen går nu videre til deltageren, der sagde ”Fisk”.
+Man bliver ved med at spørge, så længe der ikke er nogen, der siger ”Fisk”.
+Det er ikke tilladt at spørge om kort, som man ikke mindst har ét af selv.
+
+Når man har samlet fire ens, lægger man dem til side som et stik. Disse kort er ikke længere med i spillet.
+Hver gang man får et stik, må man give fire slurke til en valgfri deltager.
+
+Spillet slutter når alle kort er brugt, og de tretten stik er fundet.
+Den deltager, der har flest stik ved spillets afslutning, skal ikke drikke. De andre deltagere skal drikke differencen på deres antal stik og det højeste antal stik.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+
+			<key>Halv Tolv</key>
+			<array>
+				<string>Halv Tolv</string>
+				<integer>2</integer>
+				<string>Ca. 5 minutter pr. deltager</string>
+				<string>1 spil kort</string>
+				<string>En person udvælges til at være kortgiver. Kortgiveren giver de andre deltagere ét kort hver, som kun de må se.
+
+Deltagerne spiller efter tur mod kortgiveren.
+En tur forløber fx således:
+
+Englænderen kigger på sit kort og siger, hvor mange slurke, han vil satse. Der kan højest satses fem slurke.
+Når englænderen har satset, gælder det for ham om at komme så tæt på halv tolv (11½) som muligt.
+
+Kortenes værdi er:
+Billedkort = en halv.
+Es = én eller elleve.
+Andre kort = den påtrykte værdi.
+
+Englænderen siger, om han vil køre (have et kort mere) eller stå. Hvis han vælger at køre, skal det nye kort vendes med billedsiden opad.
+Sådan fortsætter det, indtil han vælger at stå eller kommer over halv tolv.
+Kommer han over halv tolv, har han tabt.
+
+Ellers er det kortgiverens tur til at prøve at stikke englænderens kort. 
+Kortgiveren har en idé om, hvad englænderen sidder med, da han kan se de åbne kort.
+
+Der gælder de samme regler for kortgiveren med hensyn til at stå og køre. Den eneste forskel er, at alle hans kort skal vende med billedsiden opad.
+Når han vælger at stoppe, skal englænderen vise sit skjulte kort, og der findes en taber. Taberen er den der har det laveste og drikker de satsede slurke.
+
+De brugte kort lægges til side.
+Når kortgiveren har brugt alle kortene i bunken, kører han omgangen færdig ved at bruge de allerede brugte kort. Derefter er det den næste deltager til at være kortgiver. 
+
+Spillet slutter, når alle har været kortgiver.
+
+Mange spiller med at 7’eren ”flyver”. Det betyder at hvis man får en 7’er, kan man vælge at smide den væk, og få et nyt kort, hvis den ikke passer så godt.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+
+			<key>Den Onde Cirkel</key>
+			<array>
+				<string>Den Onde Cirkel</string>
+				<integer>4</integer>
+				<string>Ca. 10 - 15 minutter</string>
+				<string>1 spil kort</string>
+				<string>Der lægges et kort i midten, og man laver 3 cirkler rundt om dette kort. (Sådan at cirkel nummer 2 går rundt om cirkel nummer 1)
+Man behøver ikke bruge alle kortene, og antallet af kort i hver cirkel er heller ikke vigtig.
+
+På skift vender deltagerne et valgfrit kort. Alle kort fra yderste cirkel skal være vendt før man må gå videre til næste cirkel. Sådan gælder det hele vejen ind.
+
+	1. cirkel = drik ½ x kortets værdi. (Der rundes op)
+	2. cirkel = drik 1 x kortets værdi.
+	3. cirkel = drik 2 x kortets værdi.
+	4. cirkel = drik 3 x kortets værdi.
+
+Hvis kortet er rødt, må man give slurkene væk. Er kortet derimod sort, skal man drikke selv.
+
+I dette spil tæller es som én.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+
+			<key>Final Countdown</key>
+			<array>
+				<string>Final Countdown</string>
+				<integer>3</integer>
+				<string>Ca. 15 minutter</string>
+				<string>1 spil kort</string>
+				<string>På skift trækker deltagerne et kort fra bunken. Kortet skal lægges med billedsiden opad foran deltageren.
+Hvis to deltagere i træk trækker et kort i samme kulør, skal de begge drikke.
+Deltageren, der sidder lige før de to, der skal drikke, giver sig til at tælle til det højeste af de to korts værdier.
+
+Skotten starter med at vende en hjerter. Russeren vender en klør. Englænderen vender en ruder, og det gør franskmanden også.
+
+Da russeren sidder lige før de to vendte rudere, er det ham, der skal tælle til det højeste kort. (I dette tilfælde elleve).
+
+Han må selv bestemme, hvor hurtigt han tæller, og det behøver ikke at være i det samme tempo hele tiden.
+
+Når han når til to, må franskmanden stoppe med at drikke. Når han når til elleve, må englænderen stoppe.
+
+Når både englænderen og franskmanden har drukket, det de skal, fortsætter spillet med, at skotten vender et kort.
+
+Skulle det ske, at skotten også vender en ruder, skal russeren tælle en gang til, og så skal de andre tre drikke.
+
+Hvis russeren også vender en ruder, sker der ikke noget, for så er der ikke nogen til at tælle.
+
+Spillet fortsætter indtil alle kort er brugt.
+
+Spillet kendes også under navnet 'Sekund'.</string>
+				<integer>999</integer>
+				<integer>3</integer>
+			</array>
+		</dict>
+
+
+		<key>Terninger</key>
+		<dict>
+			<key>16 - Derhjemme</key>
+			<array>
+				<string>16 - Derhjemme</string>
+				<integer>3</integer>
+				<string>Et spil varer ca. 10 minutter, men kan variere</string>
+				<string>1 terning per deltager.
+1 ekstra terning.
+1 raflebæger.</string>
+				<string>Hver deltager får en terning, som de lægger foran sig på bordet. Alle
+terningerne skal vende med seks øjne opad.
+
+Den deltager der starter spillet, tager den overskydende terning og slår
+med den i raflebægeret.
+
+Man skal ikke slå ned i bordet. I stedet rystes raflebægeret og stilles
+normalt på bordet, så alle kan se, hvad der er blevet slået.
+
+Hver deltager slår kun én gang med terningen, før den sendes videre.
+Slagene lægges sammen hver gang, der bliver slået.
+
+Den første, der når 16 eller derover, har tabt.
+
+Hvis man synes at risikoen for at ryge på 16 eller derover er for stor,
+kan man vælge at lade være med at slå. I stedet tager man sin personlige
+terning og går én ned.
+Hvis man vælger at gå én ned, slår man og tæller fra 0.
+
+Når man er gået ned 5 gange, står ens terning på 1.
+
+Man har nu ikke mulighed for at gå længere ned, og man bliver derfor
+nødt til at løbe risikoen.
+
+Det er derfor en god idé at være lidt varsom med, hvornår man vælger at
+gå én ned.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+
+			<key>30</key>
+			<array>
+				<string>30</string>
+				<string>2</string>
+				<string>Ca. 15 min. Afhængigt af antal spillere</string>
+				<string>6 terninger
+Papir og blyant</string>
+				<string>Der skal laves et pointkort.
+
+Skotten starter med at slå med de seks terninger. Det gælder for ham om at få så højt et samlet resultat som muligt.
+
+Han slår fx følgende slag: 1, 6, 3, 6, 2, 4.
+
+Han skal for hvert slag minimum lægge én terningtil side, som tælles med i scoren, men han må lægge så mange til side, han har lyst til.
+
+Det gælder om at lægge de store terninger til side, så scoren bliver højest mulig. Han vælger derfor at lægge de to 6’ere til side, så han får en score
+på 12.
+
+Derefter slår han følgende slag med de resterende terninger: 5, 3, 6, 2.
+
+Han vælger at lægge 6’eren og 5’eren til side, så han får en score på 23.
+
+Derefter slår han følgende slag: 3, 1.
+
+Selv om han ikke har lyst til at tage nogen, skal han minimum lægge én terning til side. Han vælger derfor 3’eren, og får en score på 26.
+
+I hans sidste slag slår han følgende slag: 2.
+
+Han slutter derfor med en score på 28 efter første runde.
+
+Hvis scoren som i dette eksempel er under 30, skal han drikke differencen mellem hans score og 30. Samtidig går han tilsvarende point ned. I dette tilfælde to.
+
+Hvis scoren er præcis 30, sker der ikke noget.
+
+Er scoren over 30, får man mulighed for at slå næste deltager i urets retning ned i point, og han skal drikke de tilsvarende slurke.
+
+Hvis russeren fx har fået en score på 34, tager han nu alle seks terninger og slår igen. Denne gang skal han forsøge at slå 4’ere, fordi differencen
+fra 30 til 34 er 4.
+
+De 4’ere han slår lægges til side, og han slår videre med de resterende terninger, så længe han slår 4’ere. Hvis alle seks terninger er 4’ere, må
+han tage alle terningerne med igen og fortsætte.
+
+Næste deltager mister antal point svarende til summen af 4’erne og drikker tilsvarende antal slurke.
+
+Spillet fortsætter, indtil en af deltagerne når 0 point eller lavere.
+
+Når en deltager når 0 skal deltagere drikke differencen på sin egen score og den højeste score.
+</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+			<key>16</key>
+			<array>
+				<string>16</string>
+				<string>3</string>
+				<string>Et spil varer 10 minutter, men kan variere</string>
+				<string>1 terning per deltager.
+1 ekstra terning.
+1 raflebæger.</string>
+				<string>Hver deltager får en terning, som de lægger foran sig på bordet. Alle
+terningerne skal vende med seks øjne opad.
+
+Den deltager der starter spillet, tager den overskydende terning og slår
+med den i raflebægeret.
+
+Man skal ikke slå ned i bordet. I stedet rystes raflebægeret og stilles
+normalt på bordet, så alle kan se, hvad der er blevet slået.
+
+Hver deltager slår kun én gang med terningen, før den sendes videre.
+Slagene lægges sammen hver gang, der bliver slået.
+
+Den første, der når 16 eller derover, har tabt.
+1. Skotten slår 5 ( i alt 5 ).
+2. Russeren slår 2 ( i alt 7 ).
+3. Englænderen slår 3 ( i alt 10 ).
+4. Franskmanden slår 6 ( i alt 16 ).
+
+I dette tilfælde taber franskmanden, fordi han slår et slag, der bringer
+ham på 16.
+
+Hvis man synes at risikoen for at ryge på 16 eller derover er for stor,
+kan man vælge at lade være med at slå. I stedet tager man sin personlige
+terning og går én ned.
+
+Hvis man vælger at gå én ned, slår man og tæller fra 0.
+
+Når man er gået ned 5 gange, står ens terning på 1.
+
+Man har nu ikke mulighed for at gå længere ned, og man bliver derfor
+nødt til at løbe risikoen.
+
+Det er derfor en god idé at være lidt varsom med, hvornår man vælger at
+gå én ned.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+			<key>Biermeister</key>
+			<array>
+				<string>Biermeister</string>
+				<string>4</string>
+				<string>Så længe man har lyst</string>
+				<string>1 hat
+2 terninger</string>
+				<string>Spillet er også kendt som ”Træmand”.
+
+Spillet går ud på at man slår med terningerne og deler det antal slurke ud, som terningerne viser.
+
+Så længe man slår et slag, der må gives slurke på, må man også blive ved med at slå.
+
+Turen går først videre, når man slår et slag, der IKKE må give slurk på.
+
+Der er følgende slag at give slurk på:
+
+En 3’er er hovedreglen. Den første der slår en 3’er må vælge en Biermeister. Denne deltager får Biermeister hatten på.
+	
+Når først der er valgt en Biermeister, skal han drikke en slurk, hver gang nogen slår en 3’er.
+
+Den eneste måde der kan blive valgt en ny Biermeister på, er ved at han selv slår en 3’er.
+
+På et vilkårligt par må man give det antal slurke som øjnene viser, til en valgfri person.
+
+Fx: På dobbelt 4 må der gives fire slurke væk.
+
+Hvis terningerne sammenlagt giver 7, skal personen til højre drikke en slurk.
+
+Hvis terningerne sammenlagt giver 11, skal personen til venstre drikke en slurk.
+
+Hvis terningerne sammenlagt giver 9, skal alle deltagerne skynde sig at sætte en finger på næsen.
+Den deltager der sidst rører sin næse drikker en slurk.
+
+Hvis terningerne sammenlagt giver 10, skal alle deltagerne skynde sig at sige skål.
+
+Den deltager, der sidst siger skål, skal drikke en slurk.
+
+På par 6 har man følgende tre muligheder:
+
+	1. Giv seks slurke væk, som på et
+	normalt par
+
+	2. Lave en regel der gælder for alle
+	deltagere. Må ikke være rettet mod én person
+
+	3. Ophæve en regel
+
+En 1’er og en 2’er er ”Mand og mus”.
+
+Slår man dette slag, vælger man to deltagere, der hver får en terning.
+
+Disse to deltagere skal så slå én gang hver med deres terning.
+
+Deltageren med det højeste slag, skal drikke det antal slurke, som øjnene sammenlagt viser.
+
+	Fx:	Russeren slår 2
+		Skotten slår 4
+	
+Altså skal skotten drikke seks slurke.
+
+Hvis de to deltagere slår det samme slag, tælles øjnene op, og lægges til deres næste slag.
+
+	Fx:	Russeren slår 3
+		Skotten slår 3
+		Russeren slår 1
+		Skotten slår 5
+	
+Altså skal skotten drikke tolv slurke.</string>
+				<integer>999</integer>
+				<integer>3</integer>
+			</array>
+			<key>Den Lille Apoteker</key>
+			<array>
+				<string>Den Lille Apoteker</string>
+				<string>2</string>
+				<string>Så længe man har lyst</string>
+				<string>6 4cl glas
+1 terning
+1 viskestykke</string>
+				<string>Man slår med terningen, og drikker øllet i det glas, som svarer til det antal øjne terningen viser. Hvis terningen fx viser 3, skal øllet i glas nummer 3 drikkes.
+
+Det tomme glas skal ikke fyldes op, før man er helt færdig.
+
+Man skal nu blive ved med at slå med terningen, og drikke øllet i det tilsvarende glas, indtil man slår et slag, der svarer til et tomt glas.
+
+Lykkes dette ikke, før alle seks glas er blevet drukket, skal alle glassene fyldes op igen, og man fortsætter endnu en tur.
+
+Turen fortsætter til næste deltager, når terningen viser et antal øjne, der svarer til et tomt glas.
+
+Inden næste deltager begynder, skal alle seks glas være fyldte igen.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+			<key>Futtog</key>
+			<array>
+				<string>Futtog</string>
+				<string>3</string>
+				<string>Så længe man har lyst</string>
+				<string>1 terning for hver 3. deltager</string>
+				<string>Deltagerne starter på samme tid med at slå med terningerne. Man bliver ved med at slå, indtil man har slået en 6’er. Derefter sendes terningen videre til næste deltager i urets retning.
+
+Spillet fortsætter, indtil en deltager bliver indhentet af en terning, og derfor sidder med to terninger.
+
+Denne deltager skal drikke en halv øl. Dette kan umiddelbart lyde af meget, men det er ikke så tit man kommer til at drikke.
+
+Når der er blevet drukket, skal terningerne igen fordeles blandt deltagerne.</string>
+				<integer>999</integer>
+				<integer>4</integer>
+			</array>
+			<key>Tyrolerskål</key>
+			<array>
+				<string>Tyrolerskål</string>
+				<integer>5</integer>
+				<string>Et spil varer indtil de to liter øl er drukket</string>
+				<string>1 terning
+2 literkrus</string>
+				<string>Man skiftes til at slå med terningen.
+Hvis man slår en sekser skal man drikke af det glas der er mest øl i.
+
+Man drikker indtil man mener at der er drukket så meget at der nu er mindst i det krus man drikker af.
+Det er forbudt at sætte kruset ned for at måle hvor langt man er kommet.
+
+Man har kun et forsøg. Hvis man ikke har drukket nok, skal resten af kruset tømmes som straf.
+Det er derfor en rigtig god idé at drikke rigeligt.
+På den måde lægger man jo også et større pres på den næste, der skal drikke.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+			<key>$dring</key>
+			<array>
+				<string>Udfordring</string>
+				<integer>1</integer>
+				<string>Kan vare så længe man har lyst</string>
+				<string>1 terning</string>
+				<string>Deltagerne skiftes til at slå én gang med terningen.
+
+Hvis man slår en 6’er, må man give en udfordring til en af de andre deltagere.
+
+En udfordring kan enten være at skulle gøre noget aktivt, eller det kan være at skulle fortælle en hemmelighed. Hvad udfordringen skal være, er op til deltageren, der har slået 6’eren.
+
+Et eksempel på en aktiv udfordring kan være at løbe en tur rundt om huset kun iført undertøj.
+
+Et eksempel på en hemmelighed kan være at skulle fortælle de andre om sin mest pinlige sexoplevelse.
+
+Uanset hvilken form for udfordring man får, kan man enten vælge at tage udfordringen eller give op.
+
+Hvis man vælger at give op, skal man som straf drikke en halv øl.
+
+Spillet bliver først rigtig sjovt, hvis man ikke opgiver så let. Det kan derfor være en god idé, at spille dette spil senere på aftenen, efter at man har mistet de værste hæmninger.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+			<key>Gudespillet</key>
+			<array>
+				<string>Gudespillet</string>
+				<integer>4</integer>
+				<string>Kan vare så længe man har lyst</string>
+				<string>En terning
+En papkasse fra en ramme øl
+En kuglepen</string>
+				<string>I bunden af papkassen vil der altid være runde aftryk fra
+hvor øldåserne har stået. Disse cirkler skal tegnes op med en kuglepen.
+
+Det er vigtigt at være nøjagtig med at tegne stregerne. Det skal være sådan at der er mellemrum mellem cirklerne.
+
+I hver cirkel skal der stå en regel.
+				
+Deltagerne bestemmer selv, hvilke regler der skrives i cirklerne. Der skal bare minimum være to gudefelter.
+
+Deltagerne skiftes til at kaste én gang med terningen.
+Det felt, som terningen lander i, skal udføres.
+
+Når terningen kastes, må hånden ikke komme ind over banen. Det er for at gøre det svære at ramme et bestemt felt.
+
+Rammer terningen imellem felterne, skal der drikkes det antal slurke svarende til terningens øjne, og turen går videre.
+
+Hvis terningen lander på feltet Gud (som der jo skal være to af), bliver deltageren automatisk til gud.
+
+Som gud har man lov til følgende:
+
+Annullere egne slurke
+Ændre hvilken deltager der skal drikke på de forskellige felter
+Få flere deltager til at drikke på de samme felter
+
+Man er gud indtil næste deltager lander på gudefeltet.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+		</dict>
+
+		<key>Andet</key>
+		<dict>
+			<key>Øl ludo - Derhjemme</key>
+			<array>
+				<string>Øl ludo - Derhjemme</string>
+				<integer>3</integer>
+				<string>Ca. 30 - 45 minutter</string>
+				<string>1 spil ludo</string>
+				<string>
+Selve grundspillet er ligesom almindelig ludo.
+Når man bliver slået hjem skal man drikke en halv øl.
+
+	1. pladsen må give en hel øl til en
+	valgfri deltager.
+
+	2. pladsen må give en halv øl til én af
+	de sidste to deltagere.
+
+	3. pladsen er neutral.
+
+	4. pladsen skal drikke en halv øl for
+	hver brik endnu ikke i mål.</string>
+				<integer>4</integer>
+				<integer>2</integer>
+			</array>
+			<key>Drop Mønten</key>
+			<array>
+				<string>Drop Mønten</string>
+				<integer>1</integer>
+				<string>Ca. 5 minutter</string>
+				<string>1 glas
+Toiletpapir
+1 elastik
+1 mønt (ikke for tung/stor)
+1 tændt cigaret</string>
+				<string>
+Toiletpapiret spændes fast på det tomme glas med elastikken. Det er
+vigtigt at toiletpapiret sider, så det er spændt stramt ud.
+
+Mønten lægges midt på toiletpapiret.
+
+På skift skal deltagerne brænde et hul i toiletpapiret med den tændte
+cigaret. Der må kun brændes ét hul pr. tur.
+
+Den deltager der brænder det hul, som får mønten til at falde ned i
+glasset, har tabt og drikker en halv øl.</string>
+				<integer>8</integer>
+				<integer>2</integer>
+			</array>
+			<key>Ubåd</key>
+			<array>
+				<string>Ubåd</string>
+				<integer>2</integer>
+				<string>Kan vare så længe man har lyst</string>
+				<string>1 stor plasticskål
+1 lille porcelænsskål</string>
+				<string>Hæld ca. tre øl i den store plasticskål, og læg porcelænsskålen ned i 
+øllet. Den skal kunne flyde ovenpå.
+
+På skift skal deltagerne hælde øl i porcelænsskålen. Der er nogle regler
+for at det er gyldigt:
+
+• Hver deltager skal minimum hælde én dråbe i porcelænsskålen.
+
+• Man må hælde lige så meget som man vil.
+
+• Når man holder op med at hælde, må man ikke begynde igen. Så er turen gået videre til næste deltager.
+
+• Ølflasken må ikke røre ved nogle af skålene, mens man hælder. Det skal være i fri arm.
+
+• Hvis en deltager kommer til at sparke til bordet, så porcelænsskålen synker, har denne deltager tabt.
+
+Den deltager, der hælder i porcelænsskålen, så den synker, skal fiske den op igen, og drikke indholdet.
+
+Variation:
+Plasticskålen fyldes stadig med øl, men deltagerne hælder det i, som de tilfældigvis drikker lige nu.
+
+Fx: Franskmanden hælder rødvin, russeren hælder vodka og cola, skotten hælder whisky og Sprite og englænderen hælder Guinness.
+
+Resultatet er en ret klam blanding.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+			<key>2-krone</key>
+			<array>
+				<string>2-krone</string>
+				<integer>2</integer>
+				<string>Kan vare så længe man har lyst</string>
+				<string>1 glas
+1 2-krone</string>
+				<string>1 glas fyldt med øl stilles midt på bordet.
+
+Det kan være en fordel at lægge et eller andet på bordet (fx en tyk voksdug eller noget pap), så bordet ikke tager skade, når man kaster med mønten.
+
+Spillet går ud på, at deltagerne på skift kaster en 2-krone hårdt ned i bordet, mens de prøver at få den til at hoppe op i glasset.
+Hver gang man rammer ved siden af glasset, skal man drikke en slurk.
+
+Hvis det lykkedes en deltager at få 2-kronen til at hoppe op i glasset, må han vælge en deltager, som skal tømme glasset med mønten. (Mønten spyttes selvfølgelig ud igen).
+
+Glassets størrelse og form har betydning for, hvor let det er at ramme, og hvor meget der skal drikkes, når det lykkes.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+			<key>Dong</key>
+			<array>
+				<string>Dong</string>
+				<integer>3</integer>
+				<string>90 minutter + pause</string>
+				<string>1 fjernsyn.
+Oversigt over hvilke fodboldkampe, der spilles på samme tid.</string>
+				<string>Hver deltager vælger én eller flere fodboldkampe, som de vil spille på.
+Der må ikke spilles på den kamp, man ser.
+
+Spillet går egentlig bare ud på at deltagerne sidder og ser en fodboldkamp.
+
+Hver gang der kommer et ”dong”, hvor stillingen vises fra en anden kamp, skal den deltager, der har spillet på kampen drikke en øl.
+
+Hvis ikke øllen er drukket inden næste ”dong”, skal deltageren bunde og starte forfra på en ny øl. (Det behøver ikke være ens egen kamp,
+der ”donger” anden gang, for at denne regel træder i kraft).
+
+Variation:
+En fuldstændig anderledes måde at spille dette spil på er ved at spille på én eller flere spillere i stedet for kampe.
+
+Hver gang denne spiller har bolden, skal deltageren drikke, så længe spilleren har bolden.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+
+			<key>100-minutters Drik</key>
+			<array>
+				<string>100-minutters Drik</string>
+				<integer>5</integer>
+				<string>100 minutter.</string>
+				<string>1 Gallianoglas pr. deltager (4 cl.).
+1 ur med sekundviser eller et digitalur.</string>
+				<string>Opstartstidspunktet noteres, så man ved hvornår der er gået 100 minutter.
+
+Dette spil er meget simpelt. Det eneste det går ud på er, at alle deltagere
+drikker et Gallianoglas med øl hvert minut i 100 minutter.
+
+En vigtig regel er, at der skal drikkes hvert minut. Dvs. at der max. kan
+gå 1 minut og 59 sekunder, fra det ene glas til det andet.
+
+Det skal der tages højde for, hvis man fx skal på toilet. Så er det om at
+drikke, så snart et nyt minut starter. Så har man 1 minut og 59 sekunder,
+inden man skal drikke igen.
+
+Som udgangspunkt lyder det nok som et kedeligt spil, men ved nærmere
+bekendtskab er det faktisk ret sjovt.
+
+Variation:
+I ovennævnte udgave af spillet kommer hver deltager til at drikke ca.
+tolv øl.
+
+Synes man, at det er for vildt, kan man i stedet bruge alm. 2 cl. shotglas.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+
+			<key>Træfbold</key>
+			<array>
+				<string>Træfbold</string>
+				<integer>3</integer>
+				<string>Kan vare så længe man har lyst</string>
+				<string>Noget kridt der kan tegne på fliser eller asfalt.
+1 fodbold.</string>
+				<string>På et plant område udenfor tegnes en firkant på 4 gange 4 meter.
+Firkanten inddeles i 4 mindre firkanter, der har numrene 1, 2, 3 og 4 (Retning mod uret).
+
+De fire deltagere fordeler sig i de fire felter. Hvis der er mere end fire deltagere, stiller resten sig op i kø udenfor felt nr. 1.
+
+Deltageren i felt 4 er ”Kongen”.
+
+Dette spil minder en del om bordtennis med fire deltagere, hvor alle er
+mod alle.
+Kongen i felt 4 starter med at serve. Man server med hånden ved at slå bolden ned i sit eget felt, så den derefter hopper over i et af de andre tre felter.
+
+Når bolden har ramt ens felt, skal man slå den videre til en af de andre felter UDEN at ramme ned i sit eget felt.
+
+Hvis bolden rammer en deltager, der står i sit eget felt i stedet for at ramme feltet, har den ramte deltager tabt. Er han udenfor sit felt og bliver ramt, tælles bolden som ude.
+
+Spillet fortsætter, indtil en af deltagerne laver en fejl. Denne deltager rykker til felt 1 (eller bag i køen, hvis der er mere end fire deltagere med). Samtidig skal han drikke lige så mange slurke som nummeret på det felt han forlader.</string>
+				<integer>999</integer>
+				<integer>4</integer>
+			</array>
+
+			<key>Kryds Og Bolle</key>
+			<array>
+				<string>Kryds Og Bolle</string>
+				<integer>4</integer>
+				<string>Ca. 20-25 minutter</string>
+				<string>9 glas (ca. 2 dl).
+9 ølbrikker (PostIts kan også bruges).</string>
+				<string>De ni ølbrikker ligges i en firkant 3x3.
+
+De ni glas fyldes helt op med øl og stilles udenfor spillepladen.
+
+Dette spil minder på mange måder om almindeligt kryds og bolle. Men
+der er dog nogle ret væsentlige forskelle.
+
+Der er ikke noget der hedder dine og mine brikker. Alle ni glas er fælles brikker.
+
+Når et glas er sat på en ølbrik, må det ikke flyttes.
+
+Et glas har følgende tre tilstande: Fuld, halv og tom.
+Spillet går ud på at få tre glas på stribe, som alle tre har samme mængde
+øl. Det har ingen betydning, om den samme mængde er fuld, halv eller
+tom.
+
+Der kan laves tre på stribe vandret, lodret og diagonalt.
+
+Man har følgende muligheder:
+
+	Man kan stille et fuldt glas.
+
+	Man kan drikke halvdelen og stille et
+	halvt glas.
+
+	Man kan drikke det hele og stille et
+	tomt glas.
+
+	Man kan tage et fuldt glas, der 
+	allerede er stillet, og drikke halvdelen.
+
+	Man kan tage et fuldt glas, der 
+	allerede er stillet, og drikke det hele.
+
+	Man kan tage et halvt glas, der 
+	allerede er stillet, og drikke det hele.
+
+Den spiller der først får tre på stribe har vundet. Taberen skal drikke,
+hvad der er tilbage i de glas, der er stillet. (Ikke de glas der ikke nåede at blive stillet).
+
+Variation:
+Man kan tilføje en regel, der siger, at det er tilladt at fylde et tomt glas op igen. Det giver en ekstra dimension til spillet.
+
+I denne variation slutter spillet for det meste med, at der er meget mere
+øl i glassene. Derfor skal taberen kun drikke de halve glas. De fulde kan
+bruges igen i næste spil.</string>
+				<integer>2</integer>
+				<integer>2</integer>
+			</array>
+
+			<key>Plankeværk, Elefant og Sniger</key>
+			<array>
+				<string>Plankeværk, Elefant og Sniger</string>
+				<integer>3</integer>
+				<string>Kan vare så længe man har lyst</string>
+				<string>1 mønt (ikke for stor og tung)</string>
+				<string>Deltagerne skal være sammen to og to. Det vil være en fordel, hvis hvert hold sidder på hver sin side af bordet.
+
+Det ene hold starter med at få mønten.
+
+Det andet hold skal nu bestemme, hvordan holdet med mønten skal forsøge at gemme mønten.
+
+Mønten kan gemmes på følgende tre måder:
+
+1. Plankeværket – Holdet med mønten holder alle fire hænder strakt op i lodret stilling med håndryggen mod det modsatte hold. I en af de
+fire håndflader skal mønten være gemt.
+
+2. Elefanten – Holdet med mønten holder alle fire hænder frem, så lille-, ringe-, pege- og tommelfingeren rører bordet. Langemanden
+skal stritte fremad som en ”snabel”. Håndens stilling skulle nu gerne ligne en elefant. I en af de fire håndflader skal mønten være gemt.
+
+3. Snigeren – Holdet med mønten lægger alle fire hænder knyttet på bordet med håndryggen opad. I en af håndfladerne skal mønten være gemt. På samme tid, skal de strække fingrene ud, så hånden ligger fladt på bordet med håndryggen opad. Det vil selvfølgelig få den
+gemte mønt til at falde ned på bordet.
+
+Uanset hvilken måde mønten gemmes på, gælder det om for det modsatte hold at gætte hvilken hånd mønten er gemt i.
+
+Ved plankeværket og elefanten er det en god idé at kigge på hændernes og fingrenes stilling. Ved snigeren skal der selvfølgelig også kigges på hænderne, men her er det nok lige så vigtigt at høre, hvor mønten falder.
+
+Hvis det lykkedes for modstanderen at gætte, hvilken hånd mønten er gemt i, skal holdet med mønten drikke en stor slurk, og turen skifter.
+
+Gætter modstanderne derimod forkert, skal de selv drikke en halv øl, og turen fortsætter hos samme hold.</string>
+				<integer>4</integer>
+				<integer>4</integer>
+			</array>
+
+			<key>Navneleg</key>
+			<array>
+				<string>Navneleg</string>
+				<integer>3</integer>
+				<string>Kan vare så længe man har lyst</string>
+				<string>Ingen rekvisitter påkrævet</string>
+				<string>Deltagerne skal på skift sige et navn på en kendt person. Det må gerne være en opdigtet person fx Sherlock Holmes.
+
+For at det er et gyldigt navn, skal der både være fornavn og efternavn.
+Dvs. at Madonna og Superman ikke er gyldige navne.
+
+Englænderen starter og kan frit vælge et navn, fx James Bond.
+
+Fordi efternavnet er Bond, skal russeren nu sige et navn, hvor fornavnet starter med B, fx Brian Nielsen.
+
+Franskmanden siger så Niels Bohr. Skotten siger Betty Boop.
+
+Fordi fornavn og efternavn begge starter med B vender turen.
+
+Hver gang det er en deltagers tur, skal han drikke, så længe han tænker.
+Så i princippet skal han blive ved og ved med at drikke, hvis han ikke kan finde på et navn. Men i sådan et tilfælde plejer de andre deltagere at hjælpe med ledetråde.
+
+Når et navn har været brugt én gang, kan det ikke bruges senere i spillet.</string>
+				<integer>999</integer>
+				<integer>3</integer>
+			</array>
+
+			<key>Flaskehalsen Peger På</key>
+			<array>
+				<string>Flaskehalsen Peger På</string>
+				<integer>2</integer>
+				<string>Kan vare så længe man har lyst</string>
+				<string>1 flaske</string>
+				<string>Deltagerne skal sidde jævnt fordelt rundt om et bord eller i en cirkel på
+gulvet.
+
+Flasken lægges midt på bordet.
+
+En deltager starter med at bestemme en udfordring. Det kan fx være:
+
+• ”Den som flaskehalsen peger på” skal løbe nøgen rundt om bordet ti gange.
+
+• ”Den som flaskehalsen peger på” skal fortælle, hvor mange han har været i seng med.
+
+Derefter ”spinder” deltageren flasken.
+
+Når flasken stopper med at dreje, skal den som flaskehalsen peger på udføre udfordringen.
+
+En deltager kan nægte at udføre udfordringen. I stedet skal han så drikke en hel øl.
+
+Den deltager som flaskehalsen peger på, skal bestemme næste udfordring og dreje flasken.
+
+Dette spil er uden tvivl sjovest, hvis deltagerne er af blandet køn, og hvis de er ”med på noget”. Hvis alle bare nægter at udføre udfordringerne, er
+der ikke så meget ved spillet.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+
+			<key>Ølstafet</key>
+			<array>
+				<string>Ølstafet</string>
+				<integer>1</integer>
+				<string>Spillet varer kun et par minutter afhængig af hvor mange deltagere, der er med.</string>
+				<string>1 fuld ølflaske pr. deltager</string>
+				<string>Deltagerne deles ind i hold, så der er ca. to til fire på hvert hold. Det er vigtigt, at der er lige mange deltagere på hver hold.
+
+Holdene stiller op i hver sin række.
+Deltagernes øl stilles ca. 10-20 meter væk.
+
+På samme tid starter den forreste fra hvert hold med at løbe hen og drikke en øl så hurtigt som muligt.
+
+Når øllen er helt tom, stilles den ned på jorden. Deltageren stikker nu en finger i flaskehalsen, og løber ti gange hurtigt rundt om flasken.
+
+Efter de ti omgange løber deltageren tilbage, og næste deltager i rækken må starte.
+
+Det hold, der først får alle deltagere igennem vinder.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+
+			<key>Ølbowling</key>
+			<array>
+				<string>Ølbowling</string>
+				<integer>5</integer>
+				<string>Kan vare så længe man har lyst</string>
+				<string>1 fodbold.
+4 stole.
+2 tomme flasker.</string>
+				<string>Deltagerne deles i to hold, så der er to på hvert hold.
+
+Holdene sætter sig på følgende bane:
+Der skal være ca. ti meter mellem de to ølflasker.
+
+Hver deltager sidder i en stol. Hvert hold har en tom flaske mellem sine to stole.
+
+På skift kaster deltagerne med fodbolden, imens de forsøger at vælte modstandernes flaske. Man skal blive siddende i stolen, mens man
+kaster.
+
+Hvis flasken bliver væltet, skal deltagerne, som har fået deres flaske væltet dele en øl.
+
+Øllen skal deles således, at første deltager drikker, så meget han vil.
+Derefter skal den anden deltager drikke resten.</string>
+				<integer>4</integer>
+				<integer>4</integer>
+			</array>
+
+			<key>Vendespil</key>
+			<array>
+				<string>Vendespil</string>
+				<integer>5</integer>
+				<string>15-20 minutter</string>
+				<string>20 spande.
+20 øl. 10 forskellige slags, så der er to af hver slags.</string>
+				<string>Deltagerne deles i to hold, så der er to på hvert hold.
+
+Start med at stille alle øllene i fem rækker med fire øl i hver række.
+Hver øl dækkes til med en spand.
+
+På skift løfter holdene to spande. Hvis de to øl under de løftede spande er ens, har holdet fået et stik, og holdet får en tur mere.
+
+Hvis øllene derimod ikke er ens, sættes spandene tilbage, og turen går videre til næste hold.
+
+Hver gang et hold får et stik, må de give de to øl væk til et af de andre hold.
+
+Det er vigtigt, at holdet, der fik stikket, får de tomme flasker tilbage, så der kan holdes styr på, hvor mange stik de forskellige hold har fået.
+
+Det hold, der til sidst har flest stik, vinder. Alle andre deltagere skal som straf bunde en øl hver.</string>
+				<integer>999</integer>
+				<integer>4</integer>
+			</array>
+
+			<key>Vodka Dart</key>
+			<array>
+				<string>Vodka Dart</string>
+				<integer>3</integer>
+				<string>Kan vare så længe man har lyst</string>
+				<string>1 spil dart.
+1 shotglas.
+Vodka eller anden sprut.</string>
+				<string>Deltagerne skiftes til at kaste tre pile. Efter hver runde skal deltageren, der fik den laveste score, drikke et shot vodka.
+
+Taberen er altid tvunget til at være med i endnu en runde. Alle andre kan springe ud af spillet, når de har lyst.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+		</dict>
+
+		<key>I Byen</key>
+		<dict>
+			<key>7-14-21</key>
+			<array>
+				<string>7-14-21</string>
+				<integer>3</integer>
+				<string>Et spil varer så længe man har lyst</string>
+				<string>5-6 terninger</string>
+				<string>Deltagerne skiftes til at slå med alle terningerne. Efter hvert slag tælles
+antallet af 1’ere. Antallet lægges sammen med de tidligere slag.
+
+Den, der slår den 7’ende etter, bestemmer hvilket shot, der skal drikkes.
+Den der slår den 14’ende etter, skal betale for shottet.
+Den der slår den 21’ende etter, skal drikke shottet.
+
+Det samme shotglas bruges igen og igen. Derfor bliver der hurtigt en
+slimet blanding af snaps, Bailey’s, gin og vodka i bunden af glasset.			
+				</string>
+				<integer>999</integer>
+				<integer>4</integer>
+			</array>
+
+			<key>16 - I Byen</key>
+			<array>
+				<string>16 - I Byen</string>
+				<integer>1</integer>
+				<string>Et spil varer ca. ti minutter, men det kan variere en del, alt efter hvor mange chancer folk tager.
+				</string>
+				<string>1 terning pr. deltager.
+1 ekstra terning.
+1 raflebæger.
+				</string>
+				<string>Hver deltager får en terning, som de lægger ud for deres plads.
+Terningerne skal vendes, så sekseren vender opad.
+
+Reglerne er nøjagtig de samme som ved ”16 derhjemme” (se reglerne i under Terninger).
+
+Den eneste forskel er, at i stedet for at drikke, når man taber, skal man
+give en omgang til de andre deltagere.
+				</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+			<key>Oeltaarn</key>
+			<array>
+				<string>Øltårn</string>
+				<integer>2</integer>
+				<string>Et spil varer ca. 5-10 minutter</string>
+				<string>1 terning.
+1 shot.
+1 drink.
+1 stor fadøl.
+2 ølbrikker.</string>
+				<string>Der laves en opstilling med et fadølsglas. Ovenpå lægges en ølbrik, og her ovenpå
+stilles et drinkglas. Der placeres endnu en ølbrik på drinkglasset og øverst stilles et shotglas.
+
+Deltagerne skiftes til at slå med terningen. Hvis deltageren slår en 6’er, skal han enten drikke eller fjerne en ølbrik, alt efter hvad der er øverst.
+
+Så snart man har slået én gang, sendes terningen videre til næste deltager.
+
+Hvis man slår en 6’er og skal flytte et glas, skal det tømmes. Hvis man slår en 6’er og skal flytte en ølbrik, lægges den bare til side.
+
+Sådan fortsætter spillet, indtil der er en deltager, der skal drikke fadøllen nederst i øltårnet.
+
+Skotten skal fx drikke fadøllen:
+
+Det gælder om for skotten at drikke fadøllen hurtigst muligt. Imens han drikker, slår de andre deltagere videre.
+
+Hvis det lykkedes for skotten at drikke fadøllen, inden en af de andre har slået en 6’er, skal skotten ikke betale.
+
+De andre deltagere fortsætter med at slå med terningen. Den deltager, der først slår en 6’er, skal betale for øltårnet.
+
+Hvis det derimod ikke lykkedes for skotten, at drikke fadøllen inden de andre har slået en 6’er, skal han selv betale for øltårnet. Han skal selvfølgelig stadig drikke resten af fadøllen.</string>
+				<integer>999</integer>
+				<integer>3</integer>
+			</array>
+			<key>Oel ludo - I Byen</key>
+			<array>
+				<string>Øl ludo - I Byen</string>
+				<integer>4</integer>
+				<string>Ca. 30-45 minutter</string>
+				<string>1 spil ludo</string>
+				<string>Hver deltager køber fire øl.
+
+Selve grundspillet er lige som almindeligt ludo.
+
+Hvis man bliver slået hjem, skal man give den øl væk, som repræsenterer den brik, der er blevet slået hjem.
+
+Den deltager, der slår din brik hjem, får denne øl gratis, og skal forsøge at drikke hele øllen på én gang.
+
+Hvis det lykkes, er brikken slået hjem, og deltageren, der ejer brikken, skal købe en ny øl/brik.
+
+Hvis det IKKE lykkes at bunde øllen, bliver brikken stående, og resten af øllen fortsætter indtil næste gang den samme brik bliver slået hjem.
+
+De øl, som deltagerne får i mål, må de selv beholde, og de må drikke dem i det tempo, de har lyst til.
+
+Den deltager, der sidst kommer i mål med alle sine fire brikker, skal give en omgang.
+				</string>
+				<integer>4</integer>
+				<integer>4</integer>
+			</array>
+			<key>Tænkeboks</key>
+			<array>
+				<string>Tænkeboks</string>
+				<integer>1</integer>
+				<string>Et spil varer ca. 10-20 minutter</string>
+				<string>1 terningmåtte pr. deltager.
+1 raflebæger pr. deltager.
+5 terninger pr. deltager.
+				</string>
+				<string>Alle deltagerne lægger terningmåtten foran sig med forsiden opad.
+Alle deltagerne slår på samme tid med deres terninger og løfter bægeret,
+så kun de selv kan se terningerne.
+
+Deltagerne skiftes til at gætte på, hvor mange ens terninger af en bestemt
+slags, de tror der er i alt. Alle 1’ere er jokere og tæller med i meldingen.
+
+Når det er en deltagers tur til at melde, har han to valg:
+
+	1. Han kan tro på, at den melding han
+	har fået er rigtig. Hvis han tror på
+	meldingen, skal han selv komme med 
+	en højere melding.
+
+	2. Han kan nægte at tro på meldingen. 
+	Hvis ikke han tror på meldingen, skal
+	han løfte sit bæger.
+	Alle andre deltagere løfter også
+	deres bægre, og terningerne tælles
+	sammen.
+		
+Meldingerne bliver ved, indtil en af deltagerne ikke længere tror på, at
+terningerne er der, og derfor løfter bægeret.
+
+Hvis det viser sig, at de meldte terninger er der, taber den deltager, der har løftet sit bæger.
+
+Hvis terningerne derimod ikke er der, taber den deltager, der har lavet
+meldingen.
+
+Taberen beholder alle sine terninger. De andre deltager ”sælger” en terning (lægger den til side), og fortsætter spillet med én terning mindre.
+
+Det er taberen, der starter næste melding.
+
+Spillet fortsætter, indtil alle deltagere på nær én har ”solgt” alle sine terninger.
+
+Den deltager, der sidder tilbage med én eller flere terninger, har tabt, og skal give en omgang.
+
+En undtagelse til terningernes værdi er trappen. Hvis alle terningerne under et bæger kommer i rækkefølge startende fra et, er der tale om en trappe.
+En trappe bestående af fem terninger gælder som seks jokere. En trappe bestående af tre terninger gælder som fire jokere (antal terninger + 1).
+
+Ofte vælger man at spille med halvleg, for at spillet ikke skal gå alt for stærkt.
+
+Det betyder, at en deltager ikke har tabt spillet men kun en halvleg, når han sidder tilbage som den eneste med terninger i bægeret.
+
+Han taber først, når han taber anden halvleg. For at signalere at en deltager har halvleg, skal han vende sin terningmåtte med bagsiden opad.
+
+Det betyder, at flere sagtens kan nå at få halvleg, inden spillet er ovre.
+				</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

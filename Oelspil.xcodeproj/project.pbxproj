@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		242C99FA14939435009A5BEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242C99F914939435009A5BEC /* UIKit.framework */; };
+		242C99FC14939435009A5BEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242C99FB14939435009A5BEC /* Foundation.framework */; };
+		242C99FE14939435009A5BEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242C99FD14939435009A5BEC /* CoreGraphics.framework */; };
+		242C9A0414939435009A5BEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 242C9A0214939435009A5BEC /* InfoPlist.strings */; };
+		242C9A0614939435009A5BEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C9A0514939435009A5BEC /* main.m */; };
+		242C9A0A14939435009A5BEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C9A0914939435009A5BEC /* AppDelegate.m */; };
+		242C9A0D14939435009A5BEC /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C9A0C14939435009A5BEC /* GameViewController.m */; };
+		242C9A1414939435009A5BEC /* KategoriViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C9A1314939435009A5BEC /* KategoriViewController.m */; };
+		242C9A1B14939435009A5BEC /* GameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 242C9A1914939435009A5BEC /* GameView.xib */; };
+		242C9A1E14939435009A5BEC /* KategoriView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 242C9A1C14939435009A5BEC /* KategoriView.xib */; };
+		242C9A2614939436009A5BEC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242C9A2514939436009A5BEC /* SenTestingKit.framework */; };
+		242C9A2714939436009A5BEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242C99F914939435009A5BEC /* UIKit.framework */; };
+		242C9A2814939436009A5BEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242C99FB14939435009A5BEC /* Foundation.framework */; };
+		242C9A3014939436009A5BEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 242C9A2E14939436009A5BEC /* InfoPlist.strings */; };
+		242C9A3314939436009A5BEC /* OelspilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C9A3214939436009A5BEC /* OelspilTests.m */; };
+		242E64E114DF205900EF5464 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242E64E014DF205900EF5464 /* MessageUI.framework */; };
+		243235161556D07400A1951A /* beer-mug@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 243235151556D07400A1951A /* beer-mug@2x.png */; };
+		243235191556D0AD00A1951A /* id-card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 243235181556D0AD00A1951A /* id-card@2x.png */; };
+		2432351B1556D0DB00A1951A /* notepad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2432351A1556D0DB00A1951A /* notepad@2x.png */; };
+		2432351D1556D11400A1951A /* group@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2432351C1556D11400A1951A /* group@2x.png */; };
+		24324DB514D1DA0500496F10 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24324DB314D1DA0500496F10 /* AboutViewController.m */; };
+		24324DB614D1DA0500496F10 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24324DB414D1DA0500496F10 /* AboutView.xib */; };
+		2437A1B714CC882C00DB9BC3 /* PlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2437A1B514CC882C00DB9BC3 /* PlayersViewController.m */; };
+		2437A1B814CC882C00DB9BC3 /* PlayersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2437A1B614CC882C00DB9BC3 /* PlayersView.xib */; };
+		24452F001493A03500913134 /* ChosenGamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24452EFE1493A03500913134 /* ChosenGamesViewController.m */; };
+		24452F011493A03500913134 /* ChosenGamesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24452EFF1493A03500913134 /* ChosenGamesView.xib */; };
+		24452F0B1493C4DD00913134 /* Oelspil.m in Sources */ = {isa = PBXBuildFile; fileRef = 24452F0A1493C4DD00913134 /* Oelspil.m */; };
+		244CFB261497C3E4007977C0 /* Oelspil.plist in Resources */ = {isa = PBXBuildFile; fileRef = 244CFB251497C3E4007977C0 /* Oelspil.plist */; };
+		24AA46AE14D86CD0007ED153 /* group.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AA46AD14D86CD0007ED153 /* group.png */; };
+		24AA46B014D86D24007ED153 /* notepad.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AA46AF14D86D23007ED153 /* notepad.png */; };
+		24AA46B214D86DB0007ED153 /* id-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AA46B114D86DB0007ED153 /* id-card.png */; };
+		24AA46B414D86E84007ED153 /* Beerglass-full-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AA46B314D86E84007ED153 /* Beerglass-full-256.png */; };
+		24AA46B814D87061007ED153 /* beer-mug.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AA46B714D87061007ED153 /* beer-mug.png */; };
+		24CDDE7B1556FBEC0066D355 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CDDE791556FBC50066D355 /* AVFoundation.framework */; };
+		24F3787C152A12660087FD92 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F3787A152A12660087FD92 /* Icon.png */; };
+		24F3787D152A12660087FD92 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F3787B152A12660087FD92 /* Icon@2x.png */; };
+		24F97FDC154D981300CBBFC7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F97FDB154D981300CBBFC7 /* Default.png */; };
+		24F97FDE154D981F00CBBFC7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F97FDD154D981F00CBBFC7 /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		242C9A2914939436009A5BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 242C99EC14939435009A5BEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 242C99F414939435009A5BEC;
+			remoteInfo = Oelspil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		242C99F514939435009A5BEC /* Oelspil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oelspil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		242C99F914939435009A5BEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		242C99FB14939435009A5BEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		242C99FD14939435009A5BEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		242C9A0114939435009A5BEC /* Oelspil-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Oelspil-Info.plist"; sourceTree = "<group>"; };
+		242C9A0314939435009A5BEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		242C9A0514939435009A5BEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		242C9A0714939435009A5BEC /* Oelspil-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Oelspil-Prefix.pch"; sourceTree = "<group>"; };
+		242C9A0814939435009A5BEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		242C9A0914939435009A5BEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		242C9A0B14939435009A5BEC /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		242C9A0C14939435009A5BEC /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		242C9A1214939435009A5BEC /* KategoriViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KategoriViewController.h; sourceTree = "<group>"; };
+		242C9A1314939435009A5BEC /* KategoriViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KategoriViewController.m; sourceTree = "<group>"; };
+		242C9A1A14939435009A5BEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GameView.xib; sourceTree = "<group>"; };
+		242C9A1D14939435009A5BEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KategoriView.xib; sourceTree = "<group>"; };
+		242C9A2414939436009A5BEC /* OelspilTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OelspilTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		242C9A2514939436009A5BEC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		242C9A2D14939436009A5BEC /* OelspilTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OelspilTests-Info.plist"; sourceTree = "<group>"; };
+		242C9A2F14939436009A5BEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		242C9A3114939436009A5BEC /* OelspilTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OelspilTests.h; sourceTree = "<group>"; };
+		242C9A3214939436009A5BEC /* OelspilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OelspilTests.m; sourceTree = "<group>"; };
+		242E64E014DF205900EF5464 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		243235151556D07400A1951A /* beer-mug@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beer-mug@2x.png"; sourceTree = "<group>"; };
+		243235181556D0AD00A1951A /* id-card@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "id-card@2x.png"; sourceTree = "<group>"; };
+		2432351A1556D0DB00A1951A /* notepad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notepad@2x.png"; sourceTree = "<group>"; };
+		2432351C1556D11400A1951A /* group@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "group@2x.png"; sourceTree = "<group>"; };
+		24324DB214D1DA0500496F10 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		24324DB314D1DA0500496F10 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		24324DB414D1DA0500496F10 /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		2437A1B414CC882C00DB9BC3 /* PlayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayersViewController.h; sourceTree = "<group>"; };
+		2437A1B514CC882C00DB9BC3 /* PlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersViewController.m; sourceTree = "<group>"; };
+		2437A1B614CC882C00DB9BC3 /* PlayersView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayersView.xib; sourceTree = "<group>"; };
+		24452EFD1493A03500913134 /* ChosenGamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChosenGamesViewController.h; sourceTree = "<group>"; };
+		24452EFE1493A03500913134 /* ChosenGamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChosenGamesViewController.m; sourceTree = "<group>"; };
+		24452EFF1493A03500913134 /* ChosenGamesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChosenGamesView.xib; sourceTree = "<group>"; };
+		24452F091493C4DD00913134 /* Oelspil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Oelspil.h; sourceTree = "<group>"; };
+		24452F0A1493C4DD00913134 /* Oelspil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Oelspil.m; sourceTree = "<group>"; };
+		244CFB251497C3E4007977C0 /* Oelspil.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Oelspil.plist; sourceTree = "<group>"; };
+		24AA46AD14D86CD0007ED153 /* group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group.png; sourceTree = "<group>"; };
+		24AA46AF14D86D23007ED153 /* notepad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notepad.png; sourceTree = "<group>"; };
+		24AA46B114D86DB0007ED153 /* id-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "id-card.png"; sourceTree = "<group>"; };
+		24AA46B314D86E84007ED153 /* Beerglass-full-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beerglass-full-256.png"; sourceTree = "<group>"; };
+		24AA46B714D87061007ED153 /* beer-mug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beer-mug.png"; sourceTree = "<group>"; };
+		24CDDE791556FBC50066D355 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		24F3787A152A12660087FD92 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		24F3787B152A12660087FD92 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		24F97FDB154D981300CBBFC7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		24F97FDD154D981F00CBBFC7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		242C99F214939435009A5BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CDDE7B1556FBEC0066D355 /* AVFoundation.framework in Frameworks */,
+				242E64E114DF205900EF5464 /* MessageUI.framework in Frameworks */,
+				242C99FA14939435009A5BEC /* UIKit.framework in Frameworks */,
+				242C99FC14939435009A5BEC /* Foundation.framework in Frameworks */,
+				242C99FE14939435009A5BEC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242C9A2014939436009A5BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242C9A2614939436009A5BEC /* SenTestingKit.framework in Frameworks */,
+				242C9A2714939436009A5BEC /* UIKit.framework in Frameworks */,
+				242C9A2814939436009A5BEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24158741152A18FE006EE8AE /* img */ = {
+			isa = PBXGroup;
+			children = (
+				2432351C1556D11400A1951A /* group@2x.png */,
+				2432351A1556D0DB00A1951A /* notepad@2x.png */,
+				243235181556D0AD00A1951A /* id-card@2x.png */,
+				243235151556D07400A1951A /* beer-mug@2x.png */,
+				24F97FDD154D981F00CBBFC7 /* Default@2x.png */,
+				24F97FDB154D981300CBBFC7 /* Default.png */,
+				24F3787A152A12660087FD92 /* Icon.png */,
+				24F3787B152A12660087FD92 /* Icon@2x.png */,
+				24AA46B714D87061007ED153 /* beer-mug.png */,
+				24AA46B314D86E84007ED153 /* Beerglass-full-256.png */,
+				24AA46B114D86DB0007ED153 /* id-card.png */,
+				24AA46AF14D86D23007ED153 /* notepad.png */,
+				24AA46AD14D86CD0007ED153 /* group.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		242C99EA14939435009A5BEC = {
+			isa = PBXGroup;
+			children = (
+				242C99FF14939435009A5BEC /* Oelspil */,
+				242C9A2B14939436009A5BEC /* OelspilTests */,
+				242C99F814939435009A5BEC /* Frameworks */,
+				242C99F614939435009A5BEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		242C99F614939435009A5BEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				242C99F514939435009A5BEC /* Oelspil.app */,
+				242C9A2414939436009A5BEC /* OelspilTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		242C99F814939435009A5BEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24CDDE791556FBC50066D355 /* AVFoundation.framework */,
+				242E64E014DF205900EF5464 /* MessageUI.framework */,
+				242C99F914939435009A5BEC /* UIKit.framework */,
+				242C99FB14939435009A5BEC /* Foundation.framework */,
+				242C99FD14939435009A5BEC /* CoreGraphics.framework */,
+				242C9A2514939436009A5BEC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		242C99FF14939435009A5BEC /* Oelspil */ = {
+			isa = PBXGroup;
+			children = (
+				24158741152A18FE006EE8AE /* img */,
+				242C9A0814939435009A5BEC /* AppDelegate.h */,
+				242C9A0914939435009A5BEC /* AppDelegate.m */,
+				242C9A0B14939435009A5BEC /* GameViewController.h */,
+				242C9A0C14939435009A5BEC /* GameViewController.m */,
+				242C9A1214939435009A5BEC /* KategoriViewController.h */,
+				242C9A1314939435009A5BEC /* KategoriViewController.m */,
+				24452F0C1493C4E200913134 /* Model */,
+				24452F081493A14900913134 /* Views */,
+				242C9A0014939435009A5BEC /* Supporting Files */,
+				24452EFD1493A03500913134 /* ChosenGamesViewController.h */,
+				24452EFE1493A03500913134 /* ChosenGamesViewController.m */,
+				2437A1B414CC882C00DB9BC3 /* PlayersViewController.h */,
+				2437A1B514CC882C00DB9BC3 /* PlayersViewController.m */,
+				24324DB214D1DA0500496F10 /* AboutViewController.h */,
+				24324DB314D1DA0500496F10 /* AboutViewController.m */,
+			);
+			path = Oelspil;
+			sourceTree = "<group>";
+		};
+		242C9A0014939435009A5BEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				242C9A0114939435009A5BEC /* Oelspil-Info.plist */,
+				242C9A0214939435009A5BEC /* InfoPlist.strings */,
+				242C9A0514939435009A5BEC /* main.m */,
+				242C9A0714939435009A5BEC /* Oelspil-Prefix.pch */,
+				244CFB251497C3E4007977C0 /* Oelspil.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		242C9A2B14939436009A5BEC /* OelspilTests */ = {
+			isa = PBXGroup;
+			children = (
+				242C9A3114939436009A5BEC /* OelspilTests.h */,
+				242C9A3214939436009A5BEC /* OelspilTests.m */,
+				242C9A2C14939436009A5BEC /* Supporting Files */,
+			);
+			path = OelspilTests;
+			sourceTree = "<group>";
+		};
+		242C9A2C14939436009A5BEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				242C9A2D14939436009A5BEC /* OelspilTests-Info.plist */,
+				242C9A2E14939436009A5BEC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24452F081493A14900913134 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				24324DB414D1DA0500496F10 /* AboutView.xib */,
+				24452EFF1493A03500913134 /* ChosenGamesView.xib */,
+				242C9A1914939435009A5BEC /* GameView.xib */,
+				242C9A1C14939435009A5BEC /* KategoriView.xib */,
+				2437A1B614CC882C00DB9BC3 /* PlayersView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		24452F0C1493C4E200913134 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24452F091493C4DD00913134 /* Oelspil.h */,
+				24452F0A1493C4DD00913134 /* Oelspil.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		242C99F414939435009A5BEC /* Oelspil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242C9A3614939436009A5BEC /* Build configuration list for PBXNativeTarget "Oelspil" */;
+			buildPhases = (
+				242C99F114939435009A5BEC /* Sources */,
+				242C99F214939435009A5BEC /* Frameworks */,
+				242C99F314939435009A5BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oelspil;
+			productName = Oelspil;
+			productReference = 242C99F514939435009A5BEC /* Oelspil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		242C9A2314939436009A5BEC /* OelspilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242C9A3914939436009A5BEC /* Build configuration list for PBXNativeTarget "OelspilTests" */;
+			buildPhases = (
+				242C9A1F14939436009A5BEC /* Sources */,
+				242C9A2014939436009A5BEC /* Frameworks */,
+				242C9A2114939436009A5BEC /* Resources */,
+				242C9A2214939436009A5BEC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				242C9A2A14939436009A5BEC /* PBXTargetDependency */,
+			);
+			name = OelspilTests;
+			productName = OelspilTests;
+			productReference = 242C9A2414939436009A5BEC /* OelspilTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		242C99EC14939435009A5BEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 242C99EF14939435009A5BEC /* Build configuration list for PBXProject "Oelspil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 242C99EA14939435009A5BEC;
+			productRefGroup = 242C99F614939435009A5BEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				242C99F414939435009A5BEC /* Oelspil */,
+				242C9A2314939436009A5BEC /* OelspilTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		242C99F314939435009A5BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242C9A0414939435009A5BEC /* InfoPlist.strings in Resources */,
+				242C9A1B14939435009A5BEC /* GameView.xib in Resources */,
+				242C9A1E14939435009A5BEC /* KategoriView.xib in Resources */,
+				24452F011493A03500913134 /* ChosenGamesView.xib in Resources */,
+				244CFB261497C3E4007977C0 /* Oelspil.plist in Resources */,
+				2437A1B814CC882C00DB9BC3 /* PlayersView.xib in Resources */,
+				24324DB614D1DA0500496F10 /* AboutView.xib in Resources */,
+				24AA46AE14D86CD0007ED153 /* group.png in Resources */,
+				24AA46B014D86D24007ED153 /* notepad.png in Resources */,
+				24AA46B214D86DB0007ED153 /* id-card.png in Resources */,
+				24AA46B414D86E84007ED153 /* Beerglass-full-256.png in Resources */,
+				24AA46B814D87061007ED153 /* beer-mug.png in Resources */,
+				24F3787C152A12660087FD92 /* Icon.png in Resources */,
+				24F3787D152A12660087FD92 /* Icon@2x.png in Resources */,
+				24F97FDC154D981300CBBFC7 /* Default.png in Resources */,
+				24F97FDE154D981F00CBBFC7 /* Default@2x.png in Resources */,
+				243235161556D07400A1951A /* beer-mug@2x.png in Resources */,
+				243235191556D0AD00A1951A /* id-card@2x.png in Resources */,
+				2432351B1556D0DB00A1951A /* notepad@2x.png in Resources */,
+				2432351D1556D11400A1951A /* group@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242C9A2114939436009A5BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242C9A3014939436009A5BEC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		242C9A2214939436009A5BEC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		242C99F114939435009A5BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242C9A0614939435009A5BEC /* main.m in Sources */,
+				242C9A0A14939435009A5BEC /* AppDelegate.m in Sources */,
+				242C9A0D14939435009A5BEC /* GameViewController.m in Sources */,
+				242C9A1414939435009A5BEC /* KategoriViewController.m in Sources */,
+				24452F001493A03500913134 /* ChosenGamesViewController.m in Sources */,
+				24452F0B1493C4DD00913134 /* Oelspil.m in Sources */,
+				2437A1B714CC882C00DB9BC3 /* PlayersViewController.m in Sources */,
+				24324DB514D1DA0500496F10 /* AboutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242C9A1F14939436009A5BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242C9A3314939436009A5BEC /* OelspilTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		242C9A2A14939436009A5BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 242C99F414939435009A5BEC /* Oelspil */;
+			targetProxy = 242C9A2914939436009A5BEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		242C9A0214939435009A5BEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				242C9A0314939435009A5BEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		242C9A1914939435009A5BEC /* GameView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				242C9A1A14939435009A5BEC /* en */,
+			);
+			name = GameView.xib;
+			sourceTree = "<group>";
+		};
+		242C9A1C14939435009A5BEC /* KategoriView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				242C9A1D14939435009A5BEC /* en */,
+			);
+			name = KategoriView.xib;
+			sourceTree = "<group>";
+		};
+		242C9A2E14939436009A5BEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				242C9A2F14939436009A5BEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		242C9A3414939436009A5BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		242C9A3514939436009A5BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		242C9A3714939436009A5BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Oelspil/Oelspil-Prefix.pch";
+				INFOPLIST_FILE = "Oelspil/Oelspil-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		242C9A3814939436009A5BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Oelspil/Oelspil-Prefix.pch";
+				INFOPLIST_FILE = "Oelspil/Oelspil-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		242C9A3A14939436009A5BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Oelspil.app/Oelspil";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Oelspil/Oelspil-Prefix.pch";
+				INFOPLIST_FILE = "OelspilTests/OelspilTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		242C9A3B14939436009A5BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Oelspil.app/Oelspil";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Oelspil/Oelspil-Prefix.pch";
+				INFOPLIST_FILE = "OelspilTests/OelspilTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		244BFDA71516604600DE1D06 /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jesper Nielsen";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "79B2071B-D792-44F4-90B4-C6A17B2E8943";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad-Hoc";
+		};
+		244BFDA81516604600DE1D06 /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jesper Nielsen";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Oelspil/Oelspil-Prefix.pch";
+				INFOPLIST_FILE = "Oelspil/Oelspil-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "03EF5117-9664-40D6-92A5-AC033A98CD34";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad-Hoc";
+		};
+		244BFDA91516604600DE1D06 /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Oelspil.app/Oelspil";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Oelspil/Oelspil-Prefix.pch";
+				INFOPLIST_FILE = "OelspilTests/OelspilTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = "Ad-Hoc";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		242C99EF14939435009A5BEC /* Build configuration list for PBXProject "Oelspil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242C9A3414939436009A5BEC /* Debug */,
+				242C9A3514939436009A5BEC /* Release */,
+				244BFDA71516604600DE1D06 /* Ad-Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		242C9A3614939436009A5BEC /* Build configuration list for PBXNativeTarget "Oelspil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242C9A3714939436009A5BEC /* Debug */,
+				242C9A3814939436009A5BEC /* Release */,
+				244BFDA81516604600DE1D06 /* Ad-Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		242C9A3914939436009A5BEC /* Build configuration list for PBXNativeTarget "OelspilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242C9A3A14939436009A5BEC /* Debug */,
+				242C9A3B14939436009A5BEC /* Release */,
+				244BFDA91516604600DE1D06 /* Ad-Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 242C99EC14939435009A5BEC /* Project object */;
+}
