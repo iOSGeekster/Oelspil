@@ -11,6 +11,7 @@
 #import "GameViewController.h"
 
 #import "KategoriViewController.h"
+#import "FavoriteListViewController.h"
 #import "PlayersViewController.h"
 #import "AboutViewController.h"
 #import "Oelspil.h"
@@ -19,24 +20,29 @@
 
 @synthesize window = _window;
 @synthesize tabBarController = _tabBarController;
-@synthesize oelspil,categories;
+@synthesize oelspil,categories,favoriteList;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     [self initGames];
     [self customizeInterface];
+    [self loadFavoriteList];
     
     UIViewController *gameViewController = [[GameViewController alloc] initWithNibName:@"GameView" bundle:nil];
     UINavigationController *navControllerForGameView = [[UINavigationController alloc] initWithRootViewController:gameViewController];
     UIViewController *kategoriViewController = [[KategoriViewController alloc] initWithNibName:@"KategoriView" bundle:nil];
     UINavigationController *navControllerForKategoriView = [[UINavigationController alloc] initWithRootViewController:kategoriViewController];
+    
+    UIViewController *favoriteViewController = [[FavoriteListViewController alloc] initWithNibName:@"FavoriteListView" bundle:nil];
+    UINavigationController *navControllerForFavoriteView = [[UINavigationController alloc] initWithRootViewController:favoriteViewController];
+    
     UIViewController *playersViewController = [[PlayersViewController alloc] initWithNibName:@"PlayersView" bundle:nil];
     UINavigationController *navControllerForPlayersView = [[UINavigationController alloc] initWithRootViewController:playersViewController];
     UIViewController *aboutView = [[AboutViewController alloc] initWithNibName:@"AboutView" bundle:nil];
     UINavigationController *navControllerForAboutView = [[UINavigationController alloc] initWithRootViewController:aboutView];
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:navControllerForGameView, navControllerForKategoriView, navControllerForPlayersView, navControllerForAboutView, nil];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:navControllerForGameView, navControllerForKategoriView, navControllerForFavoriteView, navControllerForPlayersView, navControllerForAboutView, nil];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
 //    [self playSound];
@@ -56,6 +62,15 @@
     }
     
 }*/
+
+- (void)loadFavoriteList{
+    NSString *favoriteFilePath = [self favoriteFilePath];
+    if([[NSFileManager defaultManager] fileExistsAtPath:favoriteFilePath]){
+        favoriteList = [[NSMutableArray alloc] initWithContentsOfFile:favoriteFilePath];
+    }else {
+        favoriteList = [[NSMutableArray alloc] init];
+    }
+}
 
 - (void)initGames{
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Oelspil" ofType:@"plist"];
@@ -107,6 +122,18 @@
     [[UITableViewCell appearance] setSelectedBackgroundView:selectedBackgroundView];
     [[UISearchBar appearance] setTintColor:tangerineYellow];
 }
+
+- (NSString *)favoriteFilePath{
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    return [documentsDirectory stringByAppendingPathComponent:kFavoriteList];
+}
+
+- (void)addToFavoriteList:(Oelspil*)game{
+    [favoriteList addObject:game.title];
+    [favoriteList writeToFile:[self favoriteFilePath] atomically:YES];
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

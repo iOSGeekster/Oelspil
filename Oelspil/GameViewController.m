@@ -27,7 +27,9 @@
 
 @interface GameViewController (PrivateMethods)
 - (IBAction)pageChanged;
-- (void)delOelspil;
+- (void)moreOptions;
+- (void)addGameAsFavorite:(Oelspil*)game;
+
 @end
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -124,9 +126,9 @@
     [self updateView];
 }
 
-- (void)delOelspil{
-    UIActionSheet *delSheet = [[UIActionSheet alloc] initWithTitle:@"Del ølspil" delegate:self cancelButtonTitle:@"Annuller" destructiveButtonTitle:nil otherButtonTitles:@"E-mail", nil];
-    [delSheet showFromBarButtonItem:self.navigationItem.rightBarButtonItem animated:YES];
+- (void)moreOptions{
+    UIActionSheet *optionsSheet = [[UIActionSheet alloc] initWithTitle:@"Muligheder" delegate:self cancelButtonTitle:@"Annuller" destructiveButtonTitle:nil otherButtonTitles:@"Tilføj som favorit", @"Del via E-mail", nil];
+    [optionsSheet showFromBarButtonItem:self.navigationItem.rightBarButtonItem animated:YES];
 }
 
 - (void)viewDidLoad
@@ -143,8 +145,8 @@
         valgtSpil = [appDelegate.oelspil objectAtIndex:randomNumber];
     }
 
-    UIBarButtonItem *delKnap = [[UIBarButtonItem alloc] initWithTitle:@"Del" style:UIBarButtonItemStyleBordered target:self action:@selector(delOelspil)];
-    self.navigationItem.rightBarButtonItem = delKnap;
+    UIBarButtonItem *optionsButton = [[UIBarButtonItem alloc] initWithTitle:@"Del" style:UIBarButtonItemStyleBordered target:self action:@selector(moreOptions)];
+    self.navigationItem.rightBarButtonItem = optionsButton;
 
     self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"Default.png"]];
     self.scrollView.backgroundColor = [UIColor clearColor];
@@ -172,14 +174,28 @@
 
 #pragma mark Actionsheet method
 -(void) actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex{
-    if(buttonIndex == [actionSheet firstOtherButtonIndex]){
-        MFMailComposeViewController *mailController = [[MFMailComposeViewController alloc] init];
-        [mailController setSubject:@"Ølspil"];
-        NSString *mailText = [NSString stringWithFormat:@"%@\n\nRekvisitter: %@\n\nVarighed: %@\n\nBeskrivelse: %@",valgtSpil.title, valgtSpil.props,valgtSpil.time, valgtSpil.description];
+    if(buttonIndex == 0){
+        [self addGameAsFavorite:valgtSpil];
+    } else{
+        if(buttonIndex == 1){
+            MFMailComposeViewController *mailController = [[MFMailComposeViewController alloc] init];
+            [mailController setSubject:@"Ølspil"];
+            NSString *mailText = [NSString stringWithFormat:@"%@\n\nRekvisitter: %@\n\nVarighed: %@\n\nBeskrivelse: %@",valgtSpil.title, valgtSpil.props,valgtSpil.time, valgtSpil.description];
         
-        [mailController setMessageBody:mailText isHTML:NO];
-        mailController.mailComposeDelegate = self;
-        [self presentModalViewController:mailController animated:YES];
+            [mailController setMessageBody:mailText isHTML:NO];
+            mailController.mailComposeDelegate = self;
+            [self presentModalViewController:mailController animated:YES];
+        }
+    }
+}
+
+- (void)addGameAsFavorite:(Oelspil*)game{
+    AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    if([delegate.favoriteList containsObject:game.title]){
+        UIAlertView *alreadySavedAlert = [[UIAlertView alloc] initWithTitle:@"Allerede favorit" message:@"Dette spil er allerede på favoritlisten" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil ];
+        [alreadySavedAlert show];
+    }else{
+        [delegate addToFavoriteList:game];
     }
 }
 

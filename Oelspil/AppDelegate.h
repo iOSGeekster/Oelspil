@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Oelspil.h"
+#define kFavoriteList @"favorite.plist"
 @interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
@@ -18,8 +19,12 @@
 
 @property (strong, nonatomic) NSMutableArray *categories;
 
+@property (strong, nonatomic) NSMutableArray *favoriteList;
+
 - (void)initGames;
 - (void)customizeInterface;
+- (void)loadFavoriteList;
+- (void)addToFavoriteList:(Oelspil *)game;
 //- (void)playSound;
 
 @end
