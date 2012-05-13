@@ -26,6 +26,7 @@
 - (void)loadFavoriteList;
 - (void)addToFavoriteList:(Oelspil *)game;
 - (void)removeFromFavoriteList:(NSString *)title;
+- (void)saveFavoriteList;
 //- (void)playSound;
 
 @end

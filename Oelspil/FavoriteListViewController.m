@@ -59,11 +59,26 @@
     }
 }
 
+- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath{
+    return YES;
+}
+
+- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath{
+    NSString *titleToMove = [self.favoriteList objectAtIndex:sourceIndexPath.row];
+    [self.favoriteList removeObjectAtIndex:sourceIndexPath.row];
+    [self.favoriteList insertObject:titleToMove atIndex:destinationIndexPath.row];
+    
+    AppDelegate *delegate = (AppDelegate *) [[UIApplication sharedApplication] delegate];
+    [delegate saveFavoriteList];
+    
+}
+
+
 - (void)editFavorites{
     [self.favoriteListTable setEditing:!self.favoriteListTable.editing animated:YES];
     if (self.favoriteListTable.editing) {
         self.navigationItem.rightBarButtonItem.style = UIBarButtonItemStyleDone;
-        self.navigationItem.rightBarButtonItem.title = @"Annuller";
+        self.navigationItem.rightBarButtonItem.title = @"OK";
     }else {
         self.navigationItem.rightBarButtonItem.style = UIBarButtonItemStyleBordered;
         self.navigationItem.rightBarButtonItem.title = @"Rediger";
