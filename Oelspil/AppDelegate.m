@@ -134,6 +134,11 @@
     [favoriteList writeToFile:[self favoriteFilePath] atomically:YES];
 }
 
+- (void)removeFromFavoriteList:(NSString *)title{
+    [favoriteList removeObject:title];
+    [favoriteList writeToFile:[self favoriteFilePath] atomically:YES];
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

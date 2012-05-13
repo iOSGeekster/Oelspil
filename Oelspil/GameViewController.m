@@ -145,7 +145,8 @@
         valgtSpil = [appDelegate.oelspil objectAtIndex:randomNumber];
     }
 
-    UIBarButtonItem *optionsButton = [[UIBarButtonItem alloc] initWithTitle:@"Del" style:UIBarButtonItemStyleBordered target:self action:@selector(moreOptions)];
+    UIBarButtonItem *optionsButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"star-white"] landscapeImagePhone:nil style:UIBarButtonItemStyleBordered target:self action:@selector(moreOptions)];
+
     self.navigationItem.rightBarButtonItem = optionsButton;
 
     self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"Default.png"]];
