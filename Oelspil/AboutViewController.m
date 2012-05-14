@@ -9,7 +9,7 @@
 #import "AboutViewController.h"
 
 @implementation AboutViewController
-@synthesize contactCell,copyrightCell,baseretCell;
+@synthesize contactCell,copyrightCell,baseretCell,versionCell;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -49,6 +49,10 @@
             copyrightCell.textLabel.textAlignment = UITextAlignmentCenter;
             return copyrightCell;
             break;
+        case 3:
+            versionCell.textLabel.text = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
+            return versionCell;
+            break;
         default:
             break;
     }
@@ -76,6 +80,9 @@
         case 2:
             return @"Copyright";
             break;
+        case 3:
+            return @"Version";
+            break;
         default:
             break;
     }
@@ -94,7 +101,7 @@
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return 3;
+    return 4;
 }
 
 #pragma mark - Message methods

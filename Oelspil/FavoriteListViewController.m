@@ -42,6 +42,7 @@
 	}
     NSString *title = [favoriteList objectAtIndex:indexPath.row];
     cell.textLabel.text = title;
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
