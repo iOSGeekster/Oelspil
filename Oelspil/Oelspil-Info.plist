@@ -6,6 +6,10 @@
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>da</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>da</string>
+	</array>
 	<key>CFBundleDisplayName</key>
 	<string>Ølspil</string>
 	<key>CFBundleExecutable</key>
