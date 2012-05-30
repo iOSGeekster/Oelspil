@@ -162,6 +162,7 @@
     textView.editable = NO;
     textView.showsVerticalScrollIndicator = YES;
     textView.font = [UIFont fontWithName:@"Georgia" size:16.0];
+
 /*    textView.layer.borderWidth = 2.0f;
     textView.layer.cornerRadius = 10;
     textView.layer.borderColor = [[UIColor colorWithRed:255.0/255.0 green:204.0/255.0 blue:0.0/255.0 alpha:1.0] CGColor];*/

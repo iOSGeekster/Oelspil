@@ -15,8 +15,6 @@
 		242C9A0A14939435009A5BEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C9A0914939435009A5BEC /* AppDelegate.m */; };
 		242C9A0D14939435009A5BEC /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C9A0C14939435009A5BEC /* GameViewController.m */; };
 		242C9A1414939435009A5BEC /* KategoriViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C9A1314939435009A5BEC /* KategoriViewController.m */; };
-		242C9A1B14939435009A5BEC /* GameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 242C9A1914939435009A5BEC /* GameView.xib */; };
-		242C9A1E14939435009A5BEC /* KategoriView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 242C9A1C14939435009A5BEC /* KategoriView.xib */; };
 		242C9A2614939436009A5BEC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242C9A2514939436009A5BEC /* SenTestingKit.framework */; };
 		242C9A2714939436009A5BEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242C99F914939435009A5BEC /* UIKit.framework */; };
 		242C9A2814939436009A5BEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242C99FB14939435009A5BEC /* Foundation.framework */; };
@@ -44,6 +42,8 @@
 		24AA46B214D86DB0007ED153 /* id-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AA46B114D86DB0007ED153 /* id-card.png */; };
 		24AA46B414D86E84007ED153 /* Beerglass-full-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AA46B314D86E84007ED153 /* Beerglass-full-256.png */; };
 		24AA46B814D87061007ED153 /* beer-mug.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AA46B714D87061007ED153 /* beer-mug.png */; };
+		24ABCE851576A7B50092C2CD /* GameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCE861576A7B50092C2CD /* GameView.xib */; };
+		24ABCE881576A7D00092C2CD /* KategoriView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCE891576A7D00092C2CD /* KategoriView.xib */; };
 		24AF6745155C377C000F62F4 /* FavoriteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF6743155C377C000F62F4 /* FavoriteListViewController.m */; };
 		24AF6746155C377C000F62F4 /* FavoriteListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AF6744155C377C000F62F4 /* FavoriteListView.xib */; };
 		24CDDE7B1556FBEC0066D355 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CDDE791556FBC50066D355 /* AVFoundation.framework */; };
@@ -78,8 +78,6 @@
 		242C9A0C14939435009A5BEC /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		242C9A1214939435009A5BEC /* KategoriViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KategoriViewController.h; sourceTree = "<group>"; };
 		242C9A1314939435009A5BEC /* KategoriViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KategoriViewController.m; sourceTree = "<group>"; };
-		242C9A1A14939435009A5BEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GameView.xib; sourceTree = "<group>"; };
-		242C9A1D14939435009A5BEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KategoriView.xib; sourceTree = "<group>"; };
 		242C9A2414939436009A5BEC /* OelspilTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OelspilTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		242C9A2514939436009A5BEC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		242C9A2D14939436009A5BEC /* OelspilTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OelspilTests-Info.plist"; sourceTree = "<group>"; };
@@ -112,6 +110,8 @@
 		24AA46B114D86DB0007ED153 /* id-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "id-card.png"; sourceTree = "<group>"; };
 		24AA46B314D86E84007ED153 /* Beerglass-full-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beerglass-full-256.png"; sourceTree = "<group>"; };
 		24AA46B714D87061007ED153 /* beer-mug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beer-mug.png"; sourceTree = "<group>"; };
+		24ABCE861576A7B50092C2CD /* GameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameView.xib; sourceTree = "<group>"; };
+		24ABCE891576A7D00092C2CD /* KategoriView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KategoriView.xib; sourceTree = "<group>"; };
 		24AF6742155C377C000F62F4 /* FavoriteListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteListViewController.h; sourceTree = "<group>"; };
 		24AF6743155C377C000F62F4 /* FavoriteListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteListViewController.m; sourceTree = "<group>"; };
 		24AF6744155C377C000F62F4 /* FavoriteListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoriteListView.xib; sourceTree = "<group>"; };
@@ -265,8 +265,8 @@
 			children = (
 				24324DB414D1DA0500496F10 /* AboutView.xib */,
 				24452EFF1493A03500913134 /* ChosenGamesView.xib */,
-				242C9A1914939435009A5BEC /* GameView.xib */,
-				242C9A1C14939435009A5BEC /* KategoriView.xib */,
+				24ABCE861576A7B50092C2CD /* GameView.xib */,
+				24ABCE891576A7D00092C2CD /* KategoriView.xib */,
 				2437A1B614CC882C00DB9BC3 /* PlayersView.xib */,
 				24AF6744155C377C000F62F4 /* FavoriteListView.xib */,
 			);
@@ -353,8 +353,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				242C9A0414939435009A5BEC /* InfoPlist.strings in Resources */,
-				242C9A1B14939435009A5BEC /* GameView.xib in Resources */,
-				242C9A1E14939435009A5BEC /* KategoriView.xib in Resources */,
+				24ABCE851576A7B50092C2CD /* GameView.xib in Resources */,
+				24ABCE881576A7D00092C2CD /* KategoriView.xib in Resources */,
 				24452F011493A03500913134 /* ChosenGamesView.xib in Resources */,
 				244CFB261497C3E4007977C0 /* Oelspil.plist in Resources */,
 				2437A1B814CC882C00DB9BC3 /* PlayersView.xib in Resources */,
@@ -448,22 +448,6 @@
 				242C9A0314939435009A5BEC /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		242C9A1914939435009A5BEC /* GameView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				242C9A1A14939435009A5BEC /* en */,
-			);
-			name = GameView.xib;
-			sourceTree = "<group>";
-		};
-		242C9A1C14939435009A5BEC /* KategoriView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				242C9A1D14939435009A5BEC /* en */,
-			);
-			name = KategoriView.xib;
 			sourceTree = "<group>";
 		};
 		242C9A2E14939436009A5BEC /* InfoPlist.strings */ = {

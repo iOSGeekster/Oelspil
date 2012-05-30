@@ -94,6 +94,10 @@
         self.title = NSLocalizedString(@"Favoritter", @"Favoritter");
         self.tabBarItem.image = [UIImage imageNamed:@"star-grey"];
     }
+    AppDelegate *delegate = (AppDelegate *) [[UIApplication sharedApplication] delegate];
+    if ([delegate.favoriteList count] > 0) {
+        self.tabBarItem.badgeValue = [NSString stringWithFormat:@"%d",[delegate.favoriteList count]];
+    }
     return self;
 }
 

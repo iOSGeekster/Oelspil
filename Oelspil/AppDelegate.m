@@ -132,6 +132,7 @@
 - (void)addToFavoriteList:(Oelspil*)game{
     [favoriteList addObject:game.title];
     [favoriteList writeToFile:[self favoriteFilePath] atomically:YES];
+    [self updateFavoriteBadge:[favoriteList count]];
 }
 
 - (void)saveFavoriteList{
@@ -141,6 +142,16 @@
 - (void)removeFromFavoriteList:(NSString *)title{
     [favoriteList removeObject:title];
     [favoriteList writeToFile:[self favoriteFilePath] atomically:YES];
+    [self updateFavoriteBadge:[favoriteList count]];
+}
+
+- (void)updateFavoriteBadge:(int)number{
+    UINavigationController *controller = [self.tabBarController.viewControllers objectAtIndex:2];
+    if (number == 0) {
+        controller.tabBarItem.badgeValue = nil;
+    } else {
+        controller.tabBarItem.badgeValue = [NSString stringWithFormat:@"%d",number];
+    }
 }
 
 
