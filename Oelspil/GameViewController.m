@@ -14,8 +14,8 @@
 @synthesize titleLabel;
 @synthesize valgtSpil;
 @synthesize descriptionTextView;
-@synthesize timeLabel;
-@synthesize propLabel;
+@synthesize timeText;
+@synthesize propText;
 @synthesize deltagerLabel;
 @synthesize diff1Image;
 @synthesize diff2Image;
@@ -100,8 +100,8 @@
     UITextView *textView = (UITextView*)[self.scrollView viewWithTag:kDescriptionTextView];
     textView.text = valgtSpil.description;
     self.titleLabel.text = valgtSpil.title;
-    self.timeLabel.text = valgtSpil.time;
-    self.propLabel.text = valgtSpil.props;
+    self.timeText.text = valgtSpil.time;
+    self.propText.text = valgtSpil.props;
     if(valgtSpil.maxPlayers == 999){
         self.deltagerLabel.text = [NSString stringWithFormat:@"%d - ? spillere", valgtSpil.minPlayers, valgtSpil.maxPlayers];
     }else if(valgtSpil.minPlayers == valgtSpil.maxPlayers){
@@ -162,10 +162,10 @@
     textView.editable = NO;
     textView.showsVerticalScrollIndicator = YES;
     textView.font = [UIFont fontWithName:@"Georgia" size:16.0];
+    
+    self.propText.backgroundColor = [UIColor clearColor];
+    self.timeText.backgroundColor = [UIColor clearColor];
 
-/*    textView.layer.borderWidth = 2.0f;
-    textView.layer.cornerRadius = 10;
-    textView.layer.borderColor = [[UIColor colorWithRed:255.0/255.0 green:204.0/255.0 blue:0.0/255.0 alpha:1.0] CGColor];*/
     [self.scrollView addSubview:textView];
     self.scrollView.contentSize = CGSizeMake(self.scrollView.frame.size.width * 2, self.scrollView.frame.size.height);
     self.scrollView.pagingEnabled = YES;
@@ -225,8 +225,8 @@
 {
     [self setDescriptionTextView:nil];
     [self setTitleLabel:nil];
-    [self setTimeLabel:nil];
-    [self setPropLabel:nil];
+    [self setTimeText:nil];
+    [self setPropText:nil];
     [self setDiff1Image:nil];
     [self setDiff2Image:nil];
     [self setDiff3Image:nil];

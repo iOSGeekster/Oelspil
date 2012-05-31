@@ -16,8 +16,8 @@
 @property (strong, nonatomic) IBOutlet UILabel *titleLabel;
 @property (strong, nonatomic) Oelspil *valgtSpil;
 @property (strong, nonatomic) IBOutlet UITextView *descriptionTextView;
-@property (strong, nonatomic) IBOutlet UILabel *timeLabel;
-@property (strong, nonatomic) IBOutlet UILabel *propLabel;
+@property (strong, nonatomic) IBOutlet UITextView *timeText;
+@property (strong, nonatomic) IBOutlet UITextView *propText;
 @property (strong, nonatomic) IBOutlet UILabel *deltagerLabel;
 @property (strong, nonatomic) IBOutlet UIImageView *diff1Image;
 @property (strong, nonatomic) IBOutlet UIImageView *diff2Image;
