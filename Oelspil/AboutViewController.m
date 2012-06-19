@@ -137,6 +137,10 @@
 - (void)viewDidUnload
 {
     [self setContentTableView:nil];
+    [self setBaseretCell:nil];
+    [self setCopyrightCell:nil];
+    [self setContactCell:nil];
+    [self setVersionCell:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
