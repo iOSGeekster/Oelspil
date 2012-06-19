@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2423DE5815850BD100B3B852 /* nav-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2423DE5615850BD100B3B852 /* nav-bar.png */; };
+		2423DE5915850BD100B3B852 /* nav-bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2423DE5715850BD100B3B852 /* nav-bar@2x.png */; };
 		242C99FA14939435009A5BEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242C99F914939435009A5BEC /* UIKit.framework */; };
 		242C99FC14939435009A5BEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242C99FB14939435009A5BEC /* Foundation.framework */; };
 		242C99FE14939435009A5BEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242C99FD14939435009A5BEC /* CoreGraphics.framework */; };
@@ -46,6 +48,10 @@
 		24ABCE881576A7D00092C2CD /* KategoriView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCE891576A7D00092C2CD /* KategoriView.xib */; };
 		24AF6745155C377C000F62F4 /* FavoriteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF6743155C377C000F62F4 /* FavoriteListViewController.m */; };
 		24AF6746155C377C000F62F4 /* FavoriteListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AF6744155C377C000F62F4 /* FavoriteListView.xib */; };
+		24C38C281586795C008F4772 /* back-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C38C261586795C008F4772 /* back-button.png */; };
+		24C38C291586795C008F4772 /* back-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C38C271586795C008F4772 /* back-button@2x.png */; };
+		24C38C2C15867AF5008F4772 /* bar-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C38C2A15867AF5008F4772 /* bar-button.png */; };
+		24C38C2D15867AF5008F4772 /* bar-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C38C2B15867AF5008F4772 /* bar-button@2x.png */; };
 		24CDDE7B1556FBEC0066D355 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CDDE791556FBC50066D355 /* AVFoundation.framework */; };
 		24F3787C152A12660087FD92 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F3787A152A12660087FD92 /* Icon.png */; };
 		24F3787D152A12660087FD92 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F3787B152A12660087FD92 /* Icon@2x.png */; };
@@ -64,6 +70,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2423DE5615850BD100B3B852 /* nav-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-bar.png"; sourceTree = "<group>"; };
+		2423DE5715850BD100B3B852 /* nav-bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-bar@2x.png"; sourceTree = "<group>"; };
 		242C99F514939435009A5BEC /* Oelspil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oelspil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		242C99F914939435009A5BEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		242C99FB14939435009A5BEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -115,6 +123,10 @@
 		24AF6742155C377C000F62F4 /* FavoriteListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteListViewController.h; sourceTree = "<group>"; };
 		24AF6743155C377C000F62F4 /* FavoriteListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteListViewController.m; sourceTree = "<group>"; };
 		24AF6744155C377C000F62F4 /* FavoriteListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoriteListView.xib; sourceTree = "<group>"; };
+		24C38C261586795C008F4772 /* back-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-button.png"; sourceTree = "<group>"; };
+		24C38C271586795C008F4772 /* back-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-button@2x.png"; sourceTree = "<group>"; };
+		24C38C2A15867AF5008F4772 /* bar-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-button.png"; sourceTree = "<group>"; };
+		24C38C2B15867AF5008F4772 /* bar-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-button@2x.png"; sourceTree = "<group>"; };
 		24CDDE791556FBC50066D355 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		24F3787A152A12660087FD92 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		24F3787B152A12660087FD92 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
@@ -151,6 +163,12 @@
 		24158741152A18FE006EE8AE /* img */ = {
 			isa = PBXGroup;
 			children = (
+				24C38C2A15867AF5008F4772 /* bar-button.png */,
+				24C38C2B15867AF5008F4772 /* bar-button@2x.png */,
+				24C38C261586795C008F4772 /* back-button.png */,
+				24C38C271586795C008F4772 /* back-button@2x.png */,
+				2423DE5615850BD100B3B852 /* nav-bar.png */,
+				2423DE5715850BD100B3B852 /* nav-bar@2x.png */,
 				247D8464155FEB0300D2A9AE /* star-grey.png */,
 				247D8465155FEB0300D2A9AE /* star-grey@2x.png */,
 				247D8460155FEACF00D2A9AE /* star-white.png */,
@@ -327,7 +345,7 @@
 		242C99EC14939435009A5BEC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = 242C99EF14939435009A5BEC /* Build configuration list for PBXProject "Oelspil" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -377,6 +395,12 @@
 				247D8463155FEACF00D2A9AE /* star-white@2x.png in Resources */,
 				247D8466155FEB0300D2A9AE /* star-grey.png in Resources */,
 				247D8467155FEB0300D2A9AE /* star-grey@2x.png in Resources */,
+				2423DE5815850BD100B3B852 /* nav-bar.png in Resources */,
+				2423DE5915850BD100B3B852 /* nav-bar@2x.png in Resources */,
+				24C38C281586795C008F4772 /* back-button.png in Resources */,
+				24C38C291586795C008F4772 /* back-button@2x.png in Resources */,
+				24C38C2C15867AF5008F4772 /* bar-button.png in Resources */,
+				24C38C2D15867AF5008F4772 /* bar-button@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,7 +602,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "79B2071B-D792-44F4-90B4-C6A17B2E8943";
+				PROVISIONING_PROFILE = "C0E14759-B888-450A-BE7C-62E6F79F99A8";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -592,7 +616,7 @@
 				GCC_PREFIX_HEADER = "Oelspil/Oelspil-Prefix.pch";
 				INFOPLIST_FILE = "Oelspil/Oelspil-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "03EF5117-9664-40D6-92A5-AC033A98CD34";
+				PROVISIONING_PROFILE = "C0E14759-B888-450A-BE7C-62E6F79F99A8";
 				WRAPPER_EXTENSION = app;
 			};
 			name = "Ad-Hoc";

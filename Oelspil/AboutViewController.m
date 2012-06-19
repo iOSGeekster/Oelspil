@@ -9,6 +9,7 @@
 #import "AboutViewController.h"
 
 @implementation AboutViewController
+@synthesize contentTableView;
 @synthesize contactCell,copyrightCell,baseretCell,versionCell;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -129,11 +130,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"Default"]];
+    self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"Default.png"]];
+    self.contentTableView.backgroundView = nil;
 }
 
 - (void)viewDidUnload
 {
+    [self setContentTableView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

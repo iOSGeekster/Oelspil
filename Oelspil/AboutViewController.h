@@ -14,4 +14,5 @@
 @property (strong, nonatomic) IBOutlet UITableViewCell *copyrightCell;
 @property (strong, nonatomic) IBOutlet UITableViewCell *baseretCell;
 @property (strong, nonatomic) IBOutlet UITableViewCell *versionCell;
+@property (strong, nonatomic) IBOutlet UITableView *contentTableView;
 @end

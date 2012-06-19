@@ -29,6 +29,16 @@
     [self customizeInterface];
     [self loadFavoriteList];
     
+    UIImage *backgroundImage = [UIImage imageNamed:@"nav-bar"];
+    [[UINavigationBar appearance] setBackgroundImage:backgroundImage forBarMetrics:UIBarMetricsDefault];
+    
+    UIImage *buttonBackground = [[UIImage imageNamed:@"bar-button"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 5, -2, 5)];
+    [[UIBarButtonItem appearance] setBackgroundImage:buttonBackground forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+    
+    UIImage *backButtonBackground = [[UIImage imageNamed:@"back-button"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 15, -2, 6)];
+
+    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:backButtonBackground forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+    
     UIViewController *gameViewController = [[GameViewController alloc] initWithNibName:@"GameView" bundle:nil];
     UINavigationController *navControllerForGameView = [[UINavigationController alloc] initWithRootViewController:gameViewController];
     UIViewController *kategoriViewController = [[KategoriViewController alloc] initWithNibName:@"KategoriView" bundle:nil];

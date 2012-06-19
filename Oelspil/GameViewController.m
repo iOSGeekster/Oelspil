@@ -25,12 +25,13 @@
 @synthesize pageControl;
 @synthesize scrollView;
 
-@interface GameViewController (PrivateMethods)
+/*@interface GameViewController (PrivateMethods)
 - (IBAction)pageChanged;
 - (void)moreOptions;
 - (void)addGameAsFavorite:(Oelspil*)game;
 
-@end
+@end*/
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -103,7 +104,7 @@
     self.timeText.text = valgtSpil.time;
     self.propText.text = valgtSpil.props;
     if(valgtSpil.maxPlayers == 999){
-        self.deltagerLabel.text = [NSString stringWithFormat:@"%d - ? spillere", valgtSpil.minPlayers, valgtSpil.maxPlayers];
+        self.deltagerLabel.text = [NSString stringWithFormat:@"%d - ? spillere", valgtSpil.minPlayers];
     }else if(valgtSpil.minPlayers == valgtSpil.maxPlayers){
         self.deltagerLabel.text = [NSString stringWithFormat:@"%d spillere", valgtSpil.minPlayers];
     }else {
@@ -171,6 +172,7 @@
     self.scrollView.pagingEnabled = YES;
     self.scrollView.showsVerticalScrollIndicator = NO;
     self.scrollView.showsHorizontalScrollIndicator = NO;
+
     [self updateView];
 }
 
