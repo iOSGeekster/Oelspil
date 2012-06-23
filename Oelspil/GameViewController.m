@@ -121,6 +121,9 @@
 }
 
 - (void)showShareMenu{
+    //TODO remove when submitting for iOS6. Or use, when submitting update for iOS 5
+/*    UIActionSheet *optionsSheet = [[UIActionSheet alloc] initWithTitle:@"Muligheder" delegate:self cancelButtonTitle:@"Annuller" destructiveButtonTitle:nil otherButtonTitles:@"Tilføj som favorit", @"Del via E-mail", nil];
+    [optionsSheet showFromBarButtonItem:self.navigationItem.rightBarButtonItem animated:YES];*/
     NSString *concatTitle = [NSString stringWithFormat:@"Ølspillet: %@\n\n%@",valgtSpil.title,valgtSpil.description];
     UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems:@[concatTitle] applicationActivities:nil];
     activityController.excludedActivityTypes = @[ UIActivityTypePostToWeibo,
@@ -174,6 +177,7 @@
 }
 
 #pragma mark Actionsheet method
+//TODO remove when submitting for iOS6
 -(void) actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex{
     if(buttonIndex == 0){
         [self addGameAsFavorite:valgtSpil];
@@ -201,6 +205,7 @@
 }
 
 #pragma mark MFMailCompose methods
+//TODO remove when submitting for iOS6
 -(void) mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error
 {
     UIAlertView *alertView = [[UIAlertView new] initWithTitle:@"" message:@"" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
