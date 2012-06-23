@@ -48,6 +48,7 @@
 		24ABCE881576A7D00092C2CD /* KategoriView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCE891576A7D00092C2CD /* KategoriView.xib */; };
 		24AF6745155C377C000F62F4 /* FavoriteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF6743155C377C000F62F4 /* FavoriteListViewController.m */; };
 		24AF6746155C377C000F62F4 /* FavoriteListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AF6744155C377C000F62F4 /* FavoriteListView.xib */; };
+		24AF9BB61590FE3300F6A23F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AF9BB51590FE3300F6A23F /* Social.framework */; };
 		24C38C281586795C008F4772 /* back-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C38C261586795C008F4772 /* back-button.png */; };
 		24C38C291586795C008F4772 /* back-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C38C271586795C008F4772 /* back-button@2x.png */; };
 		24C38C2C15867AF5008F4772 /* bar-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C38C2A15867AF5008F4772 /* bar-button.png */; };
@@ -123,6 +124,7 @@
 		24AF6742155C377C000F62F4 /* FavoriteListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteListViewController.h; sourceTree = "<group>"; };
 		24AF6743155C377C000F62F4 /* FavoriteListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteListViewController.m; sourceTree = "<group>"; };
 		24AF6744155C377C000F62F4 /* FavoriteListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoriteListView.xib; sourceTree = "<group>"; };
+		24AF9BB51590FE3300F6A23F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		24C38C261586795C008F4772 /* back-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-button.png"; sourceTree = "<group>"; };
 		24C38C271586795C008F4772 /* back-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-button@2x.png"; sourceTree = "<group>"; };
 		24C38C2A15867AF5008F4772 /* bar-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-button.png"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24AF9BB61590FE3300F6A23F /* Social.framework in Frameworks */,
 				24CDDE7B1556FBEC0066D355 /* AVFoundation.framework in Frameworks */,
 				242E64E114DF205900EF5464 /* MessageUI.framework in Frameworks */,
 				242C99FA14939435009A5BEC /* UIKit.framework in Frameworks */,
@@ -212,6 +215,7 @@
 		242C99F814939435009A5BEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				24AF9BB51590FE3300F6A23F /* Social.framework */,
 				24CDDE791556FBC50066D355 /* AVFoundation.framework */,
 				242E64E014DF205900EF5464 /* MessageUI.framework */,
 				242C99F914939435009A5BEC /* UIKit.framework */,

@@ -25,13 +25,6 @@
 @synthesize pageControl;
 @synthesize scrollView;
 
-/*@interface GameViewController (PrivateMethods)
-- (IBAction)pageChanged;
-- (void)moreOptions;
-- (void)addGameAsFavorite:(Oelspil*)game;
-
-@end*/
-
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -127,9 +120,13 @@
     [self updateView];
 }
 
-- (void)moreOptions{
-    UIActionSheet *optionsSheet = [[UIActionSheet alloc] initWithTitle:@"Muligheder" delegate:self cancelButtonTitle:@"Annuller" destructiveButtonTitle:nil otherButtonTitles:@"Tilføj som favorit", @"Del via E-mail", nil];
-    [optionsSheet showFromBarButtonItem:self.navigationItem.rightBarButtonItem animated:YES];
+- (void)showShareMenu{
+    NSString *concatTitle = [NSString stringWithFormat:@"Ølspillet: %@\n\n%@",valgtSpil.title,valgtSpil.description];
+    UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems:@[concatTitle] applicationActivities:nil];
+    activityController.excludedActivityTypes = @[ UIActivityTypePostToWeibo,
+    UIActivityTypePostToTwitter,
+    UIActivityTypeAssignToContact];
+    [self presentModalViewController:activityController animated:YES];
 }
 
 - (void)viewDidLoad
@@ -146,7 +143,7 @@
         valgtSpil = [appDelegate.oelspil objectAtIndex:randomNumber];
     }
 
-    UIBarButtonItem *optionsButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"star-white"] landscapeImagePhone:nil style:UIBarButtonItemStyleBordered target:self action:@selector(moreOptions)];
+    UIBarButtonItem *optionsButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"star-white"] landscapeImagePhone:nil style:UIBarButtonItemStyleBordered target:self action:@selector(showShareMenu)];
 
     self.navigationItem.rightBarButtonItem = optionsButton;
 
