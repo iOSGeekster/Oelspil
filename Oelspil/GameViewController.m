@@ -88,7 +88,7 @@
         default:
             break;
     }
-    
+    NSLog(@"test");
     self.navigationItem.title = valgtSpil.title;
     self.descriptionTextView.text = valgtSpil.description;
     UITextView *textView = (UITextView*)[self.scrollView viewWithTag:kDescriptionTextView];
