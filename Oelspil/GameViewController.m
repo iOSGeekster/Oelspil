@@ -85,14 +85,14 @@
 
 - (void)showShareMenu{
     //TODO remove when submitting for iOS6. Or use, when submitting update for iOS 5
-/*    UIActionSheet *optionsSheet = [[UIActionSheet alloc] initWithTitle:@"Muligheder" delegate:self cancelButtonTitle:@"Annuller" destructiveButtonTitle:nil otherButtonTitles:@"Tilføj som favorit", @"Del via E-mail", nil];
-    [optionsSheet showFromBarButtonItem:self.navigationItem.rightBarButtonItem animated:YES];*/
-    NSString *concatTitle = [NSString stringWithFormat:@"Ølspillet: %@\n\n%@",valgtSpil.title,valgtSpil.description];
+    UIActionSheet *optionsSheet = [[UIActionSheet alloc] initWithTitle:@"Muligheder" delegate:self cancelButtonTitle:@"Annuller" destructiveButtonTitle:nil otherButtonTitles:@"Tilføj som favorit", @"Del via E-mail", nil];
+    [optionsSheet showFromBarButtonItem:self.navigationItem.rightBarButtonItem animated:YES];
+    /*NSString *concatTitle = [NSString stringWithFormat:@"Ølspillet: %@\n\n%@",valgtSpil.title,valgtSpil.description];
     UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems:@[concatTitle] applicationActivities:nil];
     activityController.excludedActivityTypes = @[ UIActivityTypePostToWeibo,
     UIActivityTypePostToTwitter,
     UIActivityTypeAssignToContact];
-    [self presentModalViewController:activityController animated:YES];
+    [self presentModalViewController:activityController animated:YES];*/
 }
 
 - (void)viewDidLoad
