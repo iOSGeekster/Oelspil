@@ -21,5 +21,5 @@
 - (UIViewController *)activityViewController;
 - (void)performActivity;
 - (void)activityDidFinish:(BOOL)completed;
-- (id)initWithViewController:(GameViewController*)controller andGame:(Oelspil *)game;
+- (id)initWithViewController:(GameViewController*)controller;
 @end

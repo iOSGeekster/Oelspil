@@ -10,9 +10,8 @@
 #import "Oelspil.h"
 @implementation FavoriteActivity
 
-- (id)initWithViewController:(GameViewController*)controller andGame:(Oelspil *)game{
+- (id)initWithViewController:(GameViewController*)controller{
     self.controller = controller;
-    self.game = game;
     return self;
 }
 
@@ -29,7 +28,13 @@
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems{
-    return YES;
+    BOOL canPerform = NO;
+    for (id object in activityItems) {
+        if ([object isKindOfClass:[Oelspil class]]) {
+            canPerform = YES;
+        }
+    }
+    return canPerform;
 }
 
 - (void)performActivity{
@@ -38,7 +43,11 @@
 }
 
 - (void)prepareWithActivityItems:(NSArray *)activityItems{
-    
+    for (id object in activityItems) {
+        if ([object isKindOfClass:[Oelspil class]]) {
+            self.game = (Oelspil *)object;
+        }
+    }
 }
 
 - (UIViewController *)activityViewController{

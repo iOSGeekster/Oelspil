@@ -10,7 +10,7 @@
 #import "MessageUI/MessageUI.h"
 #import "Oelspil.h"
 
-@interface GameViewController : UIViewController <UIScrollViewDelegate, UIActionSheetDelegate, MFMailComposeViewControllerDelegate>{
+@interface GameViewController : UIViewController <UIScrollViewDelegate>{
     BOOL pageControlBeingUsed;
 }
 @property (strong, nonatomic) IBOutlet UILabel *titleLabel;

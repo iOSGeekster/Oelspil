@@ -85,12 +85,9 @@
 }
 
 - (void)showShareMenu{
-    //TODO remove when submitting for iOS6. Or use, when submitting update for iOS 5
-/*    UIActionSheet *optionsSheet = [[UIActionSheet alloc] initWithTitle:@"Muligheder" delegate:self cancelButtonTitle:@"Annuller" destructiveButtonTitle:nil otherButtonTitles:@"Tilføj som favorit", @"Del via E-mail", nil];
-    [optionsSheet showFromBarButtonItem:self.navigationItem.rightBarButtonItem animated:YES];*/
     NSString *concatTitle = [NSString stringWithFormat:@"Ølspillet: %@\n\n%@",valgtSpil.title,valgtSpil.description];
-    FavoriteActivity *customActivity = [[FavoriteActivity alloc] initWithViewController:self andGame:valgtSpil];
-    UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems:@[concatTitle] applicationActivities:@[customActivity]];
+    FavoriteActivity *customActivity = [[FavoriteActivity alloc] initWithViewController:self];
+    UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems:@[concatTitle, valgtSpil] applicationActivities:@[customActivity]];
     activityController.excludedActivityTypes = @[ UIActivityTypePostToWeibo,
     UIActivityTypePostToTwitter,
     UIActivityTypeAssignToContact,
@@ -142,24 +139,6 @@
     [self updateView];
 }
 
-#pragma mark Actionsheet method
-//TODO remove when submitting for iOS6
--(void) actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex{
-    if(buttonIndex == 0){
-        [self addGameAsFavorite:valgtSpil];
-    } else{
-        if(buttonIndex == 1){
-            MFMailComposeViewController *mailController = [[MFMailComposeViewController alloc] init];
-            [mailController setSubject:@"Ølspil"];
-            NSString *mailText = [NSString stringWithFormat:@"%@\n\nRekvisitter: %@\n\nVarighed: %@\n\nBeskrivelse: %@",valgtSpil.title, valgtSpil.props,valgtSpil.time, valgtSpil.description];
-        
-            [mailController setMessageBody:mailText isHTML:NO];
-            mailController.mailComposeDelegate = self;
-            [self presentViewController:mailController animated:YES completion:nil];
-        }
-    }
-}
-
 - (void)addGameAsFavorite:(Oelspil*)game{
     AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     if([delegate.favoriteList containsObject:game.title]){
@@ -168,27 +147,6 @@
     }else{
         [delegate addToFavoriteList:game];
     }
-}
-
-#pragma mark MFMailCompose methods
-//TODO remove when submitting for iOS6
--(void) mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error
-{
-    UIAlertView *alertView = [[UIAlertView new] initWithTitle:@"" message:@"" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
-    switch (result) {
-    case MessageComposeResultSent:
-        alertView.title = NSLocalizedString(@"Sendt", nil);
-        alertView.message = NSLocalizedString(@"Mailen blev sendt", nil);
-        [alertView show];
-        break;
-    case MessageComposeResultFailed:
-        alertView.title = NSLocalizedString(@"Fejl", nil);
-        alertView.message = NSLocalizedString(@"Kunne ikke sende mail", nil);
-        [alertView show];
-    default:
-        break;
-    }
-    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)viewDidUnload
