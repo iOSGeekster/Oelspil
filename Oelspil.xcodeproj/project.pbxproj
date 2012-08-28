@@ -49,6 +49,7 @@
 		24AF6745155C377C000F62F4 /* FavoriteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF6743155C377C000F62F4 /* FavoriteListViewController.m */; };
 		24AF6746155C377C000F62F4 /* FavoriteListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AF6744155C377C000F62F4 /* FavoriteListView.xib */; };
 		24AF9BB61590FE3300F6A23F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AF9BB51590FE3300F6A23F /* Social.framework */; };
+		24B34A1015ED42F4000EDF96 /* FavoriteActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B34A0F15ED42F4000EDF96 /* FavoriteActivity.m */; };
 		24C38C281586795C008F4772 /* back-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C38C261586795C008F4772 /* back-button.png */; };
 		24C38C291586795C008F4772 /* back-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C38C271586795C008F4772 /* back-button@2x.png */; };
 		24C38C2C15867AF5008F4772 /* bar-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C38C2A15867AF5008F4772 /* bar-button.png */; };
@@ -125,6 +126,8 @@
 		24AF6743155C377C000F62F4 /* FavoriteListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteListViewController.m; sourceTree = "<group>"; };
 		24AF6744155C377C000F62F4 /* FavoriteListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoriteListView.xib; sourceTree = "<group>"; };
 		24AF9BB51590FE3300F6A23F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		24B34A0E15ED42F4000EDF96 /* FavoriteActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteActivity.h; sourceTree = "<group>"; };
+		24B34A0F15ED42F4000EDF96 /* FavoriteActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteActivity.m; sourceTree = "<group>"; };
 		24C38C261586795C008F4772 /* back-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-button.png"; sourceTree = "<group>"; };
 		24C38C271586795C008F4772 /* back-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-button@2x.png"; sourceTree = "<group>"; };
 		24C38C2A15867AF5008F4772 /* bar-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-button.png"; sourceTree = "<group>"; };
@@ -247,6 +250,8 @@
 				2437A1B514CC882C00DB9BC3 /* PlayersViewController.m */,
 				24324DB214D1DA0500496F10 /* AboutViewController.h */,
 				24324DB314D1DA0500496F10 /* AboutViewController.m */,
+				24B34A0E15ED42F4000EDF96 /* FavoriteActivity.h */,
+				24B34A0F15ED42F4000EDF96 /* FavoriteActivity.m */,
 			);
 			path = Oelspil;
 			sourceTree = "<group>";
@@ -448,6 +453,7 @@
 				2437A1B714CC882C00DB9BC3 /* PlayersViewController.m in Sources */,
 				24324DB514D1DA0500496F10 /* AboutViewController.m in Sources */,
 				24AF6745155C377C000F62F4 /* FavoriteListViewController.m in Sources */,
+				24B34A1015ED42F4000EDF96 /* FavoriteActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +546,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Oelspil/Oelspil-Prefix.pch";
 				INFOPLIST_FILE = "Oelspil/Oelspil-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -551,6 +558,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Oelspil/Oelspil-Prefix.pch";
 				INFOPLIST_FILE = "Oelspil/Oelspil-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -619,6 +627,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Oelspil/Oelspil-Prefix.pch";
 				INFOPLIST_FILE = "Oelspil/Oelspil-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "C0E14759-B888-450A-BE7C-62E6F79F99A8";
 				WRAPPER_EXTENSION = app;
