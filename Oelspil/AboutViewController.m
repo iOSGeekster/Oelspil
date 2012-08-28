@@ -37,17 +37,17 @@
         case 0:
             baseretCell.textLabel.text = @"Baseret på bogen 'Ølspil' af Anders Højberg Byrgesen";
             baseretCell.textLabel.numberOfLines = 2;
-            baseretCell.textLabel.textAlignment = UITextAlignmentCenter;
+            baseretCell.textLabel.textAlignment = NSTextAlignmentCenter;
             return baseretCell;
             break;
         case 1:
             contactCell.textLabel.text = @"contact@tallisoft.dk";
-            contactCell.textLabel.textAlignment = UITextAlignmentCenter;
+            contactCell.textLabel.textAlignment = NSTextAlignmentCenter;
             return contactCell;
             break;
         case 2:
             copyrightCell.textLabel.text = @"© Tallisoft.dk 2012";
-            copyrightCell.textLabel.textAlignment = UITextAlignmentCenter;
+            copyrightCell.textLabel.textAlignment = NSTextAlignmentCenter;
             return copyrightCell;
             break;
         case 3:
@@ -65,7 +65,7 @@
         MFMailComposeViewController *mailController = [[MFMailComposeViewController alloc] init];
         [mailController setSubject:@"Ang. Ølspil"];
         mailController.mailComposeDelegate = self;
-        [self presentModalViewController:mailController animated:YES];
+        [self presentViewController:mailController animated:YES completion:nil];
     }
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
@@ -122,7 +122,7 @@
         default:
             break;
     }
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 #pragma mark - View lifecycle

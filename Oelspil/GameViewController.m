@@ -9,6 +9,7 @@
 #import "GameViewController.h"
 #import "AppDelegate.h"
 #import "Oelspil.h"
+#import "FavoriteActivity.h"
 #define kDescriptionTextView 666
 @implementation GameViewController
 @synthesize titleLabel;
@@ -88,11 +89,13 @@
 /*    UIActionSheet *optionsSheet = [[UIActionSheet alloc] initWithTitle:@"Muligheder" delegate:self cancelButtonTitle:@"Annuller" destructiveButtonTitle:nil otherButtonTitles:@"Tilføj som favorit", @"Del via E-mail", nil];
     [optionsSheet showFromBarButtonItem:self.navigationItem.rightBarButtonItem animated:YES];*/
     NSString *concatTitle = [NSString stringWithFormat:@"Ølspillet: %@\n\n%@",valgtSpil.title,valgtSpil.description];
-    UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems:@[concatTitle] applicationActivities:nil];
+    FavoriteActivity *customActivity = [[FavoriteActivity alloc] initWithViewController:self andGame:valgtSpil];
+    UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems:@[concatTitle] applicationActivities:@[customActivity]];
     activityController.excludedActivityTypes = @[ UIActivityTypePostToWeibo,
     UIActivityTypePostToTwitter,
-    UIActivityTypeAssignToContact];
-    [self presentModalViewController:activityController animated:YES];
+    UIActivityTypeAssignToContact,
+    UIActivityTypeCopyToPasteboard];
+    [self presentViewController:activityController animated:YES completion:nil];
 }
 
 - (void)viewDidLoad
@@ -152,7 +155,7 @@
         
             [mailController setMessageBody:mailText isHTML:NO];
             mailController.mailComposeDelegate = self;
-            [self presentModalViewController:mailController animated:YES];
+            [self presentViewController:mailController animated:YES completion:nil];
         }
     }
 }
@@ -185,7 +188,7 @@
     default:
         break;
     }
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)viewDidUnload

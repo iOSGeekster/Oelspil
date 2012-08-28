@@ -122,7 +122,6 @@
 }
 
 - (void)customizeInterface{
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackTranslucent];
     _window.rootViewController.wantsFullScreenLayout = YES;
     UIColor *tangerineYellow = [UIColor colorWithRed:255.0/255.0 green:204.0/255.0 blue:0.0/255.0 alpha:1.0];
 //    [[UINavigationBar appearance] setTintColor:tangerineYellow];

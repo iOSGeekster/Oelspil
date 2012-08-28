@@ -27,4 +27,5 @@
 @property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 - (id)initWithOelspil:(Oelspil *)spil;
+- (void)addGameAsFavorite:(Oelspil *)game;
 @end
