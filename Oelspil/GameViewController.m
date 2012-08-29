@@ -90,8 +90,7 @@
     UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems:@[concatTitle, valgtSpil] applicationActivities:@[customActivity]];
     activityController.excludedActivityTypes = @[ UIActivityTypePostToWeibo,
     UIActivityTypePostToTwitter,
-    UIActivityTypeAssignToContact,
-    UIActivityTypeCopyToPasteboard];
+    UIActivityTypeAssignToContact];
     [self presentViewController:activityController animated:YES completion:nil];
 }
 
