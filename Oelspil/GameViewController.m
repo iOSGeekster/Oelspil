@@ -109,7 +109,7 @@
         valgtSpil = [appDelegate.oelspil objectAtIndex:randomNumber];
     }
 
-    UIBarButtonItem *optionsButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"star-white"] landscapeImagePhone:nil style:UIBarButtonItemStyleBordered target:self action:@selector(showShareMenu)];
+    UIBarButtonItem *optionsButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(showShareMenu)];
 
     self.navigationItem.rightBarButtonItem = optionsButton;
 

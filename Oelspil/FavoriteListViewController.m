@@ -92,7 +92,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = NSLocalizedString(@"Favoritter", @"Favoritter");
-        self.tabBarItem.image = [UIImage imageNamed:@"star-grey"];
+        [self setTabBarItem:[[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFavorites tag:0]];
     }
     AppDelegate *delegate = (AppDelegate *) [[UIApplication sharedApplication] delegate];
     if ([delegate.favoriteList count] > 0) {
