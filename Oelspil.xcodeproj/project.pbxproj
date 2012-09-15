@@ -35,6 +35,7 @@
 		24452F011493A03500913134 /* ChosenGamesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24452EFF1493A03500913134 /* ChosenGamesView.xib */; };
 		24452F0B1493C4DD00913134 /* Oelspil.m in Sources */ = {isa = PBXBuildFile; fileRef = 24452F0A1493C4DD00913134 /* Oelspil.m */; };
 		244CFB261497C3E4007977C0 /* Oelspil.plist in Resources */ = {isa = PBXBuildFile; fileRef = 244CFB251497C3E4007977C0 /* Oelspil.plist */; };
+		249296851604D6DD00F3494A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24D3549616047B160007E0DD /* Default-568h@2x.png */; };
 		24AA46AE14D86CD0007ED153 /* group.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AA46AD14D86CD0007ED153 /* group.png */; };
 		24AA46B014D86D24007ED153 /* notepad.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AA46AF14D86D23007ED153 /* notepad.png */; };
 		24AA46B214D86DB0007ED153 /* id-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AA46B114D86DB0007ED153 /* id-card.png */; };
@@ -51,7 +52,6 @@
 		24C38C2C15867AF5008F4772 /* bar-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C38C2A15867AF5008F4772 /* bar-button.png */; };
 		24C38C2D15867AF5008F4772 /* bar-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C38C2B15867AF5008F4772 /* bar-button@2x.png */; };
 		24CDDE7B1556FBEC0066D355 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CDDE791556FBC50066D355 /* AVFoundation.framework */; };
-		24D3549716047B160007E0DD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24D3549616047B160007E0DD /* Default-568h@2x.png */; };
 		24F3787C152A12660087FD92 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F3787A152A12660087FD92 /* Icon.png */; };
 		24F3787D152A12660087FD92 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F3787B152A12660087FD92 /* Icon@2x.png */; };
 		24F97FDC154D981300CBBFC7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F97FDB154D981300CBBFC7 /* Default.png */; };
@@ -397,7 +397,7 @@
 				24C38C291586795C008F4772 /* back-button@2x.png in Resources */,
 				24C38C2C15867AF5008F4772 /* bar-button.png in Resources */,
 				24C38C2D15867AF5008F4772 /* bar-button@2x.png in Resources */,
-				24D3549716047B160007E0DD /* Default-568h@2x.png in Resources */,
+				249296851604D6DD00F3494A /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

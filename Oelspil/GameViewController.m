@@ -131,10 +131,14 @@
 
     [self.scrollView addSubview:textView];
     self.scrollView.contentSize = CGSizeMake(self.scrollView.frame.size.width * 2, self.scrollView.frame.size.height);
+    
     self.scrollView.pagingEnabled = YES;
     self.scrollView.showsVerticalScrollIndicator = NO;
     self.scrollView.showsHorizontalScrollIndicator = NO;
-
+    
+    CGRect pageControlSize = CGRectMake(0, (self.tabBarController.tabBar.frame.origin.y - self.tabBarController.tabBar.frame.size.height)- 50, 320, 36);
+    self.pageControl.frame = pageControlSize;
+    
     [self updateView];
 }
 

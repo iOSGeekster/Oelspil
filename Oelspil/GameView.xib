@@ -2,13 +2,13 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1536</int>
-		<string key="IBDocument.SystemVersion">11E53</string>
-		<string key="IBDocument.InterfaceBuilderVersion">2809</string>
-		<string key="IBDocument.AppKitVersion">1138.47</string>
-		<string key="IBDocument.HIToolboxVersion">569.00</string>
+		<string key="IBDocument.SystemVersion">12B19</string>
+		<string key="IBDocument.InterfaceBuilderVersion">2840</string>
+		<string key="IBDocument.AppKitVersion">1187</string>
+		<string key="IBDocument.HIToolboxVersion">624.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">1884</string>
+			<string key="NS.object.0">1926</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>IBProxyObject</string>
@@ -54,14 +54,15 @@
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<nil key="IBUIHighlightedColor"/>
-								<int key="IBUIBaselineAdjustment">1</int>
-								<float key="IBUIMinimumScaleFactor">0.5</float>
 								<string key="IBUIText">Label</string>
 								<object class="NSColor" key="IBUITextColor" id="945691704">
 									<int key="NSColorSpace">1</int>
 									<bytes key="NSRGB">MCAwIDAAA</bytes>
+									<string key="IBUIColorCocoaTouchKeyPath">darkTextColor</string>
 								</object>
+								<nil key="IBUIHighlightedColor"/>
+								<int key="IBUIBaselineAdjustment">1</int>
+								<float key="IBUIMinimumScaleFactor">0.5</float>
 								<object class="IBUIFontDescription" key="IBUIFontDescription">
 									<string key="name">Georgia</string>
 									<string key="family">Georgia</string>
@@ -73,7 +74,6 @@
 									<double key="NSSize">26</double>
 									<int key="NSfFlags">16</int>
 								</object>
-								<int key="IBUIAutoshrinkMode">1</int>
 							</object>
 							<object class="IBUILabel" id="462921523">
 								<reference key="NSNextResponder" ref="739652347"/>
@@ -86,11 +86,11 @@
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+								<string key="IBUIText">Sværhedsgrad:</string>
+								<reference key="IBUITextColor" ref="945691704"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
 								<float key="IBUIMinimumScaleFactor">0.5</float>
-								<string key="IBUIText">Sværhedsgrad:</string>
-								<reference key="IBUITextColor" ref="945691704"/>
 								<object class="IBUIFontDescription" key="IBUIFontDescription" id="395789581">
 									<string key="name">Georgia</string>
 									<string key="family">Georgia</string>
@@ -102,7 +102,6 @@
 									<double key="NSSize">22</double>
 									<int key="NSfFlags">16</int>
 								</object>
-								<int key="IBUIAutoshrinkMode">1</int>
 							</object>
 							<object class="IBUILabel" id="894249904">
 								<reference key="NSNextResponder" ref="739652347"/>
@@ -115,14 +114,13 @@
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+								<string key="IBUIText">Varighed:</string>
+								<reference key="IBUITextColor" ref="945691704"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
 								<float key="IBUIMinimumScaleFactor">0.5</float>
-								<string key="IBUIText">Varighed:</string>
-								<reference key="IBUITextColor" ref="945691704"/>
 								<reference key="IBUIFontDescription" ref="395789581"/>
 								<reference key="IBUIFont" ref="495810873"/>
-								<int key="IBUIAutoshrinkMode">1</int>
 							</object>
 							<object class="IBUILabel" id="109977060">
 								<reference key="NSNextResponder" ref="739652347"/>
@@ -135,14 +133,13 @@
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+								<string key="IBUIText">Rekvisitter:</string>
+								<reference key="IBUITextColor" ref="945691704"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
 								<float key="IBUIMinimumScaleFactor">0.5</float>
-								<string key="IBUIText">Rekvisitter:</string>
-								<reference key="IBUITextColor" ref="945691704"/>
 								<reference key="IBUIFontDescription" ref="395789581"/>
 								<reference key="IBUIFont" ref="495810873"/>
-								<int key="IBUIAutoshrinkMode">1</int>
 							</object>
 							<object class="IBUIImageView" id="922087668">
 								<reference key="NSNextResponder" ref="739652347"/>
@@ -208,14 +205,13 @@
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+								<string key="IBUIText">Deltagere:</string>
+								<reference key="IBUITextColor" ref="945691704"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
 								<float key="IBUIMinimumScaleFactor">0.5</float>
-								<string key="IBUIText">Deltagere:</string>
-								<reference key="IBUITextColor" ref="945691704"/>
 								<reference key="IBUIFontDescription" ref="395789581"/>
 								<reference key="IBUIFont" ref="495810873"/>
-								<int key="IBUIAutoshrinkMode">1</int>
 							</object>
 							<object class="IBUILabel" id="893728940">
 								<reference key="NSNextResponder" ref="739652347"/>
@@ -228,11 +224,11 @@
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+								<string key="IBUIText">deltagerLabel</string>
+								<reference key="IBUITextColor" ref="945691704"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
 								<float key="IBUIMinimumScaleFactor">0.5</float>
-								<string key="IBUIText">deltagerLabel</string>
-								<reference key="IBUITextColor" ref="945691704"/>
 								<object class="IBUIFontDescription" key="IBUIFontDescription">
 									<string key="name">Georgia</string>
 									<string key="family">Georgia</string>
@@ -244,7 +240,6 @@
 									<double key="NSSize">17</double>
 									<int key="NSfFlags">16</int>
 								</object>
-								<int key="IBUIAutoshrinkMode">1</int>
 							</object>
 							<object class="IBUITextView" id="366520975">
 								<reference key="NSNextResponder" ref="739652347"/>
@@ -261,11 +256,11 @@
 								<bool key="IBUIMultipleTouchEnabled">YES</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<bool key="IBUIEditable">NO</bool>
+								<string key="IBUIText">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
 								<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 									<int key="IBUIAutocapitalizationType">2</int>
 									<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								</object>
-								<string key="IBUIText">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
 								<object class="IBUIFontDescription" key="IBUIFontDescription" id="151031395">
 									<string key="name">Georgia</string>
 									<string key="family">Georgia</string>
@@ -290,11 +285,11 @@
 								<bool key="IBUIMultipleTouchEnabled">YES</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<bool key="IBUIEditable">NO</bool>
+								<string key="IBUIText">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
 								<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 									<int key="IBUIAutocapitalizationType">2</int>
 									<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								</object>
-								<string key="IBUIText">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
 								<reference key="IBUIFontDescription" ref="151031395"/>
 								<reference key="IBUIFont" ref="402533250"/>
 							</object>
@@ -605,82 +600,7 @@
 			<nil key="sourceID"/>
 			<int key="maxID">67</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes">
-			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">GameViewController</string>
-					<string key="superclassName">UIViewController</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="deltagerLabel">UILabel</string>
-						<string key="descriptionTextView">UITextView</string>
-						<string key="diff1Image">UIImageView</string>
-						<string key="diff2Image">UIImageView</string>
-						<string key="diff3Image">UIImageView</string>
-						<string key="diff4Image">UIImageView</string>
-						<string key="diff5Image">UIImageView</string>
-						<string key="pageControl">UIPageControl</string>
-						<string key="propText">UITextView</string>
-						<string key="scrollView">UIScrollView</string>
-						<string key="timeText">UITextView</string>
-						<string key="titleLabel">UILabel</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="deltagerLabel">
-							<string key="name">deltagerLabel</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="descriptionTextView">
-							<string key="name">descriptionTextView</string>
-							<string key="candidateClassName">UITextView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="diff1Image">
-							<string key="name">diff1Image</string>
-							<string key="candidateClassName">UIImageView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="diff2Image">
-							<string key="name">diff2Image</string>
-							<string key="candidateClassName">UIImageView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="diff3Image">
-							<string key="name">diff3Image</string>
-							<string key="candidateClassName">UIImageView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="diff4Image">
-							<string key="name">diff4Image</string>
-							<string key="candidateClassName">UIImageView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="diff5Image">
-							<string key="name">diff5Image</string>
-							<string key="candidateClassName">UIImageView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="pageControl">
-							<string key="name">pageControl</string>
-							<string key="candidateClassName">UIPageControl</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="propText">
-							<string key="name">propText</string>
-							<string key="candidateClassName">UITextView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="scrollView">
-							<string key="name">scrollView</string>
-							<string key="candidateClassName">UIScrollView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="timeText">
-							<string key="name">timeText</string>
-							<string key="candidateClassName">UITextView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="titleLabel">
-							<string key="name">titleLabel</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/GameViewController.h</string>
-					</object>
-				</object>
-			</array>
-		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
@@ -689,6 +609,6 @@
 			<string key="NS.key.0">Beerglass-full-256.png</string>
 			<string key="NS.object.0">{256, 256}</string>
 		</object>
-		<string key="IBCocoaTouchPluginVersion">1884</string>
+		<string key="IBCocoaTouchPluginVersion">1926</string>
 	</data>
 </archive>
