@@ -100,7 +100,7 @@
     [super viewDidLoad];
     AppDelegate *appDelegate = (AppDelegate *) [[UIApplication sharedApplication] delegate];
     if(valgtSpil == nil && [appDelegate.oelspil count] > 0){
-        UIBarButtonItem *nyKnap = [[UIBarButtonItem alloc] initWithTitle:@"Tilfældig" style:UIBarButtonItemStyleBordered target:self action:@selector(pickRandom)];
+        UIBarButtonItem *nyKnap = [[UIBarButtonItem alloc] initWithTitle:@"Ny Tilfældig" style:UIBarButtonItemStyleBordered target:self action:@selector(pickRandom)];
         self.navigationItem.leftBarButtonItem = nyKnap;
         
         int count = [appDelegate.oelspil count];
