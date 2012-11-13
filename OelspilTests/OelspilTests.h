@@ -7,7 +7,9 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
-
+#import "AppDelegate.h"
+#import "Oelspil.h"
 @interface OelspilTests : SenTestCase
-
+@property (strong, atomic) AppDelegate *delegate;
+@property (strong, atomic) Oelspil *testGame;
 @end
