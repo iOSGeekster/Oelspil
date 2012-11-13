@@ -34,11 +34,6 @@
     [super tearDown];
 }
 
-/*- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in OelspilTests");
-}*/
-
 - (void)testWhenPressingFavoriteGameShouldBeAdded{
     GameViewController *gameController = [[GameViewController alloc] init];
     [gameController addGameAsFavorite:self.testGame];
