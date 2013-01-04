@@ -14,6 +14,7 @@
 #import "FavoriteListViewController.h"
 #import "PlayersViewController.h"
 #import "AboutViewController.h"
+#import "SplitViewController.h"
 #import "Oelspil.h"
 #import "AVFoundation/AVFoundation.h"
 @implementation AppDelegate
@@ -29,6 +30,16 @@
     [self customizeInterface];
     [self loadFavoriteList];
     
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
+        [self setupiPhoneViews];
+    } else {
+        [self setupiPadViews];
+    }
+    
+    return YES;
+}
+
+- (void)setupiPhoneViews{
     UIImage *backgroundImage = [UIImage imageNamed:@"nav-bar"];
     [[UINavigationBar appearance] setBackgroundImage:backgroundImage forBarMetrics:UIBarMetricsDefault];
     
@@ -36,7 +47,7 @@
     [[UIBarButtonItem appearance] setBackgroundImage:buttonBackground forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
     
     UIImage *backButtonBackground = [[UIImage imageNamed:@"back-button"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 15, -2, 6)];
-
+    
     [[UIBarButtonItem appearance] setBackButtonBackgroundImage:backButtonBackground forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
     
     UIViewController *gameViewController = [[GameViewController alloc] initWithNibName:@"GameView" bundle:nil];
@@ -55,23 +66,17 @@
     self.tabBarController.viewControllers = [NSArray arrayWithObjects:navControllerForGameView, navControllerForKategoriView, navControllerForFavoriteView, navControllerForPlayersView, navControllerForAboutView, nil];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
-//    [self playSound];
-    return YES;
 }
 
-/*- (void)playSound{
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"beer" ofType:@"mp3"];
-    NSLog(@"Path = %@", path);
-    NSURL *soundFile = [NSURL fileURLWithPath:path];
-    if (soundFile) {
-        AVAudioPlayer *player = [[AVAudioPlayer alloc] initWithContentsOfURL:soundFile error:nil];
-        if([player prepareToPlay]){
-            NSLog(@"play");
-            [player play];
-        }
-    }
+- (void)setupiPadViews{
+/*    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"iPadStoryboard" bundle:nil];
+    UIViewController *splitView = [storyboard instantiateViewControllerWithIdentifier:@"SplitView"];*/
+
+    UIViewController *splitView = [[SplitViewController alloc] initWithNibName:nil bundle:nil];
     
-}*/
+    self.window.rootViewController = splitView;
+    [self.window makeKeyAndVisible];
+}
 
 - (void)loadFavoriteList{
     NSString *favoriteFilePath = [self favoriteFilePath];

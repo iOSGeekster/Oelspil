@@ -37,6 +37,7 @@
 		244CFB261497C3E4007977C0 /* Oelspil.plist in Resources */ = {isa = PBXBuildFile; fileRef = 244CFB251497C3E4007977C0 /* Oelspil.plist */; };
 		247B837216810541002B796A /* star-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 247B837016810540002B796A /* star-white.png */; };
 		247B837316810541002B796A /* star-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 247B837116810540002B796A /* star-white@2x.png */; };
+		24836DAD168742EB004725CF /* SplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24836DAC168742EB004725CF /* SplitViewController.m */; };
 		249296851604D6DD00F3494A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24D3549616047B160007E0DD /* Default-568h@2x.png */; };
 		24AA46AE14D86CD0007ED153 /* group.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AA46AD14D86CD0007ED153 /* group.png */; };
 		24AA46B014D86D24007ED153 /* notepad.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AA46AF14D86D23007ED153 /* notepad.png */; };
@@ -112,6 +113,8 @@
 		244CFB251497C3E4007977C0 /* Oelspil.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Oelspil.plist; sourceTree = "<group>"; };
 		247B837016810540002B796A /* star-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-white.png"; sourceTree = "<group>"; };
 		247B837116810540002B796A /* star-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-white@2x.png"; sourceTree = "<group>"; };
+		24836DAB168742EB004725CF /* SplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewController.h; sourceTree = "<group>"; };
+		24836DAC168742EB004725CF /* SplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitViewController.m; sourceTree = "<group>"; };
 		24AA46AD14D86CD0007ED153 /* group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group.png; sourceTree = "<group>"; };
 		24AA46AF14D86D23007ED153 /* notepad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notepad.png; sourceTree = "<group>"; };
 		24AA46B114D86DB0007ED153 /* id-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "id-card.png"; sourceTree = "<group>"; };
@@ -249,6 +252,8 @@
 				24324DB314D1DA0500496F10 /* AboutViewController.m */,
 				24B34A0E15ED42F4000EDF96 /* FavoriteActivity.h */,
 				24B34A0F15ED42F4000EDF96 /* FavoriteActivity.m */,
+				24836DAB168742EB004725CF /* SplitViewController.h */,
+				24836DAC168742EB004725CF /* SplitViewController.m */,
 			);
 			path = Oelspil;
 			sourceTree = "<group>";
@@ -450,6 +455,7 @@
 				24324DB514D1DA0500496F10 /* AboutViewController.m in Sources */,
 				24AF6745155C377C000F62F4 /* FavoriteListViewController.m in Sources */,
 				24B34A1015ED42F4000EDF96 /* FavoriteActivity.m in Sources */,
+				24836DAD168742EB004725CF /* SplitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,6 +550,7 @@
 				INFOPLIST_FILE = "Oelspil/Oelspil-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -556,6 +563,7 @@
 				INFOPLIST_FILE = "Oelspil/Oelspil-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -626,6 +634,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "C0E14759-B888-450A-BE7C-62E6F79F99A8";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = "Ad-Hoc";
