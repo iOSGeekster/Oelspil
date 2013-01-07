@@ -16,5 +16,5 @@
 @property (strong, nonatomic) NSMutableArray *searchResults;
 - (id)initWithCategory:(NSString *)category;
 - (id)initWithNumberOfPlayers:(NSInteger)players;
-- (void)handleSearchForTerm:(NSString *)searchTerm;
+- (void)handleSearchForTerm:(NSString *)searchTerm andScope:(NSString *)scope;
 @end

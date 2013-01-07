@@ -80,7 +80,10 @@
     [self.navigationController pushViewController:controller animated:YES];    
 }
 
-- (void)handleSearchForTerm:(NSString *)searchTerm{
+#pragma mark Search Delegate methods
+
+
+- (void)handleSearchForTerm:(NSString *)searchTerm andScope:(NSString* )scope{
     if (self.searchResults == nil) {
         NSMutableArray *array = [[NSMutableArray alloc]init];
         [self setSearchResults:array];
@@ -92,10 +95,19 @@
             [self.searchResults addObject:currentSpil];
         }
     }
+    if (![scope isEqualToString:@"Alle"]) {
+        NSPredicate *scopePredicate = [NSPredicate predicateWithFormat:@"SELF.category contains[c] %@",scope];
+        [self.searchResults filterUsingPredicate:scopePredicate];
+    }
 }
 
 - (BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString{
-    [self handleSearchForTerm:searchString];
+    [self handleSearchForTerm:searchString andScope:[[self.searchDisplayController.searchBar scopeButtonTitles] objectAtIndex:[self.searchDisplayController.searchBar selectedScopeButtonIndex]]];
+    return YES;
+}
+
+- (BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchScope:(NSInteger)searchOption{
+    [self handleSearchForTerm:self.searchDisplayController.searchBar.text andScope:[[self.searchDisplayController.searchBar scopeButtonTitles] objectAtIndex:searchOption]];
     return YES;
 }
 
@@ -119,6 +131,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.searchDisplayController.searchBar setShowsScopeBar:NO];
+    [self.searchDisplayController.searchBar sizeToFit];
+    
     self.navigationItem.title = selectedCategory;
     AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication]delegate];
     games = [[NSMutableArray alloc] init];
@@ -145,6 +160,14 @@
     self.searchDisplayController.searchBar.placeholder = NSLocalizedString(@"Søg", nil);
     [self.gamesTableView reloadData];
     [self setSearchResults:nil];
+    [self.gamesTableView scrollToRowAtIndexPath:[NSIndexPath indexPathWithIndex:0] atScrollPosition:UITableViewScrollPositionTop animated:YES];
+    
+   /* [UIView animateWithDuration:1.0f delay:0.5f options:UIViewAnimationCurveEaseOut animations:^{
+        CGRect newBounds = self.gamesTableView.bounds;
+        newBounds.origin.y = newBounds.origin.y + self.searchDisplayController.searchBar.bounds.size.height;
+        self.gamesTableView.bounds = newBounds;
+        
+    }completion:nil];*/
 }
 
 - (void)viewDidUnload
