@@ -17,4 +17,5 @@
 - (id)initWithCategory:(NSString *)category;
 - (id)initWithNumberOfPlayers:(NSInteger)players;
 - (void)handleSearchForTerm:(NSString *)searchTerm andScope:(NSString *)scope;
+- (IBAction)searchButtonPressed:(id)sender;
 @end

@@ -17,15 +17,15 @@
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Oelspil/ChosenGamesViewController.m"
-         timestampString = "379269109.488836"
+         timestampString = "379324360.592064"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "163"
-         endingLineNumber = "163"
+         startingLineNumber = "170"
+         endingLineNumber = "170"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>

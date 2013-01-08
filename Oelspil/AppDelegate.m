@@ -123,11 +123,14 @@
 
 - (void)customizeInterface{
     _window.rootViewController.wantsFullScreenLayout = YES;
-    UIColor *tangerineYellow = [UIColor colorWithRed:255.0/255.0 green:204.0/255.0 blue:0.0/255.0 alpha:1.0];
+/*    UIColor *tangerineYellow = [UIColor colorWithRed:255.0/255.0 green:204.0/255.0 blue:0.0/255.0 alpha:1.0];*/
+    UIColor *leatherBrown = [UIColor colorWithRed:126.0/255.0 green:79.0/255.0 blue:51.0/255.0 alpha:1.0];
     UIView *selectedBackgroundView = [[UIView alloc] init];
-    selectedBackgroundView.backgroundColor = tangerineYellow;
+    selectedBackgroundView.backgroundColor = leatherBrown;
     [[UITableViewCell appearance] setSelectedBackgroundView:selectedBackgroundView];
-    [[UISearchBar appearance] setTintColor:tangerineYellow];
+    [[UISearchBar appearance] setTintColor:leatherBrown];
+    
+    [[UIPageControl appearance] setPageIndicatorTintColor:leatherBrown];
 }
 
 - (NSString *)favoriteFilePath{

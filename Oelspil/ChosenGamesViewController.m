@@ -126,6 +126,10 @@
     [cancelButton setTitle:@"Annuller" forState:UIControlStateNormal];
 }
 
+- (IBAction)searchButtonPressed:(id)sender{
+    [self.searchDisplayController.searchBar becomeFirstResponder];
+}
+
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
@@ -158,16 +162,16 @@
         }
     }
     self.searchDisplayController.searchBar.placeholder = NSLocalizedString(@"Søg", nil);
+    
+    UIBarButtonItem *searchButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch target:self action:@selector(searchButtonPressed:)];
+    self.navigationItem.rightBarButtonItem = searchButton;
+    
     [self.gamesTableView reloadData];
     [self setSearchResults:nil];
-    [self.gamesTableView scrollToRowAtIndexPath:[NSIndexPath indexPathWithIndex:0] atScrollPosition:UITableViewScrollPositionTop animated:YES];
     
-   /* [UIView animateWithDuration:1.0f delay:0.5f options:UIViewAnimationCurveEaseOut animations:^{
-        CGRect newBounds = self.gamesTableView.bounds;
-        newBounds.origin.y = newBounds.origin.y + self.searchDisplayController.searchBar.bounds.size.height;
-        self.gamesTableView.bounds = newBounds;
-        
-    }completion:nil];*/
+    CGRect newBounds = self.gamesTableView.bounds;
+    newBounds.origin.y = newBounds.origin.y + self.searchDisplayController.searchBar.bounds.size.height;
+    self.gamesTableView.bounds = newBounds;
 }
 
 - (void)viewDidUnload
