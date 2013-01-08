@@ -87,11 +87,14 @@
 - (void)showShareMenu{
     NSString *concatTitle = [NSString stringWithFormat:@"Ølspillet: %@\n\n%@",valgtSpil.title,valgtSpil.description];
     FavoriteActivity *customActivity = [[FavoriteActivity alloc] initWithViewController:self];
-    UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems:@[concatTitle, valgtSpil] applicationActivities:@[customActivity]];
+    __block UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems:@[concatTitle, valgtSpil] applicationActivities:@[customActivity]];
     activityController.excludedActivityTypes = @[ UIActivityTypePostToWeibo,
     UIActivityTypePostToTwitter,
     UIActivityTypeAssignToContact];
-    [self presentViewController:activityController animated:YES completion:nil];
+    [self presentViewController:activityController animated:YES completion:^{
+        activityController.excludedActivityTypes = nil;
+        activityController = nil;
+    }];
 }
 
 - (void)viewDidLoad
