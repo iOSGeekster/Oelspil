@@ -90,11 +90,9 @@
     }
     [self.searchResults removeAllObjects];
     
-    for (Oelspil *currentSpil in games) {
-        if ([currentSpil.title rangeOfString:searchTerm options:NSCaseInsensitiveSearch].location != NSNotFound) {
-            [self.searchResults addObject:currentSpil];
-        }
-    }
+    NSPredicate *titlePredicate = [NSPredicate predicateWithFormat:@"SELF.title contains[c] %@",searchTerm];
+    self.searchResults = [NSMutableArray arrayWithArray:[self.games filteredArrayUsingPredicate:titlePredicate]];
+
     if (![scope isEqualToString:@"Alle"]) {
         NSPredicate *scopePredicate = [NSPredicate predicateWithFormat:@"SELF.category contains[c] %@",scope];
         [self.searchResults filterUsingPredicate:scopePredicate];
