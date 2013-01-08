@@ -54,8 +54,7 @@
         [favoriteListTable deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationLeft];
     }
     if ([favoriteList count] == 0 ) {
-        self.navigationItem.rightBarButtonItem.style = UIBarButtonItemStyleBordered;
-        self.navigationItem.rightBarButtonItem.title = @"Rediger";
+        self.navigationItem.rightBarButtonItem = nil;
         self.favoriteListTable.editing = NO;
     }
 }
