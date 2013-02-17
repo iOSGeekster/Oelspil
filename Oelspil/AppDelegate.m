@@ -16,6 +16,7 @@
 #import "AboutViewController.h"
 #import "Oelspil.h"
 #import "AVFoundation/AVFoundation.h"
+#import <iRate.h>
 @implementation AppDelegate
 
 @synthesize window = _window;
@@ -56,6 +57,9 @@
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
 //    [self playSound];
+    
+    [iRate sharedInstance].appStoreCountry = @"dk";
+    
     return YES;
 }
 
