@@ -244,27 +244,27 @@
     self.diff4Image.center = point;
     self.diff5Image.center = point;
     
-    [UIView animateWithDuration:1.0f delay:0.0f options:UIViewAnimationCurveEaseOut animations:^{
+    [UIView animateWithDuration:1.0f delay:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
         self.diff1Image.center = CGPointMake(163.0f, 58.0f);
                 
     }completion:nil];
     
-    [UIView animateWithDuration:1.0f delay:0.2f options:UIViewAnimationCurveEaseOut animations:^{
+    [UIView animateWithDuration:1.0f delay:0.2f options:UIViewAnimationOptionCurveEaseInOut animations:^{
         self.diff2Image.center = CGPointMake(197.0f, 58.0f);
         
     }completion:nil];
     
-    [UIView animateWithDuration:1.0f delay:0.4f options:UIViewAnimationCurveEaseOut animations:^{
+    [UIView animateWithDuration:1.0f delay:0.4f options:UIViewAnimationOptionCurveEaseInOut animations:^{
         self.diff3Image.center = CGPointMake(231.0f, 58.0f);
         
     }completion:nil];
     
-    [UIView animateWithDuration:1.0f delay:0.6f options:UIViewAnimationCurveEaseOut animations:^{
+    [UIView animateWithDuration:1.0f delay:0.6f options:UIViewAnimationOptionCurveEaseInOut animations:^{
         self.diff4Image.center = CGPointMake(265.0f, 58.0f);
         
     }completion:nil];
     
-    [UIView animateWithDuration:1.0f delay:0.8f options:UIViewAnimationCurveEaseOut animations:^{
+    [UIView animateWithDuration:1.0f delay:0.8f options:UIViewAnimationOptionCurveEaseInOut animations:^{
         self.diff5Image.center = CGPointMake(299.0f, 58.0f);
         
     }completion:nil];
