@@ -4,8 +4,8 @@ COCOAPODS: 0.16.2
 SPEC CHECKSUMS: 
   iRate: eb1d02ff0a2bfee220f5fe028583b4ce5f3ef3bd
 
-PODS: 
-- iRate (1.7.2)
-
 DEPENDENCIES: 
 - iRate (~> 1.7.2)
+
+PODS: 
+- iRate (1.7.2)
