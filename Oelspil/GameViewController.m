@@ -82,6 +82,18 @@
     }
     valgtSpil = nytSpil;
     [self updateView];
+    [self scrollScrollViewToFirstPage];
+
+}
+
+- (void)scrollScrollViewToFirstPage{
+    CGRect firstPage;
+    firstPage.origin.x = 0;
+    firstPage.origin.y = 0;
+    firstPage.size = self.scrollView.frame.size;
+    [self.scrollView scrollRectToVisible:firstPage animated:YES];
+    pageControlBeingUsed = YES;
+    self.pageControl.currentPage = 0;
 }
 
 - (void)showShareMenu{
