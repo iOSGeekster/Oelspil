@@ -6,7 +6,7 @@
 	<dict>
 		<key>Kort</key>
 		<dict>
-			<key>Pyramide></key>
+			<key>Pyramide&gt;</key>
 			<array>
 				<string>Pyramide</string>
 				<integer>4</integer>
@@ -47,7 +47,6 @@ Hvis man har vist et kort, trækker man et nyt fra bunken.</string>
 				<integer>999</integer>
 				<integer>2</integer>
 			</array>
-
 			<key>Møwl</key>
 			<array>
 				<string>Møwl</string>
@@ -120,7 +119,6 @@ Grunden til denne måske lidt høje straf er, at det er en regel, der ikke må b
 				<integer>999</integer>
 				<integer>3</integer>
 			</array>
-
 			<key>Golf</key>
 			<array>
 				<string>Golf</string>
@@ -147,7 +145,7 @@ Dvs: Es = 1 og Dame = 12, men Kongen gælder for 0.
 Har man to ens udligner de hinanden. Fx.: to Damer er = 0.
 Har man derimod tre ens, er det stadig kun de to kort der udligner hinanden.
 
-Fx. giver tre 8'ere værdien 8. (Fordi de to af kortene udligner
+Fx. giver tre 8&apos;ere værdien 8. (Fordi de to af kortene udligner
 hinanden).
 
 Når det bliver ens tur, trækker man enten et kort fra bunken eller et fra bunken med de vendte kort. 
@@ -167,7 +165,6 @@ Den deltager der har færrest sammenlagte point vinder spillet, og skal derfor i
 				<integer>999</integer>
 				<integer>2</integer>
 			</array>
-
 			<key>Broen</key>
 			<array>
 				<string>Broen</string>
@@ -192,14 +189,13 @@ Spillet er først slut, når alle kort er vendt, og ingen af dem er billedkort e
 				<integer>999</integer>
 				<integer>2</integer>
 			</array>
-
 			<key>Syveren</key>
 			<array>
 				<string>Syveren</string>
 				<integer>4</integer>
 				<string>Spillet varer ca. 30 minutter</string>
 				<string>1 spil kort</string>
-				<string>De fire 7'ere lægges på en række ved siden af hinanden. Der er nu 4 rækker, en for hver kulør.
+				<string>De fire 7&apos;ere lægges på en række ved siden af hinanden. Der er nu 4 rækker, en for hver kulør.
 Hver deltager får 4 kort, som skal holdes skjult for de andre.
 
 Efter tur skiftes deltagerne til at smide et kort. Dette kan have følgende to udfald:
@@ -216,7 +212,6 @@ Det er en fordel at være den der smider det sidste kort. Han kan give tretten s
 				<integer>999</integer>
 				<integer>3</integer>
 			</array>
-
 			<key>Hestesko</key>
 			<array>
 				<string>Hestesko</string>
@@ -224,7 +219,7 @@ Det er en fordel at være den der smider det sidste kort. Han kan give tretten s
 				<string>Spillet varer ca. 10-15 minutter</string>
 				<string>1 spil kort</string>
 				<string>Vælg en kulør, fx hjerter, og læg kortene op på følgende måde: Der lægges to rækker overfor hinanden.
-Den første række har kortene Es til 6 i den kulør der er valgt, og den anden række har kortene Konge til 8. For enden af de to rækker (ud for 8'eren og 6'eren) lægges 7'eren.
+Den første række har kortene Es til 6 i den kulør der er valgt, og den anden række har kortene Konge til 8. For enden af de to rækker (ud for 8&apos;eren og 6&apos;eren) lægges 7&apos;eren.
 
 Der udvælges en deltager, som starter med at være kortgiver. Den deltager, der sidder først efter kortgiveren, starter spillet.
 Spillet går ud på, at man på højest to forsøg skal gætte værdien af det øverste kort i kortgiverens bunke.
@@ -247,7 +242,6 @@ Jo længere man kommer hen i spillet, jo svære bliver det at være kortgiver, d
 				<integer>999</integer>
 				<integer>2</integer>
 			</array>
-
 			<key>Guitar</key>
 			<array>
 				<string>Guitar</string>
@@ -268,7 +262,6 @@ Es er fjorten slurke, ikke én slurk.</string>
 				<integer>4</integer>
 				<integer>2</integer>
 			</array>
-
 			<key>Kort I Panden</key>
 			<array>
 				<string>Kort I Panden</string>
@@ -293,7 +286,6 @@ Sådan fortsætter spillet, indtil alle kort er brugt.</string>
 				<integer>999</integer>
 				<integer>2</integer>
 			</array>
-
 			<key>Over/Under</key>
 			<array>
 				<string>Over/Under</string>
@@ -320,7 +312,6 @@ Når turen når til kortgiveren, giver han kortbunken videre til en tilfældig a
 				<integer>999</integer>
 				<integer>2</integer>
 			</array>
-
 			<key>Hej Knægt</key>
 			<array>
 				<string>Hej Knægt</string>
@@ -346,7 +337,6 @@ Kortgiveren er med i spillet på lige fod med de andre.</string>
 				<integer>999</integer>
 				<integer>3</integer>
 			</array>
-
 			<key>Fjols</key>
 			<array>
 				<string>Fjols</string>
@@ -391,7 +381,6 @@ Fælden går ud på, at man lader som om man tager en kapsel. I ren iver for ikk
 				<integer>999</integer>
 				<integer>3</integer>
 			</array>
-
 			<key>Fisk</key>
 			<array>
 				<string>Fisk</string>
@@ -421,7 +410,6 @@ Den deltager, der har flest stik ved spillets afslutning, skal ikke drikke. De a
 				<integer>999</integer>
 				<integer>2</integer>
 			</array>
-
 			<key>Halv Tolv</key>
 			<array>
 				<string>Halv Tolv</string>
@@ -460,7 +448,6 @@ Mange spiller med at 7’eren ”flyver”. Det betyder at hvis man får en 7’
 				<integer>999</integer>
 				<integer>2</integer>
 			</array>
-
 			<key>Den Onde Cirkel</key>
 			<array>
 				<string>Den Onde Cirkel</string>
@@ -483,7 +470,6 @@ I dette spil tæller es som én.</string>
 				<integer>999</integer>
 				<integer>2</integer>
 			</array>
-
 			<key>Final Countdown</key>
 			<array>
 				<string>Final Countdown</string>
@@ -510,13 +496,11 @@ Hvis russeren også vender en ruder, sker der ikke noget, for så er der ikke no
 
 Spillet fortsætter indtil alle kort er brugt.
 
-Spillet kendes også under navnet 'Sekund'.</string>
+Spillet kendes også under navnet &apos;Sekund&apos;.</string>
 				<integer>999</integer>
 				<integer>3</integer>
 			</array>
 		</dict>
-
-
 		<key>Terninger</key>
 		<dict>
 			<key>16 - Derhjemme</key>
@@ -556,7 +540,6 @@ gå én ned.</string>
 				<integer>999</integer>
 				<integer>2</integer>
 			</array>
-
 			<key>30</key>
 			<array>
 				<string>30</string>
@@ -843,9 +826,20 @@ Man er gud indtil næste deltager lander på gudefeltet.</string>
 				<integer>2</integer>
 			</array>
 		</dict>
-
 		<key>Andet</key>
 		<dict>
+			<key>Øl Petanque</key>
+			<array>
+				<string>Øl Petanque</string>
+				<integer>1</integer>
+				<string>Kan vare så lang tid man har lyst</string>
+				<string>3 øldåser pr. spiller, og en sammentrykket dåse som &quot;gris&quot;</string>
+				<string>
+Hver spiller får 3 øldåser. På omgang skiftes spillerne til at kaste én af deres dåser mod grisen.
+Den spiller der er længst fra grisen skal drikke. Hvis én spiller har 2 dåser længst fra grisen, skal der drikkes dobbelt, og trippelt hvis den samme spiller har alle 3 dåser længst fra grisen.</string>
+				<integer>999</integer>
+				<integer>2</integer>
+			</array>
 			<key>Øl ludo - Derhjemme</key>
 			<array>
 				<string>Øl ludo - Derhjemme</string>
@@ -908,7 +902,7 @@ for at det er gyldigt:
 
 • Hver deltager skal minimum hælde én dråbe i porcelænsskålen.
 
-• Man må hælde lige så meget som man vil.
+q• Man må hælde lige så meget som man vil.
 
 • Når man holder op med at hælde, må man ikke begynde igen. Så er turen gået videre til næste deltager.
 
@@ -971,7 +965,6 @@ Hver gang denne spiller har bolden, skal deltageren drikke, så længe spilleren
 				<integer>999</integer>
 				<integer>2</integer>
 			</array>
-
 			<key>100-minutters Drik</key>
 			<array>
 				<string>100-minutters Drik</string>
@@ -1002,7 +995,6 @@ Synes man, at det er for vildt, kan man i stedet bruge alm. 2 cl. shotglas.</str
 				<integer>999</integer>
 				<integer>2</integer>
 			</array>
-
 			<key>Træfbold</key>
 			<array>
 				<string>Træfbold</string>
@@ -1029,7 +1021,6 @@ Spillet fortsætter, indtil en af deltagerne laver en fejl. Denne deltager rykke
 				<integer>999</integer>
 				<integer>4</integer>
 			</array>
-
 			<key>Kryds Og Bolle</key>
 			<array>
 				<string>Kryds Og Bolle</string>
@@ -1086,7 +1077,6 @@ bruges igen i næste spil.</string>
 				<integer>2</integer>
 				<integer>2</integer>
 			</array>
-
 			<key>Plankeværk, Elefant og Sniger</key>
 			<array>
 				<string>Plankeværk, Elefant og Sniger</string>
@@ -1120,7 +1110,6 @@ Gætter modstanderne derimod forkert, skal de selv drikke en halv øl, og turen 
 				<integer>4</integer>
 				<integer>4</integer>
 			</array>
-
 			<key>Navneleg</key>
 			<array>
 				<string>Navneleg</string>
@@ -1147,7 +1136,6 @@ Når et navn har været brugt én gang, kan det ikke bruges senere i spillet.</s
 				<integer>999</integer>
 				<integer>3</integer>
 			</array>
-
 			<key>Flaskehalsen Peger På</key>
 			<array>
 				<string>Flaskehalsen Peger På</string>
@@ -1178,7 +1166,6 @@ der ikke så meget ved spillet.</string>
 				<integer>999</integer>
 				<integer>2</integer>
 			</array>
-
 			<key>Ølstafet</key>
 			<array>
 				<string>Ølstafet</string>
@@ -1200,7 +1187,6 @@ Det hold, der først får alle deltagere igennem vinder.</string>
 				<integer>999</integer>
 				<integer>2</integer>
 			</array>
-
 			<key>Ølbowling</key>
 			<array>
 				<string>Ølbowling</string>
@@ -1226,7 +1212,6 @@ Derefter skal den anden deltager drikke resten.</string>
 				<integer>4</integer>
 				<integer>4</integer>
 			</array>
-
 			<key>Vendespil</key>
 			<array>
 				<string>Vendespil</string>
@@ -1251,7 +1236,6 @@ Det hold, der til sidst har flest stik, vinder. Alle andre deltagere skal som st
 				<integer>999</integer>
 				<integer>4</integer>
 			</array>
-
 			<key>Vodka Dart</key>
 			<array>
 				<string>Vodka Dart</string>
@@ -1267,7 +1251,6 @@ Taberen er altid tvunget til at være med i endnu en runde. Alle andre kan sprin
 				<integer>2</integer>
 			</array>
 		</dict>
-
 		<key>I Byen</key>
 		<dict>
 			<key>7-14-21</key>
@@ -1289,7 +1272,6 @@ slimet blanding af snaps, Bailey’s, gin og vodka i bunden af glasset.
 				<integer>999</integer>
 				<integer>4</integer>
 			</array>
-
 			<key>16 - I Byen</key>
 			<array>
 				<string>16 - I Byen</string>
