@@ -166,72 +166,59 @@
     self.diff3Image.hidden = YES;
     self.diff4Image.hidden = YES;
     self.diff5Image.hidden = YES;
-    
 }
 
 - (void)animateBeerGlasses{
-    switch (self.valgtSpil.difficulty) {
-        case 1:
-            self.diff1Image.hidden = NO;
-            break;
-        case 2:
-            self.diff1Image.hidden = NO;
+    self.diff1Image.hidden = NO;
+    self.diff1Image.transform = CGAffineTransformMakeScale(0.01, 0.01);
+    [UIView animateWithDuration:0.5 delay:0.5 options:UIViewAnimationOptionCurveEaseOut animations:^{
+        // animate it to the identity transform (100% scale)
+        diff1Image.transform = CGAffineTransformIdentity;
+    } completion:^(BOOL finished){
+        if (self.valgtSpil.difficulty >= 2) {
             self.diff2Image.hidden = NO;
-            break;
-        case 3:
-            self.diff1Image.hidden = NO;
-            self.diff2Image.hidden = NO;
-            self.diff3Image.hidden = NO;
-            break;
-        case 4:
-            self.diff1Image.hidden = NO;
-            self.diff2Image.hidden = NO;
-            self.diff3Image.hidden = NO;
-            self.diff4Image.hidden = NO;
-            break;
-        case 5:
-            self.diff1Image.hidden = NO;
-            self.diff2Image.hidden = NO;
-            self.diff3Image.hidden = NO;
-            self.diff4Image.hidden = NO;
-            self.diff5Image.hidden = NO;
-            break;
-        default:
-            break;
-    }
-    
-    CGPoint point = CGPointMake(self.view.bounds.size.width/2.0f, -50.0f);
-    self.diff1Image.center = point;
-    self.diff2Image.center = point;
-    self.diff3Image.center = point;
-    self.diff4Image.center = point;
-    self.diff5Image.center = point;
-    
-    [UIView animateWithDuration:1.0f delay:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
-        self.diff1Image.center = CGPointMake(163.0f, 58.0f);
-                
-    }completion:nil];
-    
-    [UIView animateWithDuration:1.0f delay:0.2f options:UIViewAnimationOptionCurveEaseInOut animations:^{
-        self.diff2Image.center = CGPointMake(197.0f, 58.0f);
-        
-    }completion:nil];
-    
-    [UIView animateWithDuration:1.0f delay:0.4f options:UIViewAnimationOptionCurveEaseInOut animations:^{
-        self.diff3Image.center = CGPointMake(231.0f, 58.0f);
-        
-    }completion:nil];
-    
-    [UIView animateWithDuration:1.0f delay:0.6f options:UIViewAnimationOptionCurveEaseInOut animations:^{
-        self.diff4Image.center = CGPointMake(265.0f, 58.0f);
-        
-    }completion:nil];
-    
-    [UIView animateWithDuration:1.0f delay:0.8f options:UIViewAnimationOptionCurveEaseInOut animations:^{
-        self.diff5Image.center = CGPointMake(299.0f, 58.0f);
-        
-    }completion:nil];
-    
+            self.diff2Image.transform = CGAffineTransformMakeScale(0.01, 0.01);
+            [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
+                // animate it to the identity transform (100% scale)
+                diff2Image.transform = CGAffineTransformIdentity;
+            } completion:^(BOOL finished){
+                if (self.valgtSpil.difficulty >= 3) {
+                    self.diff3Image.hidden = NO;
+                    self.diff3Image.transform = CGAffineTransformMakeScale(0.01, 0.01);
+                    [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
+                        // animate it to the identity transform (100% scale)
+                        diff3Image.transform = CGAffineTransformIdentity;
+                    } completion:^(BOOL finished){
+                        if (self.valgtSpil.difficulty >= 4) {
+                            self.diff4Image.hidden = NO;
+                            self.diff4Image.transform = CGAffineTransformMakeScale(0.01, 0.01);
+                            [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
+                                // animate it to the identity transform (100% scale)
+                                diff4Image.transform = CGAffineTransformIdentity;
+                            } completion:^(BOOL finished){
+                                if (self.valgtSpil.difficulty == 5) {
+                                    self.diff5Image.hidden = NO;
+                                    self.diff5Image.transform = CGAffineTransformMakeScale(0.01, 0.01);
+                                    [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
+                                        // animate it to the identity transform (100% scale)
+                                        diff5Image.transform = CGAffineTransformIdentity;
+                                    } completion:^(BOOL finished){
+                                        // if you want to do something once the animation finishes, put it here
+                                    }];
+
+                                }
+                                
+                            }];
+
+                        }
+                        
+                    }];
+
+                }
+            }];
+
+        }
+    }];
 }
 
 - (void)viewWillAppear:(BOOL)animated

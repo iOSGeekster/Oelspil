@@ -20,187 +20,96 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="qZV-HS-R6X">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="16">
-                    <rect key="frame" x="20" y="80" width="280" height="32"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="16">
+                    <rect key="frame" x="15" y="77" width="280" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="32" id="SpJ-Dr-ssE"/>
-                    </constraints>
                     <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="26"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sværhedsgrad:" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="18">
-                    <rect key="frame" x="20" y="120" width="134" height="29"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Sværhedsgrad:" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="18">
+                    <rect key="frame" x="15" y="117" width="134" height="29"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="29" id="s79-nE-slF"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="22"/>
+                    <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Varighed:" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="20">
-                    <rect key="frame" x="20" y="204" width="117" height="26"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Varighed:" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="20">
+                    <rect key="frame" x="15" y="193" width="117" height="26"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="117" id="bvY-db-oh8"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="22"/>
+                    <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Rekvisitter:" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="22">
-                    <rect key="frame" x="15" y="285" width="117" height="21"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Rekvisitter:" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="22">
+                    <rect key="frame" x="15" y="274" width="117" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="21" id="b2L-mN-5Mw"/>
-                        <constraint firstAttribute="width" constant="117" id="wO8-bZ-d9i"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="22"/>
+                    <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Beerglass-full-256.png" translatesAutoresizingMaskIntoConstraints="NO" id="30">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="Beerglass-full-256.png" translatesAutoresizingMaskIntoConstraints="NO" id="30">
                     <rect key="frame" x="151" y="114" width="36" height="36"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="36" id="Thb-wb-fSg"/>
-                    </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Beerglass-full-256.png" translatesAutoresizingMaskIntoConstraints="NO" id="35">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="Beerglass-full-256.png" translatesAutoresizingMaskIntoConstraints="NO" id="35">
                     <rect key="frame" x="177" y="114" width="36" height="36"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="36" id="Sdd-AL-9Yu"/>
-                    </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Beerglass-full-256.png" translatesAutoresizingMaskIntoConstraints="NO" id="37">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="Beerglass-full-256.png" translatesAutoresizingMaskIntoConstraints="NO" id="37">
                     <rect key="frame" x="204" y="114" width="36" height="36"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="36" id="eOr-xU-LNI"/>
-                    </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Beerglass-full-256.png" translatesAutoresizingMaskIntoConstraints="NO" id="36">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="Beerglass-full-256.png" translatesAutoresizingMaskIntoConstraints="NO" id="36">
                     <rect key="frame" x="229" y="114" width="36" height="36"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="36" id="bQd-le-VJS"/>
-                    </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Beerglass-full-256.png" translatesAutoresizingMaskIntoConstraints="NO" id="38">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="Beerglass-full-256.png" translatesAutoresizingMaskIntoConstraints="NO" id="38">
                     <rect key="frame" x="254" y="114" width="36" height="36"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="36" id="RHL-LM-cYs"/>
-                    </constraints>
                 </imageView>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Deltagere:" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="45">
-                    <rect key="frame" x="20" y="168" width="123" height="28"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Deltagere:" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="45">
+                    <rect key="frame" x="15" y="157" width="123" height="28"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="28" id="Tze-rU-WMv"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="22"/>
+                    <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="deltagerLabel" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="46">
-                    <rect key="frame" x="151" y="174" width="148" height="21"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="deltagerLabel" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="46">
+                    <rect key="frame" x="151" y="160" width="148" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="21" id="VKo-OU-j8J"/>
-                    </constraints>
                     <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63" userLabel="Text View - Props">
-                    <rect key="frame" x="15" y="314" width="291" height="111"/>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63" userLabel="Text View - Props">
+                    <rect key="frame" x="15" y="303" width="291" height="115"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="111" id="GZT-Ee-Yyc"/>
-                    </constraints>
                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                     <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="15"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65" userLabel="Text View - Time">
-                    <rect key="frame" x="15" y="238" width="291" height="39"/>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65" userLabel="Text View - Time">
+                    <rect key="frame" x="15" y="227" width="291" height="39"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="39" id="CV4-74-S9P"/>
-                    </constraints>
                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                     <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="15"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wEf-yw-wOv">
-                    <rect key="frame" x="128" y="433" width="64" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="Vis regler">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <constraints>
-                <constraint firstItem="30" firstAttribute="top" secondItem="16" secondAttribute="bottom" constant="2" id="22f-ib-nuf"/>
-                <constraint firstItem="45" firstAttribute="baseline" secondItem="46" secondAttribute="baseline" id="7Hd-Uo-aln"/>
-                <constraint firstItem="18" firstAttribute="leading" secondItem="16" secondAttribute="leading" id="7Kg-Nc-gBt"/>
-                <constraint firstItem="22" firstAttribute="leading" secondItem="63" secondAttribute="leading" id="8D3-Do-kU2"/>
-                <constraint firstItem="38" firstAttribute="bottom" secondItem="36" secondAttribute="bottom" id="8Pb-fW-fiH"/>
-                <constraint firstItem="37" firstAttribute="top" secondItem="35" secondAttribute="top" id="Eju-A3-pDj"/>
-                <constraint firstItem="37" firstAttribute="bottom" secondItem="35" secondAttribute="bottom" id="Fw6-m5-8MU"/>
-                <constraint firstItem="16" firstAttribute="leading" secondItem="qZV-HS-R6X" secondAttribute="leading" constant="20" symbolic="YES" id="FxY-GO-89r"/>
-                <constraint firstItem="46" firstAttribute="leading" secondItem="45" secondAttribute="trailing" constant="8" symbolic="YES" id="Gr1-83-Hes"/>
-                <constraint firstItem="46" firstAttribute="top" secondItem="30" secondAttribute="bottom" constant="24" id="JOu-kt-DYg"/>
-                <constraint firstItem="63" firstAttribute="trailing" secondItem="65" secondAttribute="trailing" id="Mfg-ve-BIN"/>
-                <constraint firstItem="18" firstAttribute="top" secondItem="16" secondAttribute="bottom" constant="8" symbolic="YES" id="Olh-rk-lpU"/>
-                <constraint firstItem="20" firstAttribute="top" secondItem="45" secondAttribute="bottom" constant="8" symbolic="YES" id="RMo-qM-ZF1"/>
-                <constraint firstItem="35" firstAttribute="leading" secondItem="18" secondAttribute="trailing" constant="23" id="Tau-Ci-6lB"/>
-                <constraint firstItem="38" firstAttribute="leading" secondItem="37" secondAttribute="trailing" constant="14" id="Uzl-gX-5bb"/>
-                <constraint firstItem="65" firstAttribute="top" secondItem="20" secondAttribute="bottom" constant="8" symbolic="YES" id="VX1-Ha-pYP"/>
-                <constraint firstItem="65" firstAttribute="centerX" secondItem="16" secondAttribute="centerX" id="ViU-PD-NUs"/>
-                <constraint firstItem="18" firstAttribute="leading" secondItem="45" secondAttribute="leading" id="W3s-KR-HfE"/>
-                <constraint firstItem="45" firstAttribute="top" secondItem="18" secondAttribute="bottom" constant="19" id="Yxh-D5-xMe"/>
-                <constraint firstItem="35" firstAttribute="bottom" secondItem="30" secondAttribute="bottom" id="aHx-4C-3fW"/>
-                <constraint firstItem="22" firstAttribute="top" secondItem="65" secondAttribute="bottom" constant="8" symbolic="YES" id="awn-wj-SB7"/>
-                <constraint firstItem="36" firstAttribute="top" secondItem="38" secondAttribute="top" id="bvS-xK-Iwf"/>
-                <constraint firstItem="16" firstAttribute="top" secondItem="qZV-HS-R6X" secondAttribute="top" constant="80" id="cSQ-DM-TsA"/>
-                <constraint firstItem="37" firstAttribute="leading" secondItem="30" secondAttribute="trailing" constant="17" id="cvS-qn-PJ9"/>
-                <constraint firstItem="37" firstAttribute="bottom" secondItem="36" secondAttribute="bottom" id="epU-Xk-Vtv"/>
-                <constraint firstAttribute="trailing" secondItem="38" secondAttribute="trailing" constant="30" id="fNe-gp-yNG"/>
-                <constraint firstItem="63" firstAttribute="top" secondItem="22" secondAttribute="bottom" constant="8" symbolic="YES" id="imc-lD-1As"/>
-                <constraint firstItem="45" firstAttribute="leading" secondItem="20" secondAttribute="leading" id="l6v-sA-YSl"/>
-                <constraint firstItem="65" firstAttribute="top" secondItem="46" secondAttribute="bottom" constant="43" id="lfA-Bd-wjK"/>
-                <constraint firstAttribute="trailing" secondItem="36" secondAttribute="trailing" constant="55" id="mhn-Zs-i5v"/>
-                <constraint firstItem="22" firstAttribute="leading" secondItem="65" secondAttribute="leading" id="qVR-FW-zYf"/>
-                <constraint firstAttribute="trailing" secondItem="46" secondAttribute="trailing" constant="21" id="rsM-pM-ST1"/>
-                <constraint firstItem="30" firstAttribute="leading" secondItem="46" secondAttribute="leading" id="tGk-9I-acJ"/>
-                <constraint firstItem="37" firstAttribute="top" secondItem="36" secondAttribute="top" id="tkS-pr-U7J"/>
-                <constraint firstItem="36" firstAttribute="leading" secondItem="35" secondAttribute="trailing" constant="16" id="uWb-IR-uPs"/>
-                <constraint firstItem="35" firstAttribute="top" secondItem="30" secondAttribute="top" id="xIK-Vz-MQu"/>
-                <constraint firstItem="65" firstAttribute="leading" secondItem="qZV-HS-R6X" secondAttribute="leading" constant="15" id="y5Z-O7-IP3"/>
-                <constraint firstAttribute="trailing" secondItem="16" secondAttribute="trailing" constant="20" symbolic="YES" id="zvg-eL-zF6"/>
-            </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
             <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>
     <resources>
-        <image name="Beerglass-full-256.png" width="256" height="256"/>
-        <image name="Beerglass-full-256.png" width="256" height="256"/>
-        <image name="Beerglass-full-256.png" width="256" height="256"/>
-        <image name="Beerglass-full-256.png" width="256" height="256"/>
         <image name="Beerglass-full-256.png" width="256" height="256"/>
     </resources>
 </document>
