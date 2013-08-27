@@ -171,7 +171,7 @@
 - (void)animateBeerGlasses{
     self.diff1Image.hidden = NO;
     self.diff1Image.transform = CGAffineTransformMakeScale(0.01, 0.01);
-    [UIView animateWithDuration:0.5 delay:0.5 options:UIViewAnimationOptionCurveEaseOut animations:^{
+    [UIView animateWithDuration:0.5 delay:0.2 options:UIViewAnimationOptionCurveEaseOut animations:^{
         // animate it to the identity transform (100% scale)
         diff1Image.transform = CGAffineTransformIdentity;
     } completion:^(BOOL finished){
