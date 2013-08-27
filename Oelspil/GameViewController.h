@@ -10,7 +10,7 @@
 #import "MessageUI/MessageUI.h"
 #import "Oelspil.h"
 
-@interface GameViewController : UIViewController <UIScrollViewDelegate>{
+@interface GameViewController : UIViewController{
     BOOL pageControlBeingUsed;
 }
 @property (strong, nonatomic) IBOutlet UILabel *titleLabel;
@@ -24,8 +24,6 @@
 @property (strong, nonatomic) IBOutlet UIImageView *diff3Image;
 @property (strong, nonatomic) IBOutlet UIImageView *diff4Image;
 @property (strong, nonatomic) IBOutlet UIImageView *diff5Image;
-@property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
-@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 - (id)initWithOelspil:(Oelspil *)spil;
 - (void)addGameAsFavorite:(Oelspil *)game;
 @end

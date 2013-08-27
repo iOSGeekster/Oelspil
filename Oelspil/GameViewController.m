@@ -23,8 +23,6 @@
 @synthesize diff3Image;
 @synthesize diff4Image;
 @synthesize diff5Image;
-@synthesize pageControl;
-@synthesize scrollView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -55,8 +53,7 @@
     
     self.navigationItem.title = valgtSpil.title;
     self.descriptionTextView.text = valgtSpil.description;
-    UITextView *textView = (UITextView*)[self.scrollView viewWithTag:kDescriptionTextView];
-    textView.text = valgtSpil.description;
+
     self.titleLabel.text = valgtSpil.title;
     self.timeText.text = valgtSpil.time;
     self.propText.text = valgtSpil.props;
@@ -67,8 +64,6 @@
     }else {
         self.deltagerLabel.text = [NSString stringWithFormat:@"%d - %d spillere", valgtSpil.minPlayers, valgtSpil.maxPlayers];
     }
-    [textView scrollRangeToVisible:NSMakeRange(0, 0)];
-    [textView flashScrollIndicators];
 }
 
 - (void)pickRandom{
@@ -82,18 +77,6 @@
     }
     valgtSpil = nytSpil;
     [self updateView];
-    [self scrollScrollViewToFirstPage];
-
-}
-
-- (void)scrollScrollViewToFirstPage{
-    CGRect firstPage;
-    firstPage.origin.x = 0;
-    firstPage.origin.y = 0;
-    firstPage.size = self.scrollView.frame.size;
-    [self.scrollView scrollRectToVisible:firstPage animated:YES];
-    pageControlBeingUsed = YES;
-    self.pageControl.currentPage = 0;
 }
 
 - (void)showShareMenu{
@@ -127,13 +110,10 @@
 
     self.navigationItem.rightBarButtonItem = optionsButton;
 
-    self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"Default.png"]];
-    self.scrollView.backgroundColor = [UIColor clearColor];
+//    self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"Default.png"]];
+
     CGRect frame;
-    frame.origin.x = self.scrollView.frame.size.width;
-    frame.origin.y = 0;
-    frame.size.width = self.scrollView.frame.size.width;
-    frame.size.height = self.scrollView.frame.size.height - 36;
+
     UITextView *textView = [[UITextView alloc]initWithFrame:frame];
     textView.backgroundColor = [UIColor clearColor];
     textView.tag = kDescriptionTextView;
@@ -144,15 +124,6 @@
     self.propText.backgroundColor = [UIColor clearColor];
     self.timeText.backgroundColor = [UIColor clearColor];
 
-    [self.scrollView addSubview:textView];
-    self.scrollView.contentSize = CGSizeMake(self.scrollView.frame.size.width * 2, self.scrollView.frame.size.height);
-    
-    self.scrollView.pagingEnabled = YES;
-    self.scrollView.showsVerticalScrollIndicator = NO;
-    self.scrollView.showsHorizontalScrollIndicator = NO;
-    
-    CGRect pageControlSize = CGRectMake(0, (self.tabBarController.tabBar.frame.origin.y - self.tabBarController.tabBar.frame.size.height)- 50, 320, 36);
-    self.pageControl.frame = pageControlSize;
     
     [self updateView];
 }
@@ -179,32 +150,9 @@
     [self setDiff4Image:nil];
     [self setDiff5Image:nil];
     [self setDeltagerLabel:nil];
-    [self setPageControl:nil];
-    [self setScrollView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
-}
-
-#pragma mark ScrollView
-
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
-    if(!pageControlBeingUsed){
-        CGFloat pageWidth = self.scrollView.frame.size.width;
-        int page = floor((self.scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
-        self.pageControl.currentPage = page;
-        UITextView *textView = (UITextView *)[self.scrollView viewWithTag:kDescriptionTextView];
-        [textView flashScrollIndicators];
-    }
-}
-
-- (IBAction)pageChanged{
-    CGRect frame;
-    frame.origin.x = self.scrollView.frame.size.width * self.pageControl.currentPage;
-    frame.origin.y = 0;
-    frame.size = self.scrollView.frame.size;
-    [self.scrollView scrollRectToVisible:frame animated:YES];
-    pageControlBeingUsed = YES;
 }
 
 #pragma mark - Animation Methods

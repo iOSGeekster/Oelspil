@@ -30,7 +30,7 @@
     [self customizeInterface];
     [self loadFavoriteList];
     
-    UIImage *backgroundImage = [UIImage imageNamed:@"nav-bar"];
+/*    UIImage *backgroundImage = [UIImage imageNamed:@"nav-bar"];
     [[UINavigationBar appearance] setBackgroundImage:backgroundImage forBarMetrics:UIBarMetricsDefault];
     
     UIImage *buttonBackground = [[UIImage imageNamed:@"bar-button"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 5, -2, 5)];
@@ -39,7 +39,7 @@
     UIImage *backButtonBackground = [[UIImage imageNamed:@"back-button"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 15, -2, 6)];
 
     [[UIBarButtonItem appearance] setBackButtonBackgroundImage:backButtonBackground forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
-    
+*/
     UIViewController *gameViewController = [[GameViewController alloc] initWithNibName:@"GameView" bundle:nil];
     UINavigationController *navControllerForGameView = [[UINavigationController alloc] initWithRootViewController:gameViewController];
     UIViewController *kategoriViewController = [[KategoriViewController alloc] initWithNibName:@"KategoriView" bundle:nil];
@@ -126,7 +126,6 @@
 }
 
 - (void)customizeInterface{
-    _window.rootViewController.wantsFullScreenLayout = YES;
 /*    UIColor *tangerineYellow = [UIColor colorWithRed:255.0/255.0 green:204.0/255.0 blue:0.0/255.0 alpha:1.0];*/
     UIColor *leatherBrown = [UIColor colorWithRed:126.0/255.0 green:79.0/255.0 blue:51.0/255.0 alpha:1.0];
     UIView *selectedBackgroundView = [[UIView alloc] init];
