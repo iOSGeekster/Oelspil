@@ -130,8 +130,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//    self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"Default.png"]];
-//    self.contentTableView.backgroundView = nil;
 }
 
 - (void)viewDidUnload
