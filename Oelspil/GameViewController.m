@@ -35,7 +35,11 @@
 }
 
 - (id)initWithOelspil:(Oelspil *)spil{
-    valgtSpil = spil;
+
+    self = [super init];
+    if (self) {
+        valgtSpil = spil;
+    }
     return self;
 }
 							
@@ -94,7 +98,6 @@
 
 - (void)viewDidLoad
 {
-    pageControlBeingUsed = NO;
     [super viewDidLoad];
     AppDelegate *appDelegate = (AppDelegate *) [[UIApplication sharedApplication] delegate];
     if(valgtSpil == nil && [appDelegate.oelspil count] > 0){
@@ -229,14 +232,6 @@
         
     }completion:nil];
     
-}
-
-- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView{
-    pageControlBeingUsed = NO;
-}
-
-- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
-    pageControlBeingUsed = NO;
 }
 
 - (void)viewWillAppear:(BOOL)animated

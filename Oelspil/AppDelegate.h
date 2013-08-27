@@ -22,7 +22,6 @@
 @property (strong, nonatomic) NSMutableArray *favoriteList;
 
 - (void)initGames;
-- (void)customizeInterface;
 - (void)loadFavoriteList;
 - (void)addToFavoriteList:(Oelspil *)game;
 - (void)removeFromFavoriteList:(NSString *)title;

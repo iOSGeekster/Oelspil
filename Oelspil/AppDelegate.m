@@ -27,7 +27,6 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     [self initGames];
-    [self customizeInterface];
     [self loadFavoriteList];
     
 /*    UIImage *backgroundImage = [UIImage imageNamed:@"nav-bar"];
@@ -123,17 +122,6 @@
     [categories replaceObjectAtIndex:3 withObject:[categories objectAtIndex:4]];
     [categories removeObjectAtIndex:4];
     [categories addObject:andet];
-}
-
-- (void)customizeInterface{
-/*    UIColor *tangerineYellow = [UIColor colorWithRed:255.0/255.0 green:204.0/255.0 blue:0.0/255.0 alpha:1.0];*/
-    UIColor *leatherBrown = [UIColor colorWithRed:126.0/255.0 green:79.0/255.0 blue:51.0/255.0 alpha:1.0];
-    UIView *selectedBackgroundView = [[UIView alloc] init];
-    selectedBackgroundView.backgroundColor = leatherBrown;
-    [[UITableViewCell appearance] setSelectedBackgroundView:selectedBackgroundView];
-    [[UISearchBar appearance] setTintColor:leatherBrown];
-    
-    [[UIPageControl appearance] setPageIndicatorTintColor:leatherBrown];
 }
 
 - (NSString *)favoriteFilePath{
