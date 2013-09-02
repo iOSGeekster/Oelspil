@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-iRate.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,26 @@
 			<true/>
 		</dict>
 		<key>4A1D7F0CADD6498DB3EDF376</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6377FF90FE3342BDB3B5EE2B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>803FD4D18EA146C8BEA292AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8CB9123B7987414DB6CD13F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E8E84BF7F97149B7A200B447</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -5,7 +5,7 @@ This application makes use of the following third party libraries:
 
 iRate
 
-Version 1.7.2, January 14th, 2013
+Version 1.7.5, April 26th, 2013
 
 Copyright (C) 2011 Charcoal Design
 
