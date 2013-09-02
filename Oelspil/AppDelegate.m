@@ -58,7 +58,6 @@
 //    [self playSound];
     
     [iRate sharedInstance].appStoreCountry = @"dk";
-    
     return YES;
 }
 

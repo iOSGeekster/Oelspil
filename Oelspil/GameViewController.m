@@ -221,6 +221,11 @@
     }];
 }
 
+- (IBAction)showRules:(id)sender{
+    UIAlertView *view =[[UIAlertView alloc] initWithTitle:@"Test" message:@"Test" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [view show];
+}
+
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
