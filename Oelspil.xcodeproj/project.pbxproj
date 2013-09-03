@@ -35,6 +35,8 @@
 		24452F011493A03500913134 /* ChosenGamesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24452EFF1493A03500913134 /* ChosenGamesView.xib */; };
 		24452F0B1493C4DD00913134 /* Oelspil.m in Sources */ = {isa = PBXBuildFile; fileRef = 24452F0A1493C4DD00913134 /* Oelspil.m */; };
 		244CFB261497C3E4007977C0 /* Oelspil.plist in Resources */ = {isa = PBXBuildFile; fileRef = 244CFB251497C3E4007977C0 /* Oelspil.plist */; };
+		247AA20717D66169004512C6 /* GameRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 247AA20517D66169004512C6 /* GameRuleViewController.m */; };
+		247AA20817D66169004512C6 /* GameRuleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 247AA20617D66169004512C6 /* GameRuleViewController.xib */; };
 		247B837216810541002B796A /* star-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 247B837016810540002B796A /* star-white.png */; };
 		247B837316810541002B796A /* star-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 247B837116810540002B796A /* star-white@2x.png */; };
 		249296851604D6DD00F3494A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24D3549616047B160007E0DD /* Default-568h@2x.png */; };
@@ -111,6 +113,9 @@
 		24452F091493C4DD00913134 /* Oelspil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Oelspil.h; sourceTree = "<group>"; };
 		24452F0A1493C4DD00913134 /* Oelspil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Oelspil.m; sourceTree = "<group>"; };
 		244CFB251497C3E4007977C0 /* Oelspil.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Oelspil.plist; sourceTree = "<group>"; };
+		247AA20417D66169004512C6 /* GameRuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRuleViewController.h; sourceTree = "<group>"; };
+		247AA20517D66169004512C6 /* GameRuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameRuleViewController.m; sourceTree = "<group>"; };
+		247AA20617D66169004512C6 /* GameRuleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameRuleViewController.xib; sourceTree = "<group>"; };
 		247B837016810540002B796A /* star-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-white.png"; sourceTree = "<group>"; };
 		247B837116810540002B796A /* star-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-white@2x.png"; sourceTree = "<group>"; };
 		24AA46AD14D86CD0007ED153 /* group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group.png; sourceTree = "<group>"; };
@@ -299,6 +304,9 @@
 				24ABCE891576A7D00092C2CD /* KategoriView.xib */,
 				2437A1B614CC882C00DB9BC3 /* PlayersView.xib */,
 				24AF6744155C377C000F62F4 /* FavoriteListView.xib */,
+				247AA20417D66169004512C6 /* GameRuleViewController.h */,
+				247AA20517D66169004512C6 /* GameRuleViewController.m */,
+				247AA20617D66169004512C6 /* GameRuleViewController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -408,6 +416,7 @@
 				243235161556D07400A1951A /* beer-mug@2x.png in Resources */,
 				243235191556D0AD00A1951A /* id-card@2x.png in Resources */,
 				2432351B1556D0DB00A1951A /* notepad@2x.png in Resources */,
+				247AA20817D66169004512C6 /* GameRuleViewController.xib in Resources */,
 				2432351D1556D11400A1951A /* group@2x.png in Resources */,
 				24AF6746155C377C000F62F4 /* FavoriteListView.xib in Resources */,
 				2423DE5815850BD100B3B852 /* nav-bar.png in Resources */,
@@ -476,6 +485,7 @@
 				2437A1B714CC882C00DB9BC3 /* PlayersViewController.m in Sources */,
 				24324DB514D1DA0500496F10 /* AboutViewController.m in Sources */,
 				24AF6745155C377C000F62F4 /* FavoriteListViewController.m in Sources */,
+				247AA20717D66169004512C6 /* GameRuleViewController.m in Sources */,
 				24B34A1015ED42F4000EDF96 /* FavoriteActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

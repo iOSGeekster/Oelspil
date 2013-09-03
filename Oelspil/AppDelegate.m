@@ -56,7 +56,8 @@
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
 //    [self playSound];
-    
+    UIColor *tangerineYellow = [UIColor colorWithRed:255.0/255.0 green:204.0/255.0 blue:0.0/255.0 alpha:1.0];
+    [[UINavigationBar appearance] setBarTintColor:tangerineYellow];
     [iRate sharedInstance].appStoreCountry = @"dk";
     return YES;
 }

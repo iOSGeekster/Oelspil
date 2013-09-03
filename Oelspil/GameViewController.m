@@ -10,6 +10,7 @@
 #import "AppDelegate.h"
 #import "Oelspil.h"
 #import "FavoriteActivity.h"
+#import "GameRuleViewController.h"
 #define kDescriptionTextView 666
 @implementation GameViewController
 @synthesize titleLabel;
@@ -222,8 +223,8 @@
 }
 
 - (IBAction)showRules:(id)sender{
-    UIAlertView *view =[[UIAlertView alloc] initWithTitle:@"Test" message:@"Test" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
-    [view show];
+    GameRuleViewController *ruleController = [[GameRuleViewController alloc] initWithTitle:self.valgtSpil.title andDescription:self.valgtSpil.description];
+    [self presentViewController:ruleController animated:YES completion:nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated

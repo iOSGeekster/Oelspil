@@ -57,8 +57,6 @@
     self.navigationController.navigationBar.topItem.title = @"Kategorier";
     AppDelegate *appDelegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
     kategorier = appDelegate.categories;
-    UIColor *tangerineYellow = [UIColor colorWithRed:255.0/255.0 green:204.0/255.0 blue:0.0/255.0 alpha:1.0];
-    [self.navigationController.navigationBar setBarTintColor:tangerineYellow];
 }
 
 - (void)viewDidUnload
