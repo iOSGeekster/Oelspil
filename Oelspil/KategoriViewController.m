@@ -7,7 +7,7 @@
 //
 #import "AppDelegate.h"
 #import "KategoriViewController.h"
-#import "ChosenGamesViewController.h"
+#import "SelectedCategoryViewController.h"
 
 @implementation KategoriViewController
 @synthesize kategorier;
@@ -44,7 +44,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSString *selectedCategory = [kategorier objectAtIndex:indexPath.row];
-    ChosenGamesViewController *controller = [[ChosenGamesViewController alloc] initWithCategory:selectedCategory];
+//    ChosenGamesViewController *controller = [[ChosenGamesViewController alloc] initWithCategory:selectedCategory];
+//    [self.navigationController pushViewController:controller animated:YES];
+//    SelectedCategoryViewController *controller = [[SelectedCategoryViewController alloc] initWithCategory:selectedCategory];
+    SelectedCategoryViewController *controller = [[SelectedCategoryViewController alloc] initWithCategory:selectedCategory];
     [self.navigationController pushViewController:controller animated:YES];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }

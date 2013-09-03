@@ -31,12 +31,12 @@
 		24324DB614D1DA0500496F10 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24324DB414D1DA0500496F10 /* AboutView.xib */; };
 		2437A1B714CC882C00DB9BC3 /* PlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2437A1B514CC882C00DB9BC3 /* PlayersViewController.m */; };
 		2437A1B814CC882C00DB9BC3 /* PlayersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2437A1B614CC882C00DB9BC3 /* PlayersView.xib */; };
-		24452F001493A03500913134 /* ChosenGamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24452EFE1493A03500913134 /* ChosenGamesViewController.m */; };
-		24452F011493A03500913134 /* ChosenGamesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24452EFF1493A03500913134 /* ChosenGamesView.xib */; };
 		24452F0B1493C4DD00913134 /* Oelspil.m in Sources */ = {isa = PBXBuildFile; fileRef = 24452F0A1493C4DD00913134 /* Oelspil.m */; };
 		244CFB261497C3E4007977C0 /* Oelspil.plist in Resources */ = {isa = PBXBuildFile; fileRef = 244CFB251497C3E4007977C0 /* Oelspil.plist */; };
 		247AA20717D66169004512C6 /* GameRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 247AA20517D66169004512C6 /* GameRuleViewController.m */; };
 		247AA20817D66169004512C6 /* GameRuleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 247AA20617D66169004512C6 /* GameRuleViewController.xib */; };
+		247AA20C17D66E7B004512C6 /* SelectedCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 247AA20A17D66E7B004512C6 /* SelectedCategoryViewController.m */; };
+		247AA20D17D66E7B004512C6 /* SelectedCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 247AA20B17D66E7B004512C6 /* SelectedCategoryViewController.xib */; };
 		247B837216810541002B796A /* star-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 247B837016810540002B796A /* star-white.png */; };
 		247B837316810541002B796A /* star-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 247B837116810540002B796A /* star-white@2x.png */; };
 		249296851604D6DD00F3494A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24D3549616047B160007E0DD /* Default-568h@2x.png */; };
@@ -107,15 +107,15 @@
 		2437A1B414CC882C00DB9BC3 /* PlayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayersViewController.h; sourceTree = "<group>"; };
 		2437A1B514CC882C00DB9BC3 /* PlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersViewController.m; sourceTree = "<group>"; };
 		2437A1B614CC882C00DB9BC3 /* PlayersView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayersView.xib; sourceTree = "<group>"; };
-		24452EFD1493A03500913134 /* ChosenGamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChosenGamesViewController.h; sourceTree = "<group>"; };
-		24452EFE1493A03500913134 /* ChosenGamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChosenGamesViewController.m; sourceTree = "<group>"; };
-		24452EFF1493A03500913134 /* ChosenGamesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChosenGamesView.xib; sourceTree = "<group>"; };
 		24452F091493C4DD00913134 /* Oelspil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Oelspil.h; sourceTree = "<group>"; };
 		24452F0A1493C4DD00913134 /* Oelspil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Oelspil.m; sourceTree = "<group>"; };
 		244CFB251497C3E4007977C0 /* Oelspil.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Oelspil.plist; sourceTree = "<group>"; };
 		247AA20417D66169004512C6 /* GameRuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRuleViewController.h; sourceTree = "<group>"; };
 		247AA20517D66169004512C6 /* GameRuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameRuleViewController.m; sourceTree = "<group>"; };
 		247AA20617D66169004512C6 /* GameRuleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameRuleViewController.xib; sourceTree = "<group>"; };
+		247AA20917D66E7B004512C6 /* SelectedCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedCategoryViewController.h; sourceTree = "<group>"; };
+		247AA20A17D66E7B004512C6 /* SelectedCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedCategoryViewController.m; sourceTree = "<group>"; };
+		247AA20B17D66E7B004512C6 /* SelectedCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectedCategoryViewController.xib; sourceTree = "<group>"; };
 		247B837016810540002B796A /* star-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-white.png"; sourceTree = "<group>"; };
 		247B837116810540002B796A /* star-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-white@2x.png"; sourceTree = "<group>"; };
 		24AA46AD14D86CD0007ED153 /* group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group.png; sourceTree = "<group>"; };
@@ -252,14 +252,15 @@
 				24452F0C1493C4E200913134 /* Model */,
 				24452F081493A14900913134 /* Views */,
 				242C9A0014939435009A5BEC /* Supporting Files */,
-				24452EFD1493A03500913134 /* ChosenGamesViewController.h */,
-				24452EFE1493A03500913134 /* ChosenGamesViewController.m */,
 				2437A1B414CC882C00DB9BC3 /* PlayersViewController.h */,
 				2437A1B514CC882C00DB9BC3 /* PlayersViewController.m */,
 				24324DB214D1DA0500496F10 /* AboutViewController.h */,
 				24324DB314D1DA0500496F10 /* AboutViewController.m */,
 				24B34A0E15ED42F4000EDF96 /* FavoriteActivity.h */,
 				24B34A0F15ED42F4000EDF96 /* FavoriteActivity.m */,
+				247AA20917D66E7B004512C6 /* SelectedCategoryViewController.h */,
+				247AA20A17D66E7B004512C6 /* SelectedCategoryViewController.m */,
+				247AA20B17D66E7B004512C6 /* SelectedCategoryViewController.xib */,
 			);
 			path = Oelspil;
 			sourceTree = "<group>";
@@ -299,7 +300,6 @@
 			isa = PBXGroup;
 			children = (
 				24324DB414D1DA0500496F10 /* AboutView.xib */,
-				24452EFF1493A03500913134 /* ChosenGamesView.xib */,
 				24ABCE861576A7B50092C2CD /* GameView.xib */,
 				24ABCE891576A7D00092C2CD /* KategoriView.xib */,
 				2437A1B614CC882C00DB9BC3 /* PlayersView.xib */,
@@ -400,7 +400,6 @@
 				242C9A0414939435009A5BEC /* InfoPlist.strings in Resources */,
 				24ABCE851576A7B50092C2CD /* GameView.xib in Resources */,
 				24ABCE881576A7D00092C2CD /* KategoriView.xib in Resources */,
-				24452F011493A03500913134 /* ChosenGamesView.xib in Resources */,
 				244CFB261497C3E4007977C0 /* Oelspil.plist in Resources */,
 				2437A1B814CC882C00DB9BC3 /* PlayersView.xib in Resources */,
 				24324DB614D1DA0500496F10 /* AboutView.xib in Resources */,
@@ -426,6 +425,7 @@
 				24C38C2C15867AF5008F4772 /* bar-button.png in Resources */,
 				24C38C2D15867AF5008F4772 /* bar-button@2x.png in Resources */,
 				249296851604D6DD00F3494A /* Default-568h@2x.png in Resources */,
+				247AA20D17D66E7B004512C6 /* SelectedCategoryViewController.xib in Resources */,
 				247B837216810541002B796A /* star-white.png in Resources */,
 				247B837316810541002B796A /* star-white@2x.png in Resources */,
 			);
@@ -480,12 +480,12 @@
 				242C9A0A14939435009A5BEC /* AppDelegate.m in Sources */,
 				242C9A0D14939435009A5BEC /* GameViewController.m in Sources */,
 				242C9A1414939435009A5BEC /* KategoriViewController.m in Sources */,
-				24452F001493A03500913134 /* ChosenGamesViewController.m in Sources */,
 				24452F0B1493C4DD00913134 /* Oelspil.m in Sources */,
 				2437A1B714CC882C00DB9BC3 /* PlayersViewController.m in Sources */,
 				24324DB514D1DA0500496F10 /* AboutViewController.m in Sources */,
 				24AF6745155C377C000F62F4 /* FavoriteListViewController.m in Sources */,
 				247AA20717D66169004512C6 /* GameRuleViewController.m in Sources */,
+				247AA20C17D66E7B004512C6 /* SelectedCategoryViewController.m in Sources */,
 				24B34A1015ED42F4000EDF96 /* FavoriteActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
