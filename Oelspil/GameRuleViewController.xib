@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4504" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3734.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GameRuleViewController">
             <connections>
-                <outlet property="gameRules" destination="qmE-Xj-vO8" id="1UI-qx-Zb9"/>
-                <outlet property="navBar" destination="BwF-db-0kI" id="c4B-Si-yuV"/>
+                <outlet property="navBar" destination="oET-Pq-JFb" id="yLT-X5-4Fb"/>
+                <outlet property="ruleView" destination="SGh-xb-eAg" id="ZJM-ye-NbB"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
         </placeholder>
@@ -16,40 +16,33 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmE-Xj-vO8">
-                    <rect key="frame" x="0.0" y="65" width="320" height="503"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SGh-xb-eAg">
+                    <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                    <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                    <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="18"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
-                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BwF-db-0kI">
-                    <rect key="frame" x="0.0" y="21" width="320" height="44"/>
+                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oET-Pq-JFb">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                     <items>
-                        <navigationItem title="Title" id="qtC-2C-2zi">
-                            <barButtonItem key="rightBarButtonItem" title="OK" id="WMi-pR-WGn">
+                        <navigationItem title="Title" id="ZxD-78-rxY">
+                            <barButtonItem key="rightBarButtonItem" title="OK" id="weK-jn-BNe">
                                 <connections>
-                                    <action selector="okPressed:" destination="-1" id="uuV-6k-dNk"/>
+                                    <action selector="okButtonPressed:" destination="-1" id="scI-Xr-Wp6"/>
                                 </connections>
                             </barButtonItem>
                         </navigationItem>
                     </items>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="PfS-VV-Ttj"/>
+                    </connections>
                 </navigationBar>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <constraints>
-                <constraint firstAttribute="trailing" secondItem="BwF-db-0kI" secondAttribute="trailing" id="2R5-Do-nmB"/>
-                <constraint firstItem="BwF-db-0kI" firstAttribute="trailing" secondItem="qmE-Xj-vO8" secondAttribute="trailing" id="6VG-zy-VCu"/>
-                <constraint firstItem="BwF-db-0kI" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="75e-kK-JdY"/>
-                <constraint firstItem="BwF-db-0kI" firstAttribute="top" secondItem="1" secondAttribute="top" constant="21" id="TRK-FE-Ri3"/>
-                <constraint firstItem="qmE-Xj-vO8" firstAttribute="top" secondItem="BwF-db-0kI" secondAttribute="bottom" id="cZk-gh-rrV"/>
-                <constraint firstAttribute="bottom" secondItem="qmE-Xj-vO8" secondAttribute="bottom" id="kCl-vM-8Dv"/>
-                <constraint firstItem="qmE-Xj-vO8" firstAttribute="leading" secondItem="BwF-db-0kI" secondAttribute="leading" id="pEG-9A-zgB"/>
-            </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
-            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
     </objects>

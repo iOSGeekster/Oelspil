@@ -2,27 +2,19 @@
 //  GameRuleViewController.m
 //  Oelspil
 //
-//  Created by Jesper Nielsen on 03/09/13.
+//  Created by Jesper Nielsen on 16/09/13.
 //
 //
 
 #import "GameRuleViewController.h"
 
 @interface GameRuleViewController ()
-
+@property (nonatomic, strong) NSString *gameTitle;
+@property (nonatomic, strong) NSString *gameDescription;
 @end
 
 @implementation GameRuleViewController
-@synthesize gameTitle, gameDescription;
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
+@synthesize ruleView, gameDescription, gameTitle, navBar;
 - (id)initWithTitle:(NSString *)title andDescription:(NSString *)description{
     self = [super init];
     if (self) {
@@ -32,14 +24,28 @@
     return self;
 }
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.gameRules.text = gameDescription;
-    self.navBar.topItem.title = gameTitle;
+    // Do any additional setup after loading the view from its nib.
+    self.navBar.topItem.title = self.gameTitle;
+    ruleView.text = self.gameDescription;
 }
 
-- (IBAction)okPressed:(id)sender{
+- (BOOL)prefersStatusBarHidden{
+    return YES;
+}
+
+- (IBAction)okButtonPressed:(id)sender{
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 

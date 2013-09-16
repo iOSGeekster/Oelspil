@@ -7,8 +7,7 @@
 //
 
 #import "PlayersViewController.h"
-#import "ChosenGamesViewController.h"
-
+#import "SelectedCategoryViewController.h"
 @implementation PlayersViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -39,8 +38,8 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSInteger selectedNumber = indexPath.row;
-    ChosenGamesViewController *chosenCategoryView = [[ChosenGamesViewController alloc] initWithNumberOfPlayers:selectedNumber+2];
-    [self.navigationController pushViewController:chosenCategoryView animated:YES];
+    SelectedCategoryViewController *selectedCategoryController = [[SelectedCategoryViewController alloc] initWithNumberOfPlayers:selectedNumber+2];
+    [self.navigationController pushViewController:selectedCategoryController animated:YES];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
