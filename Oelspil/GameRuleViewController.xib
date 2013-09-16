@@ -16,7 +16,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SGh-xb-eAg">
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SGh-xb-eAg">
                     <rect key="frame" x="0.0" y="44" width="320" height="524"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -24,7 +24,7 @@
                     <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="18"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
-                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oET-Pq-JFb">
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oET-Pq-JFb">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                     <items>
@@ -42,6 +42,15 @@
                 </navigationBar>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="oET-Pq-JFb" firstAttribute="top" secondItem="1" secondAttribute="top" id="7eK-jw-Byv"/>
+                <constraint firstItem="SGh-xb-eAg" firstAttribute="top" secondItem="oET-Pq-JFb" secondAttribute="bottom" id="7zr-gQ-6yt"/>
+                <constraint firstItem="SGh-xb-eAg" firstAttribute="trailing" secondItem="oET-Pq-JFb" secondAttribute="trailing" id="IQU-Q5-bgG"/>
+                <constraint firstItem="oET-Pq-JFb" firstAttribute="leading" secondItem="SGh-xb-eAg" secondAttribute="leading" id="OdZ-XU-jkR"/>
+                <constraint firstAttribute="bottom" secondItem="SGh-xb-eAg" secondAttribute="bottom" id="ZaI-hC-qAh"/>
+                <constraint firstAttribute="trailing" secondItem="SGh-xb-eAg" secondAttribute="trailing" id="aJx-4x-hZt"/>
+                <constraint firstItem="oET-Pq-JFb" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="eip-GQ-KEV"/>
+            </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
