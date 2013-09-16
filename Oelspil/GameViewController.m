@@ -13,6 +13,8 @@
 #import "GameRuleViewController.h"
 #define kDescriptionTextView 666
 @implementation GameViewController
+
+
 @synthesize titleLabel;
 @synthesize valgtSpil;
 @synthesize descriptionTextView;
@@ -24,7 +26,6 @@
 @synthesize diff3Image;
 @synthesize diff4Image;
 @synthesize diff5Image;
-
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -72,6 +73,7 @@
 }
 
 - (void)pickRandom{
+    [self stopAnimations];
     AppDelegate *appDelegate = (AppDelegate *) [[UIApplication sharedApplication] delegate];
     int count = [appDelegate.oelspil count];
     int randomNumber = arc4random() % count;
@@ -113,7 +115,7 @@
     UIBarButtonItem *optionsButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(showShareMenu)];
 
     self.navigationItem.rightBarButtonItem = optionsButton;
-
+    
 //    self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"Default.png"]];
 
     CGRect frame;
@@ -127,7 +129,6 @@
     
     self.propText.backgroundColor = [UIColor clearColor];
     self.timeText.backgroundColor = [UIColor clearColor];
-
     
     [self updateView];
 }
@@ -176,28 +177,28 @@
         // animate it to the identity transform (100% scale)
         diff1Image.transform = CGAffineTransformIdentity;
     } completion:^(BOOL finished){
-        if (self.valgtSpil.difficulty >= 2) {
+        if (finished && self.valgtSpil.difficulty >= 2) {
             self.diff2Image.hidden = NO;
             self.diff2Image.transform = CGAffineTransformMakeScale(0.01, 0.01);
             [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
                 // animate it to the identity transform (100% scale)
                 diff2Image.transform = CGAffineTransformIdentity;
             } completion:^(BOOL finished){
-                if (self.valgtSpil.difficulty >= 3) {
+                if (finished && self.valgtSpil.difficulty >= 3) {
                     self.diff3Image.hidden = NO;
                     self.diff3Image.transform = CGAffineTransformMakeScale(0.01, 0.01);
                     [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
                         // animate it to the identity transform (100% scale)
                         diff3Image.transform = CGAffineTransformIdentity;
                     } completion:^(BOOL finished){
-                        if (self.valgtSpil.difficulty >= 4) {
+                        if (finished && self.valgtSpil.difficulty >= 4) {
                             self.diff4Image.hidden = NO;
                             self.diff4Image.transform = CGAffineTransformMakeScale(0.01, 0.01);
                             [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
                                 // animate it to the identity transform (100% scale)
                                 diff4Image.transform = CGAffineTransformIdentity;
                             } completion:^(BOOL finished){
-                                if (self.valgtSpil.difficulty == 5) {
+                                if (finished && self.valgtSpil.difficulty == 5) {
                                     self.diff5Image.hidden = NO;
                                     self.diff5Image.transform = CGAffineTransformMakeScale(0.01, 0.01);
                                     [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
@@ -220,6 +221,10 @@
 
         }
     }];
+}
+
+- (void)stopAnimations{
+    [self.view.layer removeAllAnimations];
 }
 
 - (IBAction)showRules:(id)sender{

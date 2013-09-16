@@ -247,6 +247,8 @@
 				24AF6743155C377C000F62F4 /* FavoriteListViewController.m */,
 				242C9A0B14939435009A5BEC /* GameViewController.h */,
 				242C9A0C14939435009A5BEC /* GameViewController.m */,
+				246581AD17E78E3900C87A03 /* GameRuleViewController.h */,
+				246581AE17E78E3900C87A03 /* GameRuleViewController.m */,
 				242C9A1214939435009A5BEC /* KategoriViewController.h */,
 				242C9A1314939435009A5BEC /* KategoriViewController.m */,
 				24452F0C1493C4E200913134 /* Model */,
@@ -304,8 +306,6 @@
 				24ABCE891576A7D00092C2CD /* KategoriView.xib */,
 				2437A1B614CC882C00DB9BC3 /* PlayersView.xib */,
 				24AF6744155C377C000F62F4 /* FavoriteListView.xib */,
-				246581AD17E78E3900C87A03 /* GameRuleViewController.h */,
-				246581AE17E78E3900C87A03 /* GameRuleViewController.m */,
 				246581AF17E78E3900C87A03 /* GameRuleViewController.xib */,
 			);
 			name = Views;
