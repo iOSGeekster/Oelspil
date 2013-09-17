@@ -19,6 +19,7 @@
 @synthesize selectedCategory;
 @synthesize numberOfPlayers;
 @synthesize gamesTableView;
+@synthesize searchResults;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -50,42 +51,82 @@
 	if (nil == cell) {
 		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
 	}
-//    if (tableView == [[self searchDisplayController] searchResultsTableView]) {
-//        Oelspil *spil = [searchResults objectAtIndex:indexPath.row];
-//        cell.textLabel.text = spil.title;
-//    }else{
+    if (tableView == [[self searchDisplayController] searchResultsTableView]) {
+        Oelspil *spil = [searchResults objectAtIndex:indexPath.row];
+        cell.textLabel.text = spil.title;
+    }else{
         Oelspil *spil = [games objectAtIndex:indexPath.row];
         cell.textLabel.text = spil.title;
-//    }
+    }
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    //    if (tableView == [[self searchDisplayController] searchResultsTableView]) {
-    //        return [self.searchResults count];
-    //    }
+    if (tableView == [[self searchDisplayController] searchResultsTableView]) {
+        return [self.searchResults count];
+    }
     return [games count];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     Oelspil *valgtSpil = nil;
-//    if (tableView == [[self searchDisplayController] searchResultsTableView]) {
-//        valgtSpil = [searchResults objectAtIndex:indexPath.row];
-//    }else{
+    if (tableView == [[self searchDisplayController] searchResultsTableView]) {
+        valgtSpil = [searchResults objectAtIndex:indexPath.row];
+    }else{
         valgtSpil = [games objectAtIndex:indexPath.row];
-//    }
+    }
     GameViewController *controller = [[GameViewController alloc] initWithOelspil:valgtSpil];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     [self.navigationController pushViewController:controller animated:YES];
 }
 
+#pragma mark Search Delegate methods
+
+
+- (void)handleSearchForTerm:(NSString *)searchTerm andScope:(NSString* )scope{
+    if (self.searchResults == nil) {
+        NSMutableArray *array = [[NSMutableArray alloc]init];
+        [self setSearchResults:array];
+    }
+    [self.searchResults removeAllObjects];
+    
+    NSPredicate *titlePredicate = [NSPredicate predicateWithFormat:@"SELF.title contains[c] %@",searchTerm];
+    self.searchResults = [NSMutableArray arrayWithArray:[self.games filteredArrayUsingPredicate:titlePredicate]];
+    
+/*    if (![scope isEqualToString:@"Alle"]) {
+        NSPredicate *scopePredicate = [NSPredicate predicateWithFormat:@"SELF.category contains[c] %@",scope];
+        [self.searchResults filterUsingPredicate:scopePredicate];
+    }*/
+    [self.gamesTableView reloadData];
+}
+
+- (BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString{
+    [self handleSearchForTerm:searchString andScope:[[self.searchDisplayController.searchBar scopeButtonTitles] objectAtIndex:[self.searchDisplayController.searchBar selectedScopeButtonIndex]]];
+    return YES;
+}
+
+- (BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchScope:(NSInteger)searchOption{
+    [self handleSearchForTerm:self.searchDisplayController.searchBar.text andScope:[[self.searchDisplayController.searchBar scopeButtonTitles] objectAtIndex:searchOption]];
+    return YES;
+}
+
+- (void)searchDisplayControllerWillEndSearch:(UISearchDisplayController *)controller{
+    [self.gamesTableView reloadData];
+}
+
+- (IBAction)searchButtonPressed:(id)sender{
+    [self.searchDisplayController.searchBar becomeFirstResponder];
+}
+
+
+#pragma mark View life cycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    /*    [self.searchDisplayController.searchBar setShowsScopeBar:NO];
-     [self.searchDisplayController.searchBar sizeToFit];*/
+    [self.searchDisplayController.searchBar setShowsScopeBar:NO];
+    [self.searchDisplayController.searchBar sizeToFit];
     
     self.navigationItem.title = selectedCategory;
     AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication]delegate];
@@ -110,17 +151,17 @@
             }
         }
     }
-    //    self.searchDisplayController.searchBar.placeholder = NSLocalizedString(@"Søg", nil);
+    self.searchDisplayController.searchBar.placeholder = NSLocalizedString(@"Søg", nil);
     
-    //    UIBarButtonItem *searchButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch target:self action:@selector(searchButtonPressed:)];
-    //    self.navigationItem.rightBarButtonItem = searchButton;
+    UIBarButtonItem *searchButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch target:self action:@selector(searchButtonPressed:)];
+    self.navigationItem.rightBarButtonItem = searchButton;
     
     [self.gamesTableView reloadData];
-    //    [self setSearchResults:nil];
+    [self setSearchResults:nil];
     
-    //    CGRect newBounds = self.gamesTableView.bounds;
-    //    newBounds.origin.y = newBounds.origin.y + self.searchDisplayController.searchBar.bounds.size.height;
-    //    self.gamesTableView.bounds = newBounds;
+/*    CGRect newBounds = self.gamesTableView.bounds;
+    newBounds.origin.y = newBounds.origin.y + self.searchDisplayController.searchBar.bounds.size.height;
+    self.gamesTableView.bounds = newBounds;*/
 
 }
 

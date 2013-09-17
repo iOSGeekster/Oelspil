@@ -87,7 +87,7 @@
 }
 
 - (void)showShareMenu{
-    NSString *concatTitle = [NSString stringWithFormat:@"Ølspillet: %@\n\n%@",valgtSpil.title,valgtSpil.description];
+    NSString *concatTitle = [NSString stringWithFormat:@"Ølspillet: %@\n\nRekvisitter: %@\n\nTid: %@\n\nAntal spillere: %@\n\n%@",valgtSpil.title, valgtSpil.props, valgtSpil.time, [NSString stringWithFormat:@"%i - %i spillere", valgtSpil.minPlayers, valgtSpil.maxPlayers] , valgtSpil.description];
     FavoriteActivity *customActivity = [[FavoriteActivity alloc] initWithViewController:self];
     __block UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems:@[concatTitle, valgtSpil] applicationActivities:@[customActivity]];
     activityController.excludedActivityTypes = @[ UIActivityTypePostToWeibo,

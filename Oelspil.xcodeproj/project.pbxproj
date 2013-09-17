@@ -60,7 +60,6 @@
 		24F3787D152A12660087FD92 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F3787B152A12660087FD92 /* Icon@2x.png */; };
 		24F97FDC154D981300CBBFC7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F97FDB154D981300CBBFC7 /* Default.png */; };
 		24F97FDE154D981F00CBBFC7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F97FDD154D981F00CBBFC7 /* Default@2x.png */; };
-		935EF3423BA94FA7B2E9AA3F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C87F428D7E154D2F817DDAB3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -156,7 +155,6 @@
 				242C99FA14939435009A5BEC /* UIKit.framework in Frameworks */,
 				242C99FC14939435009A5BEC /* Foundation.framework in Frameworks */,
 				242C99FE14939435009A5BEC /* CoreGraphics.framework in Frameworks */,
-				935EF3423BA94FA7B2E9AA3F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +328,6 @@
 				242C99F114939435009A5BEC /* Sources */,
 				242C99F214939435009A5BEC /* Frameworks */,
 				242C99F314939435009A5BEC /* Resources */,
-				1EDDAB87A2244DA59CD0A348 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -442,20 +439,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1EDDAB87A2244DA59CD0A348 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-		};
 		242C9A2214939436009A5BEC /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -585,6 +568,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "F5ACAE90-CD86-4D8C-ABA3-8BB979B7955E";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -667,7 +651,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jesper Nielsen";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
